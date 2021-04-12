@@ -323,7 +323,70 @@
 </div>
 <!-- END::LATEST NEWS SECTION -->
 
+<!-- START:: OUR CLIENTS SECTION -->
+<div class="our_clients_sec">
+  <div class="container-fluid">
+    <div class="header_wraper">
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Clients </h2>
+    </div>
 
+    <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
+      <div id="clients" class="owl-carousel owl-theme col-11 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/prand1.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/prand2.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/prand4.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/prand3.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/prand5.jpg" alt="client">
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/prand1.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/prand2.png" alt="client"> 
+          </div>
+        </div>
+
+        <div class="item text-center">
+          <div class="img_wraper">
+            <img src="assets/media/prand4.png" alt="client"> 
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END:: OUR CLIENTS SECTION -->
 
 
 

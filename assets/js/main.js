@@ -6,6 +6,7 @@ $(document).ready( function() {
   // });
   // END:: COUNT UP
 
+  // START:: WOW JS
   wow = new WOW(
     {
     boxClass:     'wow',     
@@ -16,6 +17,7 @@ $(document).ready( function() {
   }
   )
   wow.init();
+  // END:: WOW JS
 
   // START:: TOGGLE MENU
   $('#open_menu').on('click', () => {
@@ -78,6 +80,35 @@ $(document).ready( function() {
     }
   });
 
+  $('#clients').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:6000,
+    autoplayHoverPause:true,
+    margin:10,
+    nav: false,
+    dots: false,
+    items:1,
+    rtl: true, 
+    responsive:{
+      0:{
+        items:2,
+        nav:false,
+        loop:true
+      },
+      600:{
+        items:4,
+        nav:false,
+        loop:true
+      },
+      1000:{
+        items:6,
+        nav:false,
+        loop:true
+      }
+    }
+  });
+
   $('#related_books').owlCarousel({
     loop:true,
     autoplay:true,
@@ -131,7 +162,7 @@ $(document).ready( function() {
       }
     }
   });
-  // START:: OWL CAROUSEL
+  // END:: OWL CAROUSEL
 
   // START:: TOGGLE FORMS
   $('#show_register').on('click', function() {

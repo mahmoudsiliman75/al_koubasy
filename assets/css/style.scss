@@ -545,6 +545,45 @@ nav {
 }
 // END:: LATEST NEWS SECTION STYLES
 
+// START:: OUR CLIENTS SECTION STYLES
+.our_clients_sec {
+  padding-top: $paddingAmount;
+  padding-bottom: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    position: relative;
+
+    .item {
+      .img_wraper {
+        min-height: 150px;
+        max-height: 150px;
+        img {
+          width: 100%;
+          min-height: 150px;
+          max-height: 150px;
+        }
+      }
+
+    }
+  }
+
+  .btn_box {
+    margin-top: 15px;
+    @include flexCenterAlignment();
+    a {
+      overflow: hidden;
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: OUR CLIENTS SECTION STYLES
+
 
 
 

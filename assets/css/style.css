@@ -1036,6 +1036,124 @@ nav .menu_btn svg {
   right: 65%;
 }
 
+.our_clients_sec {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.our_clients_sec .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our_clients_sec .header_wraper h2 {
+  color: #00303f;
+  position: relative;
+}
+
+.our_clients_sec .header_wraper h2::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -70px;
+  width: 45px;
+  height: 2px;
+  background-color: #810000;
+}
+
+.our_clients_sec .header_wraper h2::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -55px;
+  width: 45px;
+  height: 2px;
+  background-color: #dc4040;
+}
+
+.our_clients_sec .owl-carousel {
+  position: relative;
+}
+
+.our_clients_sec .owl-carousel .item .img_wraper {
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.our_clients_sec .owl-carousel .item .img_wraper img {
+  width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.our_clients_sec .btn_box {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our_clients_sec .btn_box a {
+  overflow: hidden;
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 2px solid #00303f;
+  background-color: transparent;
+  color: #00303f;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 5px;
+}
+
+.our_clients_sec .btn_box a::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.our_clients_sec .btn_box a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  right: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.our_clients_sec .btn_box a:hover::before {
+  left: 65%;
+}
+
+.our_clients_sec .btn_box a:hover::after {
+  right: 65%;
+}
+
 .share .header_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
