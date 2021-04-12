@@ -189,6 +189,55 @@
 </div>
 <!-- END:: HEIGHLIGHTS SECTION -->
 
+<!-- START::EVENTS SECTION -->
+<div class="events_sec">
+  <div class="container">
+    <div class="header_wraper">
+      <h2> Our Events </h2>
+    </div>
+
+    <div class="row justify-content-between p-2">
+      <div class="col-12 col-md-6 my-2">
+        <div class="event_text_wraper">
+          <div class="header_wraper">
+            <h3> Conference Title </h3>
+          </div>
+
+          <div class="text_wraper">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+            maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+            repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+            exercitationem temporibus veritatis nam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+            maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+            repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+            exercitationem temporibus veritatis nam.
+          </div>
+
+          <div class="btn_wraper">
+            <a href="AllEvents.php"> view more </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-5 my-2">
+        <div class="event_img_wraper">
+          <img src="./assets/media/pic21.jpg" alt="about us iamge">
+
+          <div class="event_date">
+            <i class="far fa-calendar-alt fa-lg"></i>
+            <p>
+              <span> Event Date </span>
+              <span> 1 - Apr - 2021 </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END::EVENTS SECTION -->
+
 
 <!-- START:: TESTEMONIALS SECTION -->
 <!-- <div class="testemonials">
