@@ -85,42 +85,6 @@ body {
       background-position: 0 0;
     }
   }
-  .section_svg {
-    position: absolute;
-    bottom: -1px;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    line-height: 0;
-    transform: rotate(180deg);
-  }
-
-  .section_svg svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 50px;
-  }
-
-  .section_svg .shape-fill {
-    fill: #FFFFFF;
-  }
-
-  /** For tablet devices **/
-  @media (min-width: 768px) and (max-width: 1023px) {
-    .section_svg svg {
-      width: calc(133% + 1.3px);
-      height: 41px;
-    }
-  }
-
-/** For mobile devices **/
-  @media (max-width: 767px) {
-    .section_svg svg {
-      width: calc(199% + 1.3px);
-      height: 52px;
-    }
-  }
 }
 // END:: GLOBAL STYLES
 
@@ -391,7 +355,43 @@ nav {
 }
 // START:: OUR SERVICES SECTION STYLES
 
+// START:: HEIGHLIGHTS SECTION STYLES
+.heightlights {
+  padding: $paddingAmount 0;
+  position: relative;
+  width: 100%;
 
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .card {
+    background-color: transparent;
+    border: none;
+    @include flexCenterAlignment();
+    flex-direction: row;
+    .icon_wraper {
+      img {
+        width: 150px;
+        height: 150px;
+      }
+    }
+
+    .info_wraper {
+      h3 {
+        font-weight: 700;
+        color: $deepRed;
+      }
+      h5 {
+        color: $lightGrey;
+      }
+    }
+  }
+}
+// END:: HEIGHLIGHTS SECTION STYLES
 
 
 
@@ -691,187 +691,9 @@ footer {
 }
 // END:: WHY SECTION STYLES
 
-// START:: LIBERARY SECTION STYLES
-.liberary {
-  position: relative;
-  background: url("../media/books.jpg") no-repeat fixed;
-  width: 100%;
-  height: 350px;
-  position: relative;
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    @include flexCenterAlignment();
-    h3 {
-      background-color: rgba(241, 187, 105, 0.7);
-      color: $deepBlue;
-      font-weight: bolder;
-      padding: 15px 25px;
-      border-radius: $largeBorderRadiusAmount;
-    }
-  }
-}
-// END:: LIBERARY SECTION STYLES
 
-// START:: BOOKS SECTION STYLES
-.books_sec {
-  padding-top: $paddingAmount;
-  .books_panel {
-    padding: 20px;
-    height: fit-content;
-    background-color: $white;
-    position: relative;
-    top: 55px;
-    border-radius: $borderRadiusAmount;
-    @include simpleShadow();
-    h5 {
-      color: $deepBlue;
-      text-align: center;
-    }
-    p {
-      text-align: start;
-      color: $lightGrey;
-    }
-    .btn_box {
-      @include flexCenterAlignment();
-      a {
-        overflow: hidden;
-        @include btnHoverEffect();
-      }
-    }
-    .dot {
-      position: absolute;
-      top: -67px;
-      left: 50%;
-      transform: translateX(-50%);
-      display: block;
-      width: 15px;
-      height: 15px;
-      background-color: $deepBlue;
-      border-radius: 50%;
-    }
-    &::before {
-      content: "";
-      position: absolute;
-      top: -25px;
-      left: 0;
-      display: block;
-      width: 150px;
-      height: 3px;
-      background-color: $deepBlue;
-      transform: rotate(-30deg);
-      z-index: -1;
-    }
-    &::after {
-      content: "";
-      position: absolute;
-      top: -25px;
-      right: 0;
-      display: block;
-      width: 150px;
-      height: 3px;
-      background-color: $deepBlue;
-      transform: rotate(30deg);
-      z-index: -1;
-    }
-  }
 
-  @media( max-width: 1199px ) {
-    .books_panel {
-      top: 0;
-      &::before,
-      &::after,
-      .dot {
-        background-color: transparent;
-      }
-    }
-  }
 
-  .book_details {
-    .card {
-      height: 100%;
-      position: relative;
-      border: none;
-      .card_img_wraper {
-        @include flexCenterAlignment();
-        img {
-          min-width: 145px;
-          max-width: 145px;
-          min-height: 195px;
-          max-height: 195px;
-        }
-        .badge {
-          position: absolute;
-          right: 40px;
-          top: 20px;
-          background-color: $lightCoffee;
-          color: $deepBlue;
-          padding: 5px
-        }
-      }
-
-      .card-body {
-        padding-top: 5px;
-        min-height: 230px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        h5 {
-          color: $deepBlue;
-        }
-
-        ul {
-          width: 100%;
-          min-height: 95px;
-          padding: 0;
-          li {
-            margin-top: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            color: $deepBlue;
-            &:first-child {
-              margin-top: 0;
-            }
-            &:last-child {
-              span {
-                &:last-child {
-                  color: $midRed;
-                }
-              }
-            }
-          }
-        }
-
-        .btn_box {
-          @include flexCenterAlignment();
-          z-index: 1;
-          a {
-            overflow: hidden;
-            @include btnHoverEffect();
-          }
-        }
-      }
-    }
-  }
-
-  .btn_box {
-    @include flexCenterAlignment();
-    a {
-      @include btnHoverEffect();
-      border-color: $deepBlue;
-      color: $deepBlue;
-      &::before {
-        background-color: $deepBlue ; 
-      }
-    }
-  }
-}
-// END:: BOOKS SECTION STYLES
 
 // START:: TESTEMONIAL SECTION STYLES
 .testemonials {
