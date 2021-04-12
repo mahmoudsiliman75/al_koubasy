@@ -498,6 +498,52 @@ nav {
 }
 // END:: PRODUCTS CATS SECTION STYLES
 
+// START:: LATEST NEWS SECTION STYLES
+.latest_news_sec {
+  padding: $paddingAmount;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .latest_article_img_wraper {
+    position: relative;
+    img {
+      border-radius: $borderRadiusAmount;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .latest_article_text_wraper {
+    .header_wraper {
+      @include flexCenterAlignment();
+      justify-content: space-between;
+      h3,
+      h5 {
+        color: $deepBlue;
+      }
+    }
+
+    .text_wraper {
+      font-size: 18px;
+      line-height: 1.6;
+      color: $lightGrey;
+    }
+  }
+
+  .btn_wraper {
+    margin-top: 20px;
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: LATEST NEWS SECTION STYLES
 
 
 

@@ -281,7 +281,47 @@
 </div>
 <!-- END:: PRODUCTS CATS SECTION -->
 
+<!-- START::LATEST NEWS SECTION -->
+<div class="latest_news_sec">
+  <div class="container">
+    <div class="header_wraper">
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Latest News </h2>
+    </div>
 
+    <div class="row justify-content-between p-2 overflow-hidden">
+      <div class="col-12 col-md-6 my-2 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+        <div class="latest_article_img_wraper">
+          <img src="assets/media/pic5.jpg" alt="about us iamge">
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 my-2 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+        <div class="latest_article_text_wraper">
+          <div class="header_wraper">
+            <h3> Conference Title </h3>
+            <h5> 27 - Aug - 2020 </h5>
+          </div>
+
+          <div class="text_wraper">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+            maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+            repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+            exercitationem temporibus veritatis nam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+            maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+            repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+            exercitationem temporibus veritatis nam.
+          </div>
+        </div>
+      </div>
+
+      <div class="btn_wraper col-12 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+        <a href="AllNews.php"> view more </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- END::LATEST NEWS SECTION -->
 
 
 
