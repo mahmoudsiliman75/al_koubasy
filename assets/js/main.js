@@ -1,10 +1,21 @@
 $(document).ready( function() {
   // START:: COUNT UP
-  $('.counter').counterUp({
-    delay: 10,
-    time: 1000
-  });
+  // $('.counter').counterUp({
+  //   delay: 10,
+  //   time: 1000
+  // });
   // END:: COUNT UP
+
+  wow = new WOW(
+    {
+    boxClass:     'wow',     
+    animateClass: 'animated',
+    offset:       150,         
+    mobile:       false,      
+    live:         true       
+  }
+  )
+  wow.init();
 
   // START:: TOGGLE MENU
   $('#open_menu').on('click', () => {

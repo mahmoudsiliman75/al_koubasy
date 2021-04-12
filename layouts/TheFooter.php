@@ -135,6 +135,10 @@
 <script src="assets/js/bootstrap-select.min.js"></script>
 <!-- END:: INCLUDING BOOTSTRAP SELECT SCRIPT FILE -->
 
+<!-- START:: INCLUDING WOW JS SCRIPT FILE -->
+<script src="assets/js/wow.min.js"></script>
+<!-- END:: INCLUDING WOW JS SCRIPT FILE -->
+
 <!-- START:: INCLUDING COUNTUP SCRIPT FILES -->
 <!-- <script src="assets/js/waypoint.js"></script>
 <script src="assets/js/jquery.counterup.min.js"></script> -->

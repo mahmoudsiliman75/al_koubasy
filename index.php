@@ -42,14 +42,14 @@
 <!-- START::ABOUT US SECTION -->
 <div class="about_us_sec">
   <div class="container-fluid">
-    <div class="row justify-content-center p-2">
-      <div class="col-8 col-md-5">
+    <div class="row justify-content-center p-2 overflow-hidden">
+      <div class="col-8 col-md-5 wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="about_us_img_wraper">
           <img src="./assets/media/pic8.jpg" alt="about us iamge">
         </div>
       </div>
 
-      <div class="col-7">
+      <div class="col-7 wow slideInRight" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="about_us_text_wraper">
           <div class="header_wraper">
             <h2> About El Koubasy </h2>
@@ -80,12 +80,12 @@
 <!-- START:: SERVICES SECTION -->
 <div class="services_sec">
   <div class="header_wraper">
-    <h2> Our Services </h2>
+    <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Our Services </h2>
   </div>
 
   <div class="container-fluid">
-    <div class="row service_wraper justify-content-center mt-3">
-      <div class="col-6 col-md-3 my-3">
+    <div class="row service_wraper justify-content-center mt-3 overflow-hidden">
+      <div class="col-6 col-md-3 my-3 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
         <a href="ServiceDetails.php">
           <img src="assets/media/pic12.jpg" alt="Why Section Icon 1">
           <h5> 
@@ -95,7 +95,7 @@
         </a>
       </div>
 
-      <div class="col-6 col-md-3 my-3">
+      <div class="col-6 col-md-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
         <a href="ServiceDetails.php">
           <img src="assets/media/pic11.jpg" alt="Why Section Icon 1">
           <h5> 
@@ -105,7 +105,7 @@
         </a>
       </div>
 
-      <div class="col-6 col-md-3 my-3">
+      <div class="col-6 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.9s">
         <a href="ServiceDetails.php">
           <img src="assets/media/pic7.jpg" alt="Why Section Icon 1">
           <h5> 
@@ -115,7 +115,7 @@
         </a>
       </div>
 
-      <div class="col-6 col-md-3 my-3">
+      <div class="col-6 col-md-3 my-3 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="1.1s">
         <a href="AllProducts.php">
           <img src="assets/media/pic20.jpg" alt="Why Section Icon 1">
           <h5> 
@@ -134,10 +134,10 @@
 <div class="heightlights">
   <div class="container-fluid">
     <div class="header_wraper">
-      <h2> Al Koubasy Highlight </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Al Koubasy Highlight </h2>
     </div>
-    <div class="row justify-content-around">
-      <div class="col-5 col-md-3 my-3">
+    <div class="row justify-content-around overflow-hidden">
+      <div class="col-5 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
         <div class="card">
           <div class="icon_wraper">
             <img src="assets/media/icons/contract.png" alt="Icon 1">
@@ -149,7 +149,7 @@
         </div>
       </div>
 
-      <div class="col-5 col-md-3 my-3">
+      <div class="col-5 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
         <div class="card">
           <div class="icon_wraper">
             <img src="assets/media/icons/team.png" alt="Icon 1">
@@ -161,7 +161,7 @@
         </div>
       </div>
 
-      <div class="col-5 col-md-3 my-3">
+      <div class="col-5 col-md-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
         <div class="card">
           <div class="icon_wraper">
             <img src="assets/media/icons/financ.png" alt="Icon 1">
@@ -173,7 +173,7 @@
         </div>
       </div>
 
-      <div class="col-5 col-md-3 my-3">
+      <div class="col-5 col-md-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
         <div class="card">
           <div class="icon_wraper">
             <img src="assets/media/icons/chart.png" alt="Icon 1">
@@ -193,11 +193,11 @@
 <div class="events_sec">
   <div class="container">
     <div class="header_wraper">
-      <h2> Our Events </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Events </h2>
     </div>
 
-    <div class="row justify-content-between p-2">
-      <div class="col-12 col-md-6 my-2">
+    <div class="row justify-content-between p-2 overflow-hidden">
+      <div class="col-12 col-md-6 my-2 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
         <div class="event_text_wraper">
           <div class="header_wraper">
             <h3> Conference Title </h3>
@@ -220,7 +220,7 @@
         </div>
       </div>
 
-      <div class="col-12 col-md-5 my-2">
+      <div class="col-12 col-md-5 my-2 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
         <div class="event_img_wraper">
           <img src="./assets/media/pic21.jpg" alt="about us iamge">
 
@@ -237,6 +237,9 @@
   </div>
 </div>
 <!-- END::EVENTS SECTION -->
+
+
+
 
 
 <!-- START:: TESTEMONIALS SECTION -->
