@@ -43,47 +43,35 @@
 <div class="about_us_sec">
   <div class="container-fluid">
     <div class="row justify-content-center p-2">
-      <div class="col-12 col-md-6 my-2 m-md-0 about_img_box">
-        <a href="#">
-          <img src="assets/media/pic9.jpg" alt="About Operations">
-        </a>
-      </div>
-
-      <div class="col-12 col-md-6 my-2 m-md-0 about_img_box">
-        <a href="#">
-          <img src="assets/media/pic8.jpg" alt="About Books">
-        </a>
-      </div>
-
-      <div class="col-12 col-md-11 mt-4">
-        <div class="about_card row">
-          <div class="col-12 col-md-6 about_card_img">
-            <img src="assets/media/pic5.jpg" alt="About">
-          </div>
-
-          <div class="col-12 col-md-6 about_card_info">
-            <h3> Dr.Khaled Profile </h3>
-            <p class="my-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Voluptates blanditiis aut itaque placeat deleniti quidem 
-              ipsum amet tempora, porro quae delectus reiciendis! Odio 
-              dolore nihil omnis odit, ut necessitatibus ipsum.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Voluptates blanditiis aut itaque placeat deleniti quidem 
-              ipsum amet tempora, porro quae delectus reiciendis! Odio 
-              dolore nihil omnis odit, ut necessitatibus ipsum.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-              Voluptates blanditiis aut itaque placeat deleniti quidem 
-              ipsum amet tempora, porro quae delectus reiciendis! Odio 
-              dolore nihil omnis odit, ut necessitatibus ipsum.
-            </p>
-            <div class="btn_box">
-              <a href="DrProfile.php"> read more </a>
-            </div>
-          </div>
+      <div class="col-8 col-md-5">
+        <div class="about_us_img_wraper">
+          <img src="./assets/media/pic8.jpg" alt="about us iamge">
         </div>
       </div>
 
+      <div class="col-7">
+        <div class="about_us_text_wraper">
+          <div class="header_wraper">
+            <h2> About El Koubasy </h2>
+          </div>
+
+          <div class="text_wraper">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+            maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+            repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+            exercitationem temporibus veritatis nam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+            maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+            repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+            exercitationem temporibus veritatis nam.
+            
+          </div>
+
+          <div class="btn_wraper">
+            <a href="AboutUs.php"> learn more </a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

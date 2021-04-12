@@ -127,10 +127,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600;700;900&display=swap">
 <!-- END:: INCLUDING SITE FONT -->
 
-<!-- START:: INCLUDING SPLIDE SCRIPT FILE -->
-<script src="assets/js/splide.min.js"></script>
-<!-- END:: INCLUDING SPLIDE SCRIPT FILE -->
-
 <!-- START:: INCLUDING FLEX SLIDER SCRIPT FILE -->
 <script src="assets/js/jquery.flexslider.js"></script>
 <!-- END:: INCLUDING FLEX SLIDER SCRIPT FILE -->
@@ -138,6 +134,11 @@
 <!-- START:: INCLUDING BOOTSTRAP SELECT SCRIPT FILE -->
 <script src="assets/js/bootstrap-select.min.js"></script>
 <!-- END:: INCLUDING BOOTSTRAP SELECT SCRIPT FILE -->
+
+<!-- START:: INCLUDING COUNTUP SCRIPT FILES -->
+<!-- <script src="assets/js/waypoint.js"></script>
+<script src="assets/js/jquery.counterup.min.js"></script> -->
+<!-- END:: INCLUDING COUNTUP SCRIPT FILES -->
 
 <!-- START:: INCLUDING MAIN SCRIPT FILE -->
 <script src="assets/js/main.js"></script>

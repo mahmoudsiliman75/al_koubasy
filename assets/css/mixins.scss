@@ -133,6 +133,18 @@
   justify-content: center;
 }
 
+@mixin flexStartAlignment {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+@mixin flexEndAlignment {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
 @mixin simpleShadow {
   box-shadow: 0 0 15px 2px #888;
 }

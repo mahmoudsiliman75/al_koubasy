@@ -1,4 +1,11 @@
 $(document).ready( function() {
+  // START:: COUNT UP
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1000
+  });
+  // END:: COUNT UP
+
   // START:: TOGGLE MENU
   $('#open_menu').on('click', () => {
     $('.small_menu').css('display', 'flex');
