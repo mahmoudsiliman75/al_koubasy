@@ -77,8 +77,61 @@
 </div>
 <!-- END::ABOUT US SECTION -->
 
+<!-- START:: SERVICES SECTION -->
+<div class="services_sec">
+  <div class="header_wraper">
+    <h2> Our Services </h2>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row service_wraper justify-content-center mt-3">
+      <div class="col-6 col-md-3">
+        <a href="ServiceDetails.php">
+          <img src="assets/media/pic12.jpg" alt="Why Section Icon 1">
+          <h5> 
+            Export Services
+          </h5>
+          <i class="fas fa-angle-double-right"></i>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <a href="ServiceDetails.php">
+          <img src="assets/media/pic11.jpg" alt="Why Section Icon 1">
+          <h5> 
+            Import Services
+          </h5>
+          <i class="fas fa-angle-double-right"></i>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <a href="ServiceDetails.php">
+          <img src="assets/media/pic7.jpg" alt="Why Section Icon 1">
+          <h5> 
+            Local Distribution
+          </h5>
+          <i class="fas fa-angle-double-right"></i>
+        </a>
+      </div>
+
+      <div class="col-6 col-md-3">
+        <a href="AllProducts.php">
+          <img src="assets/media/pic20.jpg" alt="Why Section Icon 1">
+          <h5> 
+            Online Shopping
+          </h5>
+          <i class="fas fa-angle-double-right"></i>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- END:: SERVICES SECTION -->
+
 <!-- START:: WHY DR SECTION -->
-<div class="why_sec">
+<!-- <div class="why_sec">
   <div class="container">
     <div class="header_wraper">
       <h2> Why Dr.Khaled Salah! </h2>
@@ -108,7 +161,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 <!-- END:: WHY DR SECTION -->
 
 <!-- START:: LIBERARY SECTION -->
