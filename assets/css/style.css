@@ -566,7 +566,7 @@ nav .menu_btn svg {
   color: #00303f;
   -webkit-padding-start: 10px;
           padding-inline-start: 10px;
-  border-left: 3px solid #810000;
+  border-left: 2px solid #810000;
 }
 
 .services_sec .service_wraper a svg {
@@ -816,6 +816,87 @@ nav .menu_btn svg {
 
 .events_sec .event_text_wraper .btn_wraper a:hover::after {
   right: 65%;
+}
+
+.products_cats {
+  padding: 30px;
+}
+
+.products_cats .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.products_cats .header_wraper h2 {
+  color: #00303f;
+  position: relative;
+}
+
+.products_cats .header_wraper h2::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -70px;
+  width: 45px;
+  height: 2px;
+  background-color: #810000;
+}
+
+.products_cats .header_wraper h2::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -55px;
+  width: 45px;
+  height: 2px;
+  background-color: #dc4040;
+}
+
+.products_cats .cats_wraper a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.products_cats .cats_wraper a img {
+  min-width: 200px;
+  max-width: 200px;
+  min-height: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+}
+
+.products_cats .cats_wraper a h5 {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #00303f;
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
+  border-left: 2px solid #810000;
+}
+
+.products_cats .cats_wraper a svg {
+  margin-top: 8px;
+  color: #810000;
 }
 
 .share .header_wraper {
