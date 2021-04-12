@@ -6,13 +6,9 @@
 <div class="header_img_wraper">
   <img src="assets/media/pic5.jpg" alt="Intro Img">
 
-  <!-- START:: SECTION CURVE -->
-  <div class="section_svg">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-      <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-    </svg>
-  </div>
-  <!-- END:: SECTION CURVE -->
+  <!-- START:: SECTION SPIKES -->
+  <section class="spikes"></section>
+  <!-- END:: SECTION SPIKES -->
 </div>
 <!-- END:: HEDAER IMAGE SECTION -->
 
@@ -53,54 +49,36 @@
 <!-- END:: GET IN TOUCH SECTION -->
 
 <!-- START:: CONTACT INFO SECTION -->
-<div class="contact_info">
+<div class="contact_info my-5">
   <div class="container">
-    <div class="row justify-content-between">
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
+    <div class="row justify-content-center justify-content-md-between">
+      <div class="col-6 col-md-4">
         <div class="card">
-          <h1 class="card_title text-center mb-4"> 
-            <i class="fas fa-phone-alt fa-4x"></i>
-          </h1>
-
-          <ul class="card_list container list-unstyled">
-            <li class="text-center"> 
-              <span> 
-                <h5 class="text-center"> Call Us At </h5> 
-              </span>
-            </li>
-
-            <li class="text-center"> 
-              <span> 
-                <h6 class="text-center"> 01000000001 - 01000000002 </h6> 
-              </span>
-            </li>
-          </ul>
+          <span>
+            <i class="fas fa-map-marker-alt fa-3x"></i>
+          </span>
+          <h4> Address </h4>
+          <h5 class="text-center"> El Doki, Giza, Egypt </h5>
         </div>
       </div>
 
-      <div class="col-4 line_wraper none d-md-block">
-        <img src="assets/media/line.png">
+      <div class="col-6 col-md-4">
+        <div class="card">
+          <span>
+            <i class="fas fa-phone-alt fa-3x"></i>
+          </span>
+          <h4> Phones </h4>
+          <h5 class="text-center"> 01000000001 - 01000000002 </h5>
+        </div>
       </div>
 
-      <div class="col-12 col-md-6 col-lg-4 my-3 p-2">
+      <div class="col-6 col-md-4">
         <div class="card">
-          <h1 class="card_title text-center mb-4"> 
-            <i class="far fa-envelope fa-4x"></i>
-          </h1>
-
-          <ul class="card_list container list-unstyled">
-            <li class="text-center"> 
-              <span> 
-                <h5 class="text-center"> Mail Us At </h5> 
-              </span>
-            </li>
-
-            <li class="text-center"> 
-              <span> 
-                <h6 class="text-center"> info@Dr.khaled.com </h6> 
-              </span>
-            </li>
-          </ul>
+          <span>
+            <i class="fas fa-at fa-3x"></i>
+          </span>
+          <h4> Email </h4>
+          <h5 class="text-center"> info@El-Koubasy.com </h5>
         </div>
       </div>
     </div>
@@ -108,133 +86,16 @@
 </div>
 <!-- END:: CONTACT INFO SECTION -->
 
-<!-- START:: MAPS SECTION -->
-<div class="maps">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-12 col-md-6 p-3">
-        <div class="map_info_wraper">
-          <h3> Clinic Name </h3>
-          <div class="iframe_waper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.89549083744!2d31.30329406893522!3d30.032468600716175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2sNasr%20City%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1601175174423!5m2!1sen!2seg" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div>
-          
-          <div class="map_text">
-            <ul class="list-unstyled">
-              <li> 
-                <span> <i class="fas fa-map-marker-alt"></i> </span>
-                El Doki, Giza, Egypt
-              </li>
-            
-              <li> 
-                <span> <i class="fas fa-mobile-alt"></i> </span>
-                01000000001 - 01000000002
-              </li>
-            
-              <li> 
-                <span> <i class="far fa-envelope"></i> </span>
-                info@Dr.khaled.com
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 p-3">
-        <div class="map_info_wraper">
-          <h3> Clinic Name </h3>
-          <div class="iframe_waper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.89549083744!2d31.30329406893522!3d30.032468600716175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2sNasr%20City%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1601175174423!5m2!1sen!2seg" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div>
-          
-          <div class="map_text">
-            <ul class="list-unstyled">
-              <li> 
-                <span> <i class="fas fa-map-marker-alt"></i> </span>
-                El Doki, Giza, Egypt
-              </li>
-            
-              <li> 
-                <span> <i class="fas fa-mobile-alt"></i> </span>
-                01000000001 - 01000000002
-              </li>
-            
-              <li> 
-                <span> <i class="far fa-envelope"></i> </span>
-                info@Dr.khaled.com
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 p-3">
-        <div class="map_info_wraper">
-          <h3> Clinic Name </h3>
-          <div class="iframe_waper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.89549083744!2d31.30329406893522!3d30.032468600716175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2sNasr%20City%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1601175174423!5m2!1sen!2seg" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div>
-          
-          <div class="map_text">
-            <ul class="list-unstyled">
-              <li> 
-                <span> <i class="fas fa-map-marker-alt"></i> </span>
-                El Doki, Giza, Egypt
-              </li>
-            
-              <li> 
-                <span> <i class="fas fa-mobile-alt"></i> </span>
-                01000000001 - 01000000002
-              </li>
-            
-              <li> 
-                <span> <i class="far fa-envelope"></i> </span>
-                info@Dr.khaled.com
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-12 col-md-6 p-3">
-        <div class="map_info_wraper">
-          <h3> Clinic Name </h3>
-          <div class="iframe_waper">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.89549083744!2d31.30329406893522!3d30.032468600716175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2sNasr%20City%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1601175174423!5m2!1sen!2seg" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-          </div>
-          
-          <div class="map_text">
-            <ul class="list-unstyled">
-              <li> 
-                <span> <i class="fas fa-map-marker-alt"></i> </span>
-                El Doki, Giza, Egypt
-              </li>
-            
-              <li> 
-                <span> <i class="fas fa-mobile-alt"></i> </span>
-                01000000001 - 01000000002
-              </li>
-            
-              <li> 
-                <span> <i class="far fa-envelope"></i> </span>
-                info@Dr.khaled.com
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- END:: MAPS SECTION -->
-
 <!-- START:: HOW TO SHARE WITH US SECTION -->
 <div class="share">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row justify-content-center">
 
-      <div class="col-11 col-md-8 form_wraper">
+      <div class="col-12 col-md-6 iframe_waper">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.89549083744!2d31.30329406893522!3d30.032468600716175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2sNasr%20City%2C%20Cairo%20Governorate!5e0!3m2!1sen!2seg!4v1601175174423!5m2!1sen!2seg" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+
+      <div class="col-12 col-md-6 form_wraper">
         <div class="header_wraper">
           <h2> Write Us A Message </h2>
         </div>

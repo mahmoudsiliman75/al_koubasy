@@ -1,9 +1,9 @@
 <!-- START:: FLOATING ICON SECTION -->
-<div class="floating_icon">
+<!-- <div class="floating_icon">
   <a href="https://wa.me/01000000001" target="_blanck">
     <img src="assets/media/icons/whatsapp.png">
   </a>
-</div>
+</div> -->
 <!-- END:: FLOATING ICON SECTION -->
 
 <!-- START:: FOOTER -->
@@ -17,18 +17,16 @@
       <div class="short_cuts col-12 col-md-4 d-flex justify-content-between justify-content-md-center"> 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="index.php"> Home </a>
-          <a href="DrProfile.php"> Dr.Khaled Profile </a>
-          <a href="AllOperations.php"> Operations </a>
-          <a href="AllBooks.php"> Books </a>
-          <a href="ShareWithUs.php"> How To Share With Us </a>
-          <a href="AllVideos.php"> Videp Liberary </a>
+          <a href="#"> About Us </a>
+          <a href="#"> FAQs </a>
+          <a href="#"> Products </a>
+          <a href="#"> Quality </a>
         </div>
 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
-          <a href="CairoUniversity.php"> Cairo University </a>
+          <a href="#"> Media </a>
+          <a href="#"> Carrers </a>
           <a href="auth.php"> Login </a>  
-          <a href="UserProfile.php"> User Profile </a>
-          <a href="#"> Payment Gateway </a>
           <a href="ContactUs.php"> Contact Us </a>
         </div>
       </div>
@@ -45,7 +43,7 @@
           <li class="d-flex"> 
             <i class="fas fa-envelope mx-1"></i>
             <span> 
-              <a href="mailto: info@Dr.khaled.com"> info@Dr.khaled.com </a> </span>
+              <a href="mailto: info@Al-koubasy.com"> info@Al-koubasy.com </a> </span>
           </li>
 
           <li class="d-flex"> 
@@ -97,7 +95,7 @@
 
       <div class="copy_rights col-12 d-flex justify-content-between">
         <span> Powered By <a href="https://www.facebook.com/MediaServAgency/" target="_blank"> MediaServe </a> </span>
-        <span> &copy; 2021 Dr.Khaled Salah </span>
+        <span> &copy; 2021 Al Koubasy </span>
       </div>
     </div>
   </div>

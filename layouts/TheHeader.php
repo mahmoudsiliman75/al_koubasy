@@ -30,6 +30,10 @@
   <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
   <!-- END:: INCLUDING BOOTSTRAP SELECT STYLE FILE -->
 
+  <!-- START: INCLUDING GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+  <!-- START: INCLUDING GOOGLE FONT -->
+
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- <link rel="stylesheet" href="assets/css/ar-style.css"> -->
@@ -39,7 +43,7 @@
   <link rel="icon" href="assets/media/logo.png">
   <!-- END:: SET FAV ICON -->
 
-  <title> Dr.Khaled Salah </title>
+  <title> Al Koubasy </title>
 </head>
 <body>
 
@@ -59,36 +63,45 @@
       </li>
 
       <li> 
-        <a href="DrProfile.php"> Dr.khaled Profile </a>
+        <a href="#"> About Us </a>
       </li>
 
       <li> 
-        <a href="AllOperations.php"> Operations </a>
+        <a href="#"> FAQs </a>
       </li>
 
       <li> 
-        <a href="ShareWithUs.php"> How To Share With Us </a>
+        <a href="#"> Services </a>
       </li>
 
       <li> 
-        <a href="AllBooks.php"> Books </a>
+        <a href="#"> Product </a>
       </li>
 
       <li> 
-        <a href="CairoUniversity.php"> Cairo University </a>
+        <a href="#"> Quality </a>
       </li>
 
       <li> 
-        <a href="AllVideos.php"> Videos Liberary </a>
+        <a href="#"> Media </a>
+      </li>
+
+      <li> 
+        <a href="AllVideos.php"> Videos </a>
+      </li>
+
+      <li> 
+        <a href="#"> Carrers </a>
+      </li>
+
+      <li> 
+        <a href="ContactUs.php"> Contact Us </a>
       </li>
 
       <li> 
         <a href="UserProfile.php"> Profile </a>
       </li>
 
-      <li> 
-        <a href="ContactUs.php"> Contact Us </a>
-      </li>
     </ul>
   </div>
   <!-- START:: NAV LINKS -->
