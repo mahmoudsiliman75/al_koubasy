@@ -14,16 +14,16 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/media/pic1.jpg" class="d-block" alt="Slide 1">
+      <img src="assets/media/slider1.jpeg" class="d-block" alt="Slide 1">
     </div>
     <div class="carousel-item">
-      <img src="assets/media/pic2.jpg" class="d-block" alt="Slide 2">
+      <img src="assets/media/slider2.jpeg" class="d-block" alt="Slide 2">
     </div>
     <div class="carousel-item">
-      <img src="assets/media/pic3.jpg" class="d-block" alt="Slide 3">
+      <img src="assets/media/slider3.jpeg" class="d-block" alt="Slide 3">
     </div>
     <div class="carousel-item">
-      <img src="assets/media/pic4.jpg" class="d-block" alt="Slide 4">
+      <img src="assets/media/slider4.jpeg" class="d-block" alt="Slide 4">
     </div>
   </div>
 
@@ -386,7 +386,7 @@
     </div>
   </div>
 </div>
-<!-- END:: OUR CLIENTS SECTION -->
+<!-- END:: OUR CLIENTS SECTION --> 
 
 
 

@@ -23,32 +23,23 @@ h3 {
 
 // START:: LARGE SCREENS NAVBAR AR STYLES
 nav {
-  // START:: LANGUAGE BTN  AR STYLE
+  // START:: LANGUAGE BTN STYLE
   .lang-button {
-    button {
+    a {
       span {
-        &:nth-child(1) {
-          background-color: $white;
-          color: $lightCoffee;
-          border: 1px solid $lightCoffee;
-          border-left: none;
-          border-radius: 30px;
-          border-top-left-radius: 0;
-          border-bottom-left-radius: 0;
+        font-size: 16px;
+        &.en {
+          display: none;
         }
-        &:nth-child(2) {
-          background-color: $lightCoffee;
-          color: $white;
-          border: 1px solid $lightCoffee;
-          border-right: none;
-          border-radius: 30px;
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
+        &.ar {
+          display: inline-block;
+          margin-bottom: 3px;
+          margin-inline-start: 3px;
         }
       }
     }
   }
-  // END:: LANGUAGE BTN AR STYLE
+  // END:: LANGUAGE BTN STYLE
 }
 // END:: LARGE SCREENS NAVBAR AR STYLES
 

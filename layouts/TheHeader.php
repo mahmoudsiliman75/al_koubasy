@@ -111,15 +111,6 @@
   <!-- START:: NAV LINKS -->
 
   <div class="menu_btns d-flex align-items-center">
-    <!-- START:: CART BUTTON -->
-    <div class="cart_btn mx-2">
-      <a href="UserCart.php">
-        <span class="badge badge-pill badge-danger">2</span>
-        <i class="fas fa-shopping-cart fa-lg"></i>
-      </a>
-    </div>
-    <!-- END:: CART BUTTON -->
-
     <!-- START:: LOGIN BUTTON -->
     <span class="login_btn mx-2"> 
       <a href="auth.php"> 
@@ -129,12 +120,22 @@
     </span>
     <!-- END:: LOGIN BUTTON -->
 
+    <!-- START:: CART BUTTON -->
+    <div class="cart_btn mx-2">
+      <a href="UserCart.php">
+        <span class="badge badge-pill badge-danger">2</span>
+        <i class="fas fa-shopping-cart fa-lg"></i>
+      </a>
+    </div>
+    <!-- END:: CART BUTTON -->
+
     <!-- START:: LANG BUTTON -->
     <div class="lang-button mx-2">
-      <button> 
-        <span> E </span>
-        <span> ع </span>
-      </button>
+      <a href="#"> 
+        <span class="en"> E </span>
+        <span class="ar"> ع </span>
+        <span class="circle"></span>
+      </a>
     </div>
     <!-- END:: LANG BUTTON -->
 

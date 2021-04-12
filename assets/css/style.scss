@@ -138,37 +138,34 @@ nav {
       text-decoration: none;
       color: $deepBlue;
       &:hover {
-        color: $lightCoffee
+        color: $deepRed;
       }
     }
   }
 
   // START:: LANGUAGE BTN STYLE
   .lang-button {
-    button {
-      background-color: transparent;
-      border: none;
-      padding: 0;
+    a {
+      text-decoration: none;
+      color: $darkGrey;
+      padding: 0 5px;
       font-weight: bold;
+      border: 2px solid $midRed;
+      @include borderradius($largeBorderRadiusAmount);
+      width: 60px;
+      @include flexCenterAlignment();
+      justify-content: space-between;
+
       span {
         font-size: 16px;
-        padding: 3px 10px;
-        &:nth-child(1) {
-          color: $white;
-          background-color: $lightCoffee;
-          border: 1px solid $lightCoffee;
-          border-right: none;
-          border-radius: 30px;
-          border-top-right-radius: 0;
-          border-bottom-right-radius: 0;
+        &.ar {
+          display: none;
         }
-        &:nth-child(2) {
-          color: $lightCoffee;
-          border: 1px solid $lightCoffee;
-          border-left: none;
-          border-radius: 30px;
-          border-top-left-radius: 0;
-          border-bottom-left-radius: 0;
+        &.circle {
+          width: 20px;
+          height: 20px;
+          @include borderradius(50%);
+          background-color: $midRed;
         }
       }
     }
