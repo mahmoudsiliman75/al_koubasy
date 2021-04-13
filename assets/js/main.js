@@ -71,23 +71,26 @@ $(document).ready( function() {
     autoplayTimeout:6000,
     autoplayHoverPause:true,
     margin:60,
-    nav:true,
-    dots: true,
     items:1,
     rtl: true, 
     responsive:{
       0:{
         items:1,
-        nav:true
+        nav:false,
+        dots:false,
+        loop:true
       },
       600:{
-        items:1,
-        nav:false
+        items:2,
+        nav:false,
+        dots:false,
+        loop:true
       },
       1000:{
         items:3,
         nav:true,
-        loop:false
+        dots: true,
+        loop:true
       }
     }
   });
@@ -117,60 +120,6 @@ $(document).ready( function() {
         items:6,
         nav:false,
         loop:true
-      }
-    }
-  });
-
-  $('#related_books').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:6000,
-    autoplayHoverPause:true,
-    margin:10,
-    nav:true,
-    dots: false,
-    items:1,
-    rtl: true, 
-    responsive:{
-      0:{
-          items:1,
-          nav:true
-      },
-      400:{
-        items:2,
-        nav:false
-      },
-      1000:{
-        items:4,
-        nav:true,
-        loop:false
-      }
-    }
-  });
-
-  $('#book_info').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayTimeout:6000,
-    autoplayHoverPause:true,
-    margin:10,
-    nav:true,
-    dots: false,
-    items:1,
-    rtl: true, 
-    responsive:{
-      0:{
-          items:1,
-          nav:true
-      },
-      400:{
-        items:2,
-        nav:false
-      },
-      1000:{
-        items:4,
-        nav:true,
-        loop:false
       }
     }
   });

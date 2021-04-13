@@ -191,3 +191,13 @@
   </ul>
 </div>
 <!-- END:: SMALL SCREENS MENU -->
+
+<!-- START:: PRE LOADER -->
+<!-- <div class="pre_loader">
+  <img src="assets/media/logo.png">
+  <div class="spinner">
+    <div class="cube1"></div>
+    <div class="cube2"></div>
+  </div>
+</div> -->
+<!-- END:: PRE LOADER -->

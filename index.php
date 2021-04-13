@@ -396,7 +396,7 @@
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
-      <div id="team" class="owl-carousel owl-theme col-11 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <div id="team" class="owl-carousel owl-theme col-12 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
 
         <div class="item">
           <div class="card">
