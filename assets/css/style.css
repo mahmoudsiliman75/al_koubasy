@@ -374,13 +374,13 @@ nav .menu_btn svg {
 }
 
 .carousel .carousel-inner {
-  max-height: 600px;
+  max-height: 800px;
 }
 
 .carousel .carousel-inner img {
   width: 100%;
-  min-height: 600px;
-  max-height: 600px;
+  min-height: 800px;
+  max-height: 800px;
 }
 
 .about_us_sec {
@@ -1086,6 +1086,15 @@ nav .menu_btn svg {
 
 .our_clients_sec .owl-carousel {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .our_clients_sec .owl-carousel .item .img_wraper {
@@ -1158,6 +1167,154 @@ nav .menu_btn svg {
 
 .our_clients_sec .btn_box a:hover::after {
   right: 65%;
+}
+
+.our_team_sec {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.our_team_sec .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our_team_sec .header_wraper h2 {
+  color: #00303f;
+  position: relative;
+}
+
+.our_team_sec .header_wraper h2::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -70px;
+  width: 45px;
+  height: 2px;
+  background-color: #810000;
+}
+
+.our_team_sec .header_wraper h2::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -55px;
+  width: 45px;
+  height: 2px;
+  background-color: #dc4040;
+}
+
+.our_team_sec .owl-carousel {
+  position: relative;
+}
+
+.our_team_sec .owl-carousel .item .card {
+  background-color: transparent;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.our_team_sec .owl-carousel .item .card img {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 250px;
+  max-height: 250px;
+}
+
+.our_team_sec .owl-carousel .item .card .card-body {
+  width: 100%;
+  border-left: 2px solid #810000;
+  padding: 0 0 0 10px;
+}
+
+.our_team_sec .owl-carousel .item .card .card-body h4 {
+  color: #00303f;
+}
+
+.our_team_sec .owl-carousel .item .card .card-body h5 {
+  color: #666;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our_team_sec .owl-carousel .item .card .card-body h5 svg {
+  color: #810000;
+}
+
+.our_team_sec .owl-carousel .owl-nav {
+  direction: ltr;
+  margin-top: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.our_team_sec .owl-carousel .owl-nav .owl-prev,
+.our_team_sec .owl-carousel .owl-nav .owl-next {
+  position: relative;
+  width: 35px;
+  height: 35px;
+  line-height: 25px;
+  border-radius: 50%;
+  overflow: hidden;
+  font-size: 30px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.our_team_sec .owl-carousel button.owl-dot {
+  margin-top: 35px;
+}
+
+.our_team_sec .owl-carousel button.owl-dot:hover span {
+  background-color: transparent;
+}
+
+.our_team_sec .owl-carousel button.owl-dot span {
+  background-color: transparent;
+  border: 1px solid #00303f;
+  padding: 5px;
+}
+
+.our_team_sec .owl-carousel button.owl-dot.active span {
+  width: 40px;
+  background-color: #00303f;
+  border: none;
+  border-radius: 30px;
 }
 
 .share .header_wraper {
@@ -1623,192 +1780,6 @@ footer .copy_rights span a {
 
 .why_sec .icons_wraper h5 {
   color: #00303f;
-}
-
-.testemonials {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.testemonials .header_wraper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.testemonials .header_wraper h2 {
-  color: #00303f;
-  position: relative;
-}
-
-.testemonials .header_wraper h2::after {
-  content: '';
-  position: absolute;
-  top: 15px;
-  left: -70px;
-  width: 45px;
-  height: 2px;
-  background-color: #810000;
-}
-
-.testemonials .header_wraper h2::before {
-  content: '';
-  position: absolute;
-  top: 25px;
-  left: -55px;
-  width: 45px;
-  height: 2px;
-  background-color: #dc4040;
-}
-
-.testemonials .owl-carousel {
-  position: relative;
-}
-
-.testemonials .owl-carousel .item {
-  direction: ltr;
-}
-
-.testemonials .owl-carousel .item .testemonial_card {
-  padding: 20px 0;
-  border-radius: 10px;
-  -webkit-box-shadow: 0 0 25px -5px #d0af85 inset;
-          box-shadow: 0 0 25px -5px #d0af85 inset;
-}
-
-.testemonials .owl-carousel .item .testemonial_card .row .testemonial_img {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.testemonials .owl-carousel .item .testemonial_card .row .testemonial_img img {
-  min-width: 150px;
-  max-width: 150px;
-  min-height: 150px;
-  max-height: 150px;
-  border: 3px solid #d0af85;
-  border-radius: 50%;
-}
-
-.testemonials .owl-carousel .item .testemonial_card .row .testemonial_img h5 {
-  color: #00303f;
-  margin-top: 10px;
-}
-
-.testemonials .owl-carousel .item .testemonial_card .row .testemonial_body {
-  color: #666;
-  text-align: start;
-  padding: 20px;
-}
-
-.testemonials .owl-carousel .item .testemonial_card .row .testemonial_body span {
-  margin: 0 10px;
-}
-
-.testemonials .owl-carousel .item .testemonial_card .row .testemonial_body span svg {
-  color: #00303f;
-}
-
-.testemonials .owl-carousel .owl-nav {
-  direction: ltr;
-  margin-top: 0;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.testemonials .owl-carousel .owl-nav .owl-prev,
-.testemonials .owl-carousel .owl-nav .owl-next {
-  position: relative;
-  background-color: #00303f;
-  color: #fff;
-  width: 35px;
-  height: 35px;
-  line-height: 25px;
-  border-radius: 50%;
-  overflow: hidden;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.testemonials .owl-carousel .owl-nav .owl-prev:hover,
-.testemonials .owl-carousel .owl-nav .owl-next:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
-.testemonials .owl-carousel .owl-nav .owl-prev::before {
-  content: "\f0d9";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #00303f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.testemonials .owl-carousel .owl-nav .owl-next::before {
-  content: "\f0da";
-  font-family: "Font Awesome 5 Free";
-  font-weight: 900;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #00303f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media (max-width: 767px) {
-  .testemonials .owl-carousel .owl-nav {
-    top: 40%;
-  }
 }
 
 .videos-sec {

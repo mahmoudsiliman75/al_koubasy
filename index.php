@@ -388,108 +388,90 @@
 </div>
 <!-- END:: OUR CLIENTS SECTION --> 
 
-
-
-
-
-
-
-
-
-<!-- START:: TESTEMONIALS SECTION -->
-<!-- <div class="testemonials">
+<!-- START:: OUR TEAM SECTION -->
+<div class="our_team_sec">
   <div class="container">
     <div class="header_wraper">
-      <h2> What People Say?! </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Team </h2>
     </div>
 
-    <div class="row justify-content-center mt-4">
-      <div id="testemonials_slider" class="owl-carousel owl-theme col-10">
+    <div class="row flex-column align-items-center justify-content-center mt-3 overflow-hidden">
+      <div id="team" class="owl-carousel owl-theme col-11 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
 
         <div class="item">
-          <div class="testemonial_card">
-            <div class="row justify-content-center">
-
-            <div class="col-5 col-md-3 testemonial_img">
-              <img src="assets/media/default.jpg" alt="Testemonial">
-              <h5> Name 1 </h5>
-            </div>
-
-              <div class="col-12 col-md-7 testemonial_body">
-                <span>
-                  <i class="fas fa-quote-right fa-3x"></i>
-                </span>
-                (1) Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Ea odit recusandae aut at magnam. Omnis voluptatum tempora, 
-                tempore ipsum, dolorum, ad pariatur accusamus eaque porro 
-                sapiente repudiandae hic dolore possimus.
-              </div>
+          <div class="card">
+            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4>Personal Name 1</h4>
+              <h5>
+                <i class="fas fa-share-alt-square fa-lg"></i>
+                Consultant
+              </h5>
             </div>
           </div>
         </div>
 
         <div class="item">
-          <div class="testemonial_card">
-            <div class="row justify-content-center">
-
-            <div class="col-5 col-md-3 testemonial_img">
-              <img src="assets/media/default.jpg" alt="Testemonial">
-              <h5> Name 2 </h5>
-            </div>
-
-              <div class="col-12 col-md-7 testemonial_body">
-                <span>
-                  <i class="fas fa-quote-right fa-3x"></i>
-                </span>
-                (2) Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Ea odit recusandae aut at magnam. Omnis voluptatum tempora, 
-                tempore ipsum, dolorum, ad pariatur accusamus eaque porro 
-                sapiente repudiandae hic dolore possimus.
-              </div>
+          <div class="card">
+            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4>Personal Name 2</h4>
+              <h5>
+                <i class="fas fa-share-alt-square fa-lg"></i>
+                Consultant
+              </h5>
             </div>
           </div>
         </div>
 
         <div class="item">
-          <div class="testemonial_card">
-            <div class="row justify-content-center">
-
-            <div class="col-5 col-md-3 testemonial_img">
-              <img src="assets/media/default.jpg" alt="Testemonial">
-              <h5> Name 3 </h5>
-            </div>
-
-              <div class="col-12 col-md-7 testemonial_body">
-                <span>
-                  <i class="fas fa-quote-right fa-3x"></i>
-                </span>
-                (3) Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Ea odit recusandae aut at magnam. Omnis voluptatum tempora, 
-                tempore ipsum, dolorum, ad pariatur accusamus eaque porro 
-                sapiente repudiandae hic dolore possimus.
-              </div>
+          <div class="card">
+            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4>Personal Name 3</h4>
+              <h5>
+                <i class="fas fa-share-alt-square fa-lg"></i>
+                Consultant
+              </h5>
             </div>
           </div>
         </div>
 
         <div class="item">
-          <div class="testemonial_card">
-            <div class="row justify-content-center">
-
-            <div class="col-5 col-md-3 testemonial_img">
-              <img src="assets/media/default.jpg" alt="Testemonial">
-              <h5> Name 4 </h5>
+          <div class="card">
+            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4>Personal Name 4</h4>
+              <h5>
+                <i class="fas fa-share-alt-square fa-lg"></i>
+                Consultant
+              </h5>
             </div>
+          </div>
+        </div>
 
-              <div class="col-12 col-md-7 testemonial_body">
-                <span>
-                  <i class="fas fa-quote-right fa-3x"></i>
-                </span>
-                (4) Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Ea odit recusandae aut at magnam. Omnis voluptatum tempora, 
-                tempore ipsum, dolorum, ad pariatur accusamus eaque porro 
-                sapiente repudiandae hic dolore possimus.
-              </div>
+        <div class="item">
+          <div class="card">
+            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4>Personal Name 5</h4>
+              <h5>
+                <i class="fas fa-share-alt-square fa-lg"></i>
+                Consultant
+              </h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4>Personal Name 6</h4>
+              <h5>
+                <i class="fas fa-share-alt-square fa-lg"></i>
+                Consultant
+              </h5>
             </div>
           </div>
         </div>
@@ -497,8 +479,15 @@
       </div>
     </div>
   </div>
-</div> -->
-<!-- END:: TESTEMONIALS SECTION -->
+</div>
+<!-- END:: OUR TEAM SECTION -->
+
+
+
+
+
+
+
 
 <!-- START:: VIDEOS SECTION -->
 <!-- <div class="videos-sec">

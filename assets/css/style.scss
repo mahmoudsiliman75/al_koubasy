@@ -263,11 +263,11 @@ nav {
   }
 
   .carousel-inner {
-    max-height: 600px;
+    max-height: 800px;
     img {
       width: 100%;
-      min-height: 600px;
-      max-height: 600px;
+      min-height: 800px;
+      max-height: 800px;
     }
   }
 }
@@ -555,6 +555,7 @@ nav {
 
   .owl-carousel {
     position: relative;
+    @include flexCenterAlignment();
 
     .item {
       .img_wraper {
@@ -581,6 +582,103 @@ nav {
 }
 // END:: OUR CLIENTS SECTION STYLES
 
+// START:: OUR TEAM SECTION STYLES
+.our_team_sec {
+  padding-top: $paddingAmount;
+  padding-bottom: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    position: relative;
+
+    .item {
+      .card {
+        background-color: transparent;
+        border: none;
+        @include flexCenterAlignment();
+        img {
+          min-width: 250px;
+          max-width: 250px;
+          min-height: 250px;
+          max-height: 250px;
+        }
+
+        .card-body {
+          width: 100%;
+          border-left: 2px solid $deepRed;
+          padding: 0 0 0 10px;
+          h4 {
+            color: $deepBlue;
+          }
+
+          h5 {
+            color: $lightGrey;
+            @include flexEndAlignment();
+            justify-content: space-between;
+
+            svg {
+              color: $deepRed;
+            }
+          }
+        }
+      }
+    }
+
+    .owl-nav {
+      direction: ltr;
+      margin-top: 0;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 25%;
+      display: flex;
+      justify-content: space-between;
+      .owl-prev,
+      .owl-next {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        line-height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        font-size: 30px;
+        @include transitioning();
+      }
+    }
+
+    button{
+      &.owl-dot {
+        margin-top: 35px;
+        &:hover {
+          span {
+            background-color: transparent;
+          }
+        }
+        span {
+          background-color: transparent;
+          border: 1px solid $deepBlue;
+          padding: 5px;
+        }
+        &.active {        
+          span {
+            width: 40px;
+            background-color: $deepBlue;
+            border: none;
+            border-radius: 30px;
+          }
+        }
+      }
+    }
+  }
+
+}
+// END:: OUR TEAM SECTION STYLES
 
 
 
@@ -882,120 +980,7 @@ footer {
 
 
 
-// START:: TESTEMONIAL SECTION STYLES
-.testemonials {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
 
-  .owl-carousel {
-    position: relative;
-
-    .item {
-      direction: ltr;
-      .testemonial_card {
-        padding: 20px 0;
-        border-radius: $borderRadiusAmount;
-        box-shadow: 0 0 25px -5px $lightCoffee inset;
-        .row {
-          .testemonial_img {
-            @include flexCenterAlignment();
-            flex-direction: column;
-            img {
-              min-width: 150px;
-              max-width: 150px;
-              min-height: 150px;
-              max-height: 150px;
-              border: 3px solid $lightCoffee;
-              border-radius: 50%;
-            }
-            h5 {
-              color: $deepBlue;
-              margin-top: 10px;
-            }
-          }
-
-          .testemonial_body {
-            color: $lightGrey;
-            text-align: start;
-            padding: 20px;
-            span {
-              margin: 0 10px;
-              svg {
-                color: $deepBlue;
-              }
-            }
-          }
-        }
-      }
-    }
-
-    .owl-nav {
-      direction: ltr;
-      margin-top: 0;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      .owl-prev,
-      .owl-next {
-        position: relative;
-        background-color: $deepBlue;
-        color: $white;
-        width: 35px;
-        height: 35px;
-        line-height: 25px;
-        border-radius: 50%;
-        overflow: hidden;
-        @include transitioning();
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-      .owl-prev {
-        &::before {
-          content: "\f0d9";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-      .owl-next {
-        &::before {
-          content: "\f0da";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-
-      @media( max-width: 767px ) {
-        top: 40%;
-      }
-    }
-  }
-}
-// END:: TESTEMONIAL SECTION STYLES
 
 // START:: VIDEOS SECTION STYLES
 .videos-sec {
