@@ -71,7 +71,7 @@
 
 <!-- START:: STORY SECTION -->
 <div class="story overflow-hidden">
-  <div class="container">
+  <div class="container px-5">
     <div class="header_wraper mb-3">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Story </h2>
     </div>

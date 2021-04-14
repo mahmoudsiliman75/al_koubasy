@@ -1094,6 +1094,130 @@ nav {
 }
 // END:: CERTIFICATIONS SECTION STYLES
 
+// START:: ABOUT SERVICE SECTION
+.about_service {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexStartAlignment();
+    h2 {
+      margin-inline-start: 75px;
+      @include mainHeaderStyle();
+    }
+  }
+
+  .about_service_text_wraper {
+    font-size: 20px;
+    color: $lightGrey;
+    line-height: 1.6;
+    text-align: start;
+    word-break: break-word;
+  }
+
+  .about_service_img_wraper {
+    img {
+      width: 100%;
+      height: auto;
+      @include borderradius($borderRadiusAmount);
+    }
+  }
+}
+// END:: ABOUT SERVICE SECTION
+
+// START:: SERVICE PRODUCTS SECTION STYLES
+.service_products {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    .item {
+      a {
+        text-decoration: none;
+        @include flexCenterAlignment();
+        flex-direction: column;
+        img {
+          min-width: 200px;
+          max-width: 200px;
+          min-height: 200px;
+          max-height: 200px;
+          @include borderradius(50%); 
+        }
+  
+        h5 {
+          text-align: center;
+          font-weight: 600;
+          margin-top: 10px;
+          color: $deepBlue;
+          padding-inline-end: 10px;
+          border-left: 2px solid $deepRed;
+        }
+  
+        svg {
+          margin-top: 8px;
+          color: $deepRed;
+        }
+      }
+    }
+
+    .owl-nav {
+      direction: ltr;
+      margin-top: 0;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 25%;
+      display: flex;
+      justify-content: space-between;
+      .owl-prev,
+      .owl-next {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        line-height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        font-size: 30px;
+        @include transitioning();
+      }
+    }
+
+    @media (max-width: 997px) {
+      .owl-nav {
+        display: none;
+      }
+    }
+
+    button{
+      &.owl-dot {
+        margin-top: 35px;
+        &:hover {
+          span {
+            background-color: transparent;
+          }
+        }
+        span {
+          background-color: transparent;
+          border: 1px solid $deepBlue;
+          padding: 5px;
+        }
+        &.active {        
+          span {
+            width: 40px;
+            background-color: $deepBlue;
+            border: none;
+            border-radius: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: SERVICE PRODUCTS SECTION STYLES
 
 
 

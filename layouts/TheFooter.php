@@ -94,7 +94,7 @@
       </div>
 
       <div class="copy_rights col-12 d-flex justify-content-between">
-        <span> Powered By <a href="https://www.facebook.com/MediaServAgency/" target="_blank"> MediaServe </a> </span>
+        <span> Powered By <a href="https://www.facebook.com/MediaServAgency/" target="_blank"> MediaServ </a> </span>
         <span> &copy; 2021 Al Koubasy </span>
       </div>
     </div>

@@ -43,13 +43,13 @@
 <div class="about_us_sec">
   <div class="container-fluid">
     <div class="row justify-content-center p-2 overflow-hidden">
-      <div class="col-8 col-md-5 wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
+      <div class="col-12 col-md-5 my-2 wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="about_us_img_wraper">
           <img src="./assets/media/pic8.jpg" alt="about us iamge">
         </div>
       </div>
 
-      <div class="col-7 wow slideInRight" data-wow-duration="1.5s" data-wow-delay="1s">
+      <div class="col-12 col-md-7 my-2 wow slideInRight" data-wow-duration="1.5s" data-wow-delay="1s">
         <div class="about_us_text_wraper">
           <div class="header_wraper">
             <h2> About El Koubasy </h2>
@@ -136,7 +136,7 @@
     <div class="header_wraper">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Al Koubasy Highlight </h2>
     </div>
-    <div class="row justify-content-around overflow-hidden">
+    <div class="row justify-content-around justify-content-md-center overflow-hidden">
       <div class="col-5 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
         <div class="card">
           <div class="icon_wraper">
