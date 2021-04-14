@@ -180,7 +180,7 @@
 
         <div class="item">
           <a href="ProductDetails.php">
-            <img src="assets/media/pic12.jpg" alt="Why Section Icon 1">
+            <img src="assets/media/pic1.jpg" alt="Why Section Icon 1">
             <h5> 
               Product Name
             </h5>
@@ -190,7 +190,7 @@
 
         <div class="item">
           <a href="ProductDetails.php">
-            <img src="assets/media/pic12.jpg" alt="Why Section Icon 1">
+            <img src="assets/media/pic2.jpg" alt="Why Section Icon 1">
             <h5> 
               Product Name
             </h5>
@@ -200,7 +200,7 @@
 
         <div class="item">
           <a href="ProductDetails.php">
-            <img src="assets/media/pic12.jpg" alt="Why Section Icon 1">
+            <img src="assets/media/pic3.jpg" alt="Why Section Icon 1">
             <h5> 
               Product Name
             </h5>
@@ -210,7 +210,7 @@
 
         <div class="item">
           <a href="ProductDetails.php">
-            <img src="assets/media/pic12.jpg" alt="Why Section Icon 1">
+            <img src="assets/media/pic4.jpg" alt="Why Section Icon 1">
             <h5> 
               Product Name
             </h5>
@@ -220,7 +220,7 @@
 
         <div class="item">
           <a href="ProductDetails.php">
-            <img src="assets/media/pic12.jpg" alt="Why Section Icon 1">
+            <img src="assets/media/pic5.jpg" alt="Why Section Icon 1">
             <h5> 
               Product Name
             </h5>
@@ -230,7 +230,7 @@
 
         <div class="item">
           <a href="ProductDetails.php">
-            <img src="assets/media/pic12.jpg" alt="Why Section Icon 1">
+            <img src="assets/media/pic6.jpg" alt="Why Section Icon 1">
             <h5> 
               Product Name
             </h5>

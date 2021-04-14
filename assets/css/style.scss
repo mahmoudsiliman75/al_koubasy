@@ -1219,7 +1219,51 @@ nav {
 }
 // END:: SERVICE PRODUCTS SECTION STYLES
 
+// START:: OPPORTUNITIES SECTION STYLES
+.oportunities {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
 
+  .oportunities_text_wraper {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+    word-break: break-word;
+    color: $lightGrey;
+  }
+
+  .department_wraper {
+    .card {
+      border: none;
+      background-color: transparent;
+      position: relative;
+      .overlay  {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.4);
+        @include borderradius($borderRadiusAmount);
+        @include flexCenterAlignment();
+        color: $white;
+        font-size: 22px;
+        font-weight: 600;
+      }
+      img {
+        width: 100%;
+        height: 300px;
+        @include borderradius($borderRadiusAmount);
+      }
+    }
+  }
+}
+// END:: OPPORTUNITIES SECTION STYLES
 
 // START:: HOW TO SHARE SECTION STYLES
 .share {
