@@ -983,6 +983,64 @@ nav {
 }
 // END:: PERSONAL SECTION STYLES
 
+// START:: VISION SECTION  STYLES
+.vision {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .vision_text_wraper {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+    word-break: break-word;
+    color: $lightGrey;
+  }
+} 
+// END:: VISION SECTION  STYLES 
+
+// START:: FAQS SECTION STYLES
+.faqs {
+  padding: $paddingAmount 0;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .faqs_wraper {
+    .question_wraper {
+      .card {
+        @include simpleShadow();
+        .card-header {
+          button {
+            border: none;
+            text-decoration: none;
+            background-color: transparent;
+            word-break: break-word;
+            color: $deepBlue;
+            svg {
+              color: $deepRed;
+            }
+          }
+        }
+
+        .card-body {
+          font-size: 18px;
+          color: $lightGrey;
+        }
+      }
+    }
+  }
+}
+// END:: FAQS SECTION STYLES
+
 
 
 

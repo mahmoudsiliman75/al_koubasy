@@ -1842,6 +1842,118 @@ nav .menu_btn svg {
   right: 65%;
 }
 
+.vision {
+  padding: 30px 0;
+}
+
+.vision .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.vision .header_wraper h2 {
+  color: #00303f;
+  position: relative;
+}
+
+.vision .header_wraper h2::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -70px;
+  width: 45px;
+  height: 2px;
+  background-color: #810000;
+}
+
+.vision .header_wraper h2::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -55px;
+  width: 45px;
+  height: 2px;
+  background-color: #dc4040;
+}
+
+.vision .vision_text_wraper {
+  font-size: 20px;
+  line-height: 1.7;
+  text-align: center;
+  word-break: break-word;
+  color: #666;
+}
+
+.faqs {
+  padding: 30px 0;
+}
+
+.faqs .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.faqs .header_wraper h2 {
+  color: #00303f;
+  position: relative;
+}
+
+.faqs .header_wraper h2::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -70px;
+  width: 45px;
+  height: 2px;
+  background-color: #810000;
+}
+
+.faqs .header_wraper h2::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -55px;
+  width: 45px;
+  height: 2px;
+  background-color: #dc4040;
+}
+
+.faqs .faqs_wraper .question_wraper .card {
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
+}
+
+.faqs .faqs_wraper .question_wraper .card .card-header button {
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  word-break: break-word;
+  color: #00303f;
+}
+
+.faqs .faqs_wraper .question_wraper .card .card-header button svg {
+  color: #810000;
+}
+
+.faqs .faqs_wraper .question_wraper .card .card-body {
+  font-size: 18px;
+  color: #666;
+}
+
 .share .header_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2951,8 +3063,8 @@ footer .copy_rights span a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -3949,8 +4061,8 @@ footer .copy_rights span a {
 .reviews .review_wraper {
   padding: 15px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
 }
 
 .reviews .review_wraper .review_header {
@@ -4226,8 +4338,8 @@ footer .copy_rights span a {
   padding: 0;
   border-radius: 10px;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
 }
 
 .auth_forms_wraper form.login {
@@ -4313,8 +4425,8 @@ footer .copy_rights span a {
   background-color: transparent;
   padding: 30px 10px;
   border-radius: 30px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
 }
 
 .auth_forms_wraper form .form_overlay .btn_box {
@@ -4335,8 +4447,8 @@ footer .copy_rights span a {
   position: relative;
   border-radius: 5px;
   padding: 10px 10px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
 }
 
 .auth_forms_wraper form .form_overlay .btn_box button::before {
@@ -4443,8 +4555,8 @@ footer .copy_rights span a {
   padding: 0;
   border-radius: 10px;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
 }
 
 .page_content_wraper form.login {
@@ -4530,8 +4642,8 @@ footer .copy_rights span a {
   background-color: transparent;
   padding: 30px 10px;
   border-radius: 30px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
 }
 
 .page_content_wraper form .form_overlay .btn_box {
@@ -4552,8 +4664,8 @@ footer .copy_rights span a {
   position: relative;
   border-radius: 5px;
   padding: 10px 10px;
-  -webkit-box-shadow: 0 0 15px 2px #888;
-          box-shadow: 0 0 15px 2px #888;
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
 }
 
 .page_content_wraper form .form_overlay .btn_box button::before {
