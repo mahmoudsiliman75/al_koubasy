@@ -1,5 +1,5 @@
 <!-- START:: INCLUDING THE HEADER -->
-<?php include('./layouts/TheHeader.php')?>
+<?php include('layouts/TheHeader.php')?>
 <!-- END:: INCLUDING THE HEADER -->
 
 <!-- START:: HEDAER IMAGE SECTION -->
@@ -12,14 +12,14 @@
 </div>
 <!-- END:: HEDAER IMAGE SECTION -->
 
-<!-- START:: VISION SECTION -->
-<div class="vision">
+<!-- START:: VISION SECTION --> 
+<div class="vision overflow-hidden">
   <div class="container">
     <div class="header_wraper mb-3">
-      <h2> Our Vision </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Vision </h2>
     </div>
 
-    <div class="vision_text_wraper">
+    <div class="vision_text_wraper wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
       Quasi ex, necessitatibus accusamus laboriosam eius animi 
       laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
@@ -34,13 +34,13 @@
 <!-- END:: VISION SECTION -->
 
 <!-- START:: FAQS SECTION -->
-<div class="faqs">
+<div class="faqs overflow-hidden">
   <div class="container">
     <div class="header_wraper mb-3">
-      <h2> Frequently Asked Questions </h2>
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Frequently Asked Questions </h2>
     </div>
 
-    <div class="faqs_wraper">
+    <div class="faqs_wraper wow slideInRight" data-wow-duration="1.5s" data-wow-delay="1s">
 
       <div class="question_wraper mb-4">
         <div class="accordion" id="accordionExample">
@@ -115,5 +115,5 @@
 <!-- END:: FAQS SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
-<?php include('./layouts/TheFooter.php')?>
+<?php include('layouts/TheFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->

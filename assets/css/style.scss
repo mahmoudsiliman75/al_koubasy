@@ -1020,6 +1020,7 @@ nav {
         @include simpleShadow();
         .card-header {
           button {
+            display: flex;
             border: none;
             text-decoration: none;
             background-color: transparent;
@@ -1027,6 +1028,7 @@ nav {
             color: $deepBlue;
             svg {
               color: $deepRed;
+              margin-inline-end: 10px;
             }
           }
         }
@@ -1040,6 +1042,57 @@ nav {
   }
 }
 // END:: FAQS SECTION STYLES
+
+// START:: QUALITY SECTION STYLES
+.quality {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .quality_text_wraper {
+    font-size: 20px;
+    line-height: 1.7;
+    text-align: center;
+    word-break: break-word;
+    color: $lightGrey;
+  } 
+}
+// END:: QUALITY SECTION STYLES
+
+// START:: CERTIFICATIONS SECTION STYLES
+.certificats {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .certificates_text_wraper {
+    font-size: 18px;
+    color: $lightGrey;
+    line-height: 1.6;
+    text-align: start;
+    word-break: break-word;
+  }
+
+  .certificate_img_wraper {
+    padding: 10px;
+    img {
+      width: 100%;
+      min-height: 205px;
+      max-height: 205px;
+      @include borderradius($borderRadiusAmount);
+      @include simpleShadow();
+    }
+  }
+}
+// END:: CERTIFICATIONS SECTION STYLES
 
 
 

@@ -1,5 +1,5 @@
 <!-- START:: INCLUDING THE HEADER -->
-<?php include('./layouts/TheHeader.php')?>
+<?php include('layouts/TheHeader.php')?>
 <!-- END:: INCLUDING THE HEADER -->
 
 <!-- START:: HEDAER IMAGE SECTION -->
@@ -32,7 +32,7 @@
           Quaerat maiores reiciendis dolorum.
         </div>
 
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-4">
             <div class="icon_wraper">
               <img src="assets/media/icons/chart.png">
@@ -241,5 +241,5 @@
 <!-- END:: PERSONAL SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
-<?php include('./layouts/TheFooter.php')?>
+<?php include('layouts/TheFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->

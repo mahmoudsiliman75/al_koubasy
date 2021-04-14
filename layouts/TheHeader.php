@@ -71,7 +71,7 @@
       </li>
 
       <li> 
-        <a href="faq.php"> FAQs </a>
+        <a href="Faq.php"> FAQs </a>
       </li>
 
       <li> 
@@ -83,7 +83,7 @@
       </li>
 
       <li> 
-        <a href="#"> Quality </a>
+        <a href="Quality.php"> Quality </a>
       </li>
 
       <li> 
