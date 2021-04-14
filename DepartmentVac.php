@@ -17,25 +17,25 @@
 
         <tbody>
           <tr class="py-3">
-            <td class="py-4">Job Title</td>
+            <td class="py-4"> <a href="JopDetails.php"> Job Title </a></td>
             <td class="py-4">Department</td>
             <td class="py-4">30 - 4 - 2021</td>
           </tr>
 
           <tr>
-            <td class="py-4">Job Title</td>
+            <td class="py-4"> <a href="JopDetails.php"> Job Title </a></td>
             <td class="py-4">Department</td>
             <td class="py-4">30 - 4 - 2021</td>
           </tr>
 
           <tr>
-            <td class="py-4">Job Title</td>
+            <td class="py-4"> <a href="JopDetails.php"> Job Title </a></td>
             <td class="py-4">Department</td>
             <td class="py-4">30 - 4 - 2021</td>
           </tr>
 
           <tr>
-            <td class="py-4">Job Title</td>
+            <td class="py-4"> <a href="JopDetails.php"> Job Title </a></td>
             <td class="py-4">Department</td>
             <td class="py-4">30 - 4 - 2021</td>
           </tr>

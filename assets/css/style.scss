@@ -179,7 +179,7 @@ nav {
     background-color: transparent;
     font-size: 25px;
     svg {
-      color: $lightCoffee;
+      color: $midRed;
     }
   }
   // END:: MENU TOGGLER BTN STYLE
@@ -1280,6 +1280,10 @@ nav {
       tbody {
         border-top: none;
         border: 1px solid $lighterGrey;
+        a {
+          text-decoration: none;
+          color: $midRed;
+        }
       }
     }
   }
@@ -1304,6 +1308,41 @@ nav {
 }
 // START:: DEPARTMENT VACANCIES SECTION STYLES
 
+// START:: JOB DETAILS SECTION STYLES
+.job_details {
+  padding: $paddingAmount;
+  min-height: calc(100vh - (92px + 220px) );
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .details_line {
+    margin-bottom: 25px;
+    h3 {
+      color: $deepBlue;
+      text-align: start;
+    }
+    .line_text {
+      color: $lightGrey;
+      font-size: 20px;
+      line-height: 1.6;
+      text-align: start;
+      word-break: break-word;
+    }
+  }
+
+  .btn_wraper {
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: JOB DETAILS SECTION STYLES
 
 
 

@@ -223,7 +223,7 @@ nav .menu_btn {
 }
 
 nav .menu_btn svg {
-  color: #d0af85;
+  color: #bb0808;
 }
 
 .small_menu {
@@ -2371,6 +2371,11 @@ nav .menu_btn svg {
   border: 1px solid #c1c1c1;
 }
 
+.department_vacs .table_wraper table tbody a {
+  text-decoration: none;
+  color: #bb0808;
+}
+
 .department_vacs .pagenation_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2395,6 +2400,124 @@ nav .menu_btn svg {
   border-color: #00303f;
   background-color: #00303f;
   color: #fff;
+}
+
+.job_details {
+  padding: 30px;
+  min-height: calc(100vh - (92px + 220px));
+}
+
+.job_details .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.job_details .header_wraper h2 {
+  color: #00303f;
+  position: relative;
+}
+
+.job_details .header_wraper h2::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -70px;
+  width: 45px;
+  height: 2px;
+  background-color: #810000;
+}
+
+.job_details .header_wraper h2::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -55px;
+  width: 45px;
+  height: 2px;
+  background-color: #dc4040;
+}
+
+.job_details .details_line {
+  margin-bottom: 25px;
+}
+
+.job_details .details_line h3 {
+  color: #00303f;
+  text-align: start;
+}
+
+.job_details .details_line .line_text {
+  color: #666;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: start;
+  word-break: break-word;
+}
+
+.job_details .btn_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.job_details .btn_wraper a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 2px solid #00303f;
+  background-color: transparent;
+  color: #00303f;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 5px;
+}
+
+.job_details .btn_wraper a::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.job_details .btn_wraper a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  right: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.job_details .btn_wraper a:hover::before {
+  left: 65%;
+}
+
+.job_details .btn_wraper a:hover::after {
+  right: 65%;
 }
 
 .share .header_wraper {
