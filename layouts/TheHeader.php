@@ -67,7 +67,7 @@
       </li>
 
       <li> 
-        <a href="#"> About Us </a>
+        <a href="AboutUs.php"> About Us </a>
       </li>
 
       <li> 

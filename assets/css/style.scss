@@ -60,12 +60,12 @@ body {
 
 .header_img_wraper {
   position: relative;
-  min-height: 250px;
-  max-height: 250px;
+  min-height: 300px;
+  max-height: 300px;
   img {
     width: 100%;
-    min-height: 250px;
-    max-height: 250px;
+    min-height: 300px;
+    max-height: 300px;
   }
   .spikes {
     position: relative;
@@ -762,6 +762,226 @@ nav {
 
 }
 // END:: OUR TEAM SECTION STYLES
+
+// START:: ABOUT INFO SECTION STYLES
+.about_info {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      margin-bottom: 15px;
+      @include mainHeaderStyle();
+    }
+  }
+
+  .about_text_wraper {
+    font-size: 20px;
+    color: $lightGrey;
+    line-height: 1.6;
+    text-align: start;
+    word-break: break-word;
+  }
+
+  .icon_wraper {
+    @include flexCenterAlignment();
+    flex-direction: column;
+    img {
+      min-height: 120px;
+      max-height: 120px;
+      min-width: 120px;
+      max-width: 120px;
+    }
+    svg {
+      color: $deepRed;
+      margin: 8px 0;
+    }
+    h6 {
+      color: $lightGrey;
+      font-weight: 600;
+    }
+  }
+
+  .about_info_img_wraper {
+    img {
+      width: 100%;
+      height: auto;
+      @include borderradius($borderRadiusAmount);
+    }
+  }
+}
+// START:: ABOUT INFO SECTION STYLES
+
+// START:: STORY SECTION STYLES
+.story {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .story_main_wraper {
+    border-left: 2px solid $lighterGrey;
+    .story_line {
+      width: 100%;
+      display: flex;
+      position: relative;
+      margin-bottom: 90px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      .date {
+        @include flexCenterAlignment();
+        width: 60px;
+        height: 60px;
+        @include borderradius(50%);
+        background-color: $deepBlue;
+        color: $white;
+        position: absolute;
+        left: -30px;
+        font-weight: 700;
+      }
+
+      .story_content {
+        margin-inline-start: 60px;
+        h3 {
+          color: $deepBlue;
+        }
+        .text {
+          color: $lightGrey;
+          font-size: 20px;
+          line-height: 1.7;
+          text-align: start;
+          word-break: break-word;
+        }
+      }
+    } 
+  }
+}
+// END:: STORY SECTION STYLES
+
+// START:: AWARDS SECTION STYLES
+.awards_rec {
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    position: relative;
+
+    .item {
+      .img_wraper {
+        min-height: 150px;
+        max-height: 150px;
+        img {
+          width: 100%;
+          min-height: 150px;
+          max-height: 150px;
+        }
+      }
+    }
+
+    .owl-nav {
+      direction: ltr;
+      margin-top: 0;
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      width: 25%;
+      display: flex;
+      justify-content: space-between;
+      .owl-prev,
+      .owl-next {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        line-height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        font-size: 30px;
+        @include transitioning();
+      }
+    }
+
+    @media (max-width: 997px) {
+      .owl-nav {
+        display: none;
+      }
+    }
+
+    button{
+      &.owl-dot {
+        margin-top: 35px;
+        &:hover {
+          span {
+            background-color: transparent;
+          }
+        }
+        span {
+          background-color: transparent;
+          border: 1px solid $deepBlue;
+          padding: 5px;
+        }
+        &.active {        
+          span {
+            width: 40px;
+            background-color: $deepBlue;
+            border: none;
+            border-radius: 30px;
+          }
+        }
+      }
+    }
+  }
+}
+// END:: AWARDS SECTION STYLES
+
+// START:: PERSONAL SECTION STYLES
+.personal_sec {
+  padding-bottom: $paddingAmount;
+
+  .persona_img_wraper {
+    position: relative;
+    img {
+      border-radius: $borderRadiusAmount;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .persona_text_wraper {
+    .header_wraper {
+      @include flexCenterAlignment();
+      justify-content: space-between;
+      h3 {
+        @include mainHeaderStyle();
+        margin-inline-start: 75px;
+      }
+    }
+
+    .text_wraper {
+      font-size: 18px;
+      line-height: 1.6;
+      color: $lightGrey;
+    }
+  }
+
+  .btn_wraper {
+    margin-top: 20px;
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: PERSONAL SECTION STYLES
 
 
 

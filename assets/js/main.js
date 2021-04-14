@@ -123,6 +123,37 @@ $(document).ready( function() {
       }
     }
   });
+
+  $('#awards').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:6000,
+    autoplayHoverPause:true,
+    margin:10,
+
+    items:1,
+    rtl: true, 
+    responsive:{
+      0:{
+        items:2,
+        nav:false,
+        dots:false,
+        loop:true
+      },
+      600:{
+        items:4,
+        nav:false,
+        dots:false,
+        loop:true
+      },
+      1000:{
+        items:6,
+        nav:true,
+        dots: true,
+        loop:true
+      }
+    }
+  });
   // END:: OWL CAROUSEL
 
   // START:: TOGGLE FORMS
