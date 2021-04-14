@@ -1265,6 +1265,54 @@ nav {
 }
 // END:: OPPORTUNITIES SECTION STYLES
 
+// START:: DEPARTMENT VACANCIES SECTION STYLES
+.department_vacs {
+  padding: $paddingAmount;
+  min-height: calc(100vh - (92px + 220px) );
+  @include flexCenterAlignment();
+
+  .table_wraper {
+    table {
+      thead {
+        border: 1px solid $darkGrey;
+      }
+
+      tbody {
+        border-top: none;
+        border: 1px solid $lighterGrey;
+      }
+    }
+  }
+  .pagenation_wraper {
+    @include flexCenterAlignment();
+    nav {
+      border-bottom: none;
+      .page-item {
+        .page-link {
+          color: $deepBlue;
+        }
+        &.active {
+          .page-link {
+            border-color: $deepBlue;
+            background-color: $deepBlue;
+            color: $white;
+          }
+        } 
+      }
+    }
+  }
+}
+// START:: DEPARTMENT VACANCIES SECTION STYLES
+
+
+
+
+
+
+
+
+
+
 // START:: HOW TO SHARE SECTION STYLES
 .share {
   .header_wraper {

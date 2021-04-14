@@ -30,10 +30,10 @@
       asperiores ratione facilis sunt veritatis quod sequi.
     </div>
     
-    <div class="row justify-content-center mt-4">
+    <div class="row justify-content-center mt-4 wow fadeIn" data-wow-duration="1.5s" data-wow-delay="1s">
       <div class="col-10 col-md-4">
         <div class="department_wraper my-3">
-          <a href="#" class="card">
+          <a href="DepartmentVac.php" class="card">
             <div class="overlay">
               Department Title 
             </div>
@@ -44,7 +44,7 @@
 
       <div class="col-10 col-md-4">
         <div class="department_wraper my-3">
-          <a href="#" class="card">
+          <a href="DepartmentVac.php" class="card">
             <div class="overlay">
               Department Title 
             </div>
@@ -55,7 +55,7 @@
 
       <div class="col-10 col-md-4">
         <div class="department_wraper my-3">
-          <a href="#" class="card">
+          <a href="DepartmentVac.php" class="card">
             <div class="overlay">
               Department Title 
             </div>
@@ -66,7 +66,7 @@
 
       <div class="col-10 col-md-4">
         <div class="department_wraper my-3">
-          <a href="#" class="card">
+          <a href="DepartmentVac.php" class="card">
             <div class="overlay">
               Department Title 
             </div>
@@ -77,7 +77,7 @@
 
       <div class="col-10 col-md-4">
         <div class="department_wraper my-3">
-          <a href="#" class="card">
+          <a href="DepartmentVac.php" class="card">
             <div class="overlay">
               Department Title 
             </div>
@@ -88,7 +88,7 @@
 
       <div class="col-10 col-md-4">
         <div class="department_wraper my-3">
-          <a href="#" class="card">
+          <a href="DepartmentVac.php" class="card">
             <div class="overlay">
               Browse All Opportunities 
             </div>
