@@ -482,68 +482,6 @@
 </div>
 <!-- END:: OUR TEAM SECTION -->
 
-
-
-
-
-
-
-
-<!-- START:: VIDEOS SECTION -->
-<!-- <div class="videos-sec">
-  <div class="container">
-    <div class="header_wraper">
-      <h2> Videos </h2>
-    </div>
-
-    <div class="row flex-column align-items-center justify-content-center mt-3">
-      <div id="videos_slider" class="owl-carousel owl-theme col-11">
-
-        <div class="item text-center">
-          <div class="iframe_wraper">
-            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <h5> Video Title </h5>
-        </div>
-
-        <div class="item text-center">
-          <div class="iframe_wraper">
-            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <h5> Video Title </h5>
-        </div>
-
-        <div class="item text-center">
-          <div class="iframe_wraper">
-            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <h5> Video Title </h5>
-        </div>
-
-        <div class="item text-center">
-          <div class="iframe_wraper">
-            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <h5> Video Title </h5>
-        </div>
-
-        <div class="item text-center">
-          <div class="iframe_wraper">
-            <iframe src="https://www.youtube.com/embed/Sd1YOQUzt10" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-          <h5> Video Title </h5>
-        </div>
-
-      </div>
-
-      <div class="btn_box">
-        <a href="AllVideos.php"> More Videos  </a>
-      </div>
-    </div>
-  </div>
-</div> -->
-<!-- END:: VIDEOS SECTION -->
-
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('./layouts/TheFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->

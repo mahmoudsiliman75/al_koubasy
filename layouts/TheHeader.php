@@ -87,7 +87,7 @@
       </li>
 
       <li> 
-        <a href="#"> Media </a>
+        <a href="Media.php"> Media </a>
       </li>
 
       <li> 

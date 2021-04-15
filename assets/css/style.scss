@@ -1371,6 +1371,363 @@ nav {
 }
 // END:: JOB APPLICATION SECTION  STYLES
 
+// START:: LATEST NEWS SLIDER STYLES
+.latest_news_slider {
+  padding: $paddingAmount;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    position: relative;
+
+    .item {
+      .latest_article_img_wraper {
+        position: relative;
+        img {
+          border-radius: $borderRadiusAmount;
+          width: 100%;
+          height: auto;
+        }
+      }
+    
+      .latest_article_text_wraper {
+        .header_wraper {
+          @include flexCenterAlignment();
+          justify-content: space-between;
+          h3,
+          h5 {
+            color: $deepBlue;
+          }
+        }
+    
+        .text_wraper {
+          font-size: 18px;
+          line-height: 1.6;
+          color: $lightGrey;
+        }
+      }
+      .btn_wraper {
+        margin-top: 20px;
+        @include flexEndAlignment();
+        a {
+          @include btnHoverEffect();
+        }
+      }
+    }
+
+    .owl-nav {
+      direction: ltr;
+      margin-top: 0;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .owl-prev,
+      .owl-next {
+        position: relative;
+        background-color: $deepBlue;
+        color: $white;
+        width: 35px;
+        height: 35px;
+        line-height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        @include transitioning();
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .owl-prev {
+        &::before {
+          content: "\f0d9";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
+        }
+      }
+      .owl-next {
+        &::before {
+          content: "\f0da";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
+        }
+      }
+    }
+
+    @media (max-width: 1000px) {
+      .owl-nav {
+        display: none;
+      }
+    }
+  }
+
+  .btn_wraper {
+    margin-top: 20px;
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: LATEST NEWS SLIDER STYLE
+
+// START:: EVENTS SLIDER STYLES
+.events_slider {
+  padding: $paddingAmount;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    position: relative;
+
+    .item {
+      .event_img_wraper {
+        position: relative;
+        img {
+          border-radius: $borderRadiusAmount;
+          width: 100%;
+          height: auto;
+        }
+    
+        .event_date {
+          color: $white;
+          background-color: $midRed;
+          padding: 8px;
+          @include flexCenterAlignment();
+          @include borderradius(5px);
+          position: absolute;
+          left: -10%;
+          bottom: 20%;
+          p {
+            font-size: 13px;
+            margin-inline-start: 12px;
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+    
+      .event_text_wraper {
+        .header_wraper {
+          @include flexCenterAlignment();
+          justify-content: flex-start;
+          h3 {
+            color: $deepBlue;
+          }
+        }
+    
+        .text_wraper {
+          font-size: 18px;
+          line-height: 1.6;
+          color: $lightGrey;
+        }
+    
+        .btn_wraper {
+          margin-top: 20px;
+          @include flexEndAlignment();
+          a {
+            @include btnHoverEffect();
+          }
+        }
+      }
+    }
+
+    .owl-nav {
+      direction: ltr;
+      margin-top: 0;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translate(-3%, -50%);
+      width: 105%;
+      display: flex;
+      justify-content: space-between;
+      .owl-prev,
+      .owl-next {
+        position: relative;
+        background-color: $deepBlue;
+        color: $white;
+        width: 35px;
+        height: 35px;
+        line-height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        @include transitioning();
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .owl-prev {
+        &::before {
+          content: "\f0d9";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
+        }
+      }
+      .owl-next {
+        &::before {
+          content: "\f0da";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
+        }
+      }
+    }
+
+    @media (max-width: 1000px) {
+      .owl-nav {
+        display: none;
+      }
+    }
+  }
+
+  .btn_wraper {
+    margin-top: 20px;
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: EVENTS SLIDER STYLE
+
+// START:: VIDEOS SECTION STYLES
+.videos-sec {
+  padding-top: $paddingAmount;
+  padding-bottom: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    position: relative;
+
+    .item {
+      .iframe_wraper {
+        min-height: 250px;
+        max-height: 250px;
+        iframe {
+          width: 100%;
+          min-height: 250px;
+          max-height: 250px;
+          border-radius: $borderRadiusAmount;
+        }
+      }
+      h5 {
+        color: $deepBlue;
+        margin-top: 8px;
+      }
+    }
+
+    .owl-nav {
+      direction: ltr;
+      margin-top: 0;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .owl-prev,
+      .owl-next {
+        position: relative;
+        background-color: $deepBlue;
+        color: $white;
+        width: 35px;
+        height: 35px;
+        line-height: 25px;
+        border-radius: 50%;
+        overflow: hidden;
+        @include transitioning();
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+      .owl-prev {
+        &::before {
+          content: "\f0d9";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
+        }
+      }
+      .owl-next {
+        &::before {
+          content: "\f0da";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          position: absolute;
+          top: 0;
+          left: 0;  
+          width: 100%;
+          height: 100%;
+          background-color: $deepBlue;
+          @include flexCenterAlignment();
+        }
+      }
+    }
+  }
+
+  .btn_box {
+    margin-top: 15px;
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: VIDEOS SECTION STYLES
+
 
 
 
@@ -1677,103 +2034,7 @@ footer {
 
 
 
-// START:: VIDEOS SECTION STYLES
-.videos-sec {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
 
-  .owl-carousel {
-    position: relative;
-
-    .item {
-      .iframe_wraper {
-        min-height: 250px;
-        max-height: 250px;
-        iframe {
-          width: 100%;
-          min-height: 250px;
-          max-height: 250px;
-          border-radius: $borderRadiusAmount;
-        }
-      }
-      h5 {
-        color: $deepBlue;
-        margin-top: 8px;
-      }
-    }
-
-    .owl-nav {
-      direction: ltr;
-      margin-top: 0;
-      position: absolute;
-      left: 0;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      .owl-prev,
-      .owl-next {
-        position: relative;
-        background-color: $deepBlue;
-        color: $white;
-        width: 35px;
-        height: 35px;
-        line-height: 25px;
-        border-radius: 50%;
-        overflow: hidden;
-        @include transitioning();
-        &:hover {
-          transform: scale(1.1);
-        }
-      }
-      .owl-prev {
-        &::before {
-          content: "\f0d9";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-      .owl-next {
-        &::before {
-          content: "\f0da";
-          font-family: "Font Awesome 5 Free";
-          font-weight: 900;
-          position: absolute;
-          top: 0;
-          left: 0;  
-          width: 100%;
-          height: 100%;
-          background-color: $deepBlue;
-          @include flexCenterAlignment();
-        }
-      }
-    }
-  }
-
-  .btn_box {
-    margin-top: 15px;
-    @include flexCenterAlignment();
-    a {
-      overflow: hidden;
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: VIDEOS SECTION STYLES
 
 // START:: ABOUT PAGE STYLE
 .about_dr_desc {

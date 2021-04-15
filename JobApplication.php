@@ -4,9 +4,9 @@
 
 <!-- START:: JOB APPLICATION SECTION -->
 <div class="job_application">
-  <div class="container">
+  <div class="container overflow-hidden py-2">
     <div class="row justify-content-center">
-      <div class="form_wraper col-12 col-md-6">
+      <div class="form_wraper col-12 col-md-6 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
         <div class="header_wraper mb-4">
           <h3> Job Application </h3>
         </div>
