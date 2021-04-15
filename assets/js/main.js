@@ -222,6 +222,7 @@ $(document).ready( function() {
   // END:: FLEX SLIDER
 
   // START:: BOOTSTRAP SELECT
-  $('#type_selector').selectpicker();
+  $('#qualifications').selectpicker();
+  $('#years').selectpicker();
   // END:: BOOTSTRAP SELECT
 });

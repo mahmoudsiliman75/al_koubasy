@@ -1344,6 +1344,32 @@ nav {
 }
 // END:: JOB DETAILS SECTION STYLES
 
+// START:: JOB APPLICATION SECTION  STYLES
+.job_application {
+  padding: $paddingAmount;
+  min-height: calc(100vh - (92px + 220px) );
+
+  .form_wraper {
+    padding: 20px;
+    @include simpleShadow();
+    @include borderradius($borderRadiusAmount);
+    .header_wraper {
+      @include flexStartAlignment();
+      h3 {
+        color: $deepBlue;
+      }
+    }
+
+    .btn_wraper {
+      width: 100%;
+      @include flexCenterAlignment();
+      button {
+        @include btnHoverEffect();
+      }
+    }
+  }
+}
+// END:: JOB APPLICATION SECTION  STYLES
 
 
 

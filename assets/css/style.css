@@ -2520,6 +2520,94 @@ nav .menu_btn svg {
   right: 65%;
 }
 
+.job_application {
+  padding: 30px;
+  min-height: calc(100vh - (92px + 220px));
+}
+
+.job_application .form_wraper {
+  padding: 20px;
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
+  border-radius: 10px;
+}
+
+.job_application .form_wraper .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.job_application .form_wraper .header_wraper h3 {
+  color: #00303f;
+}
+
+.job_application .form_wraper .btn_wraper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.job_application .form_wraper .btn_wraper button {
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 2px solid #00303f;
+  background-color: transparent;
+  color: #00303f;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 5px;
+}
+
+.job_application .form_wraper .btn_wraper button::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.job_application .form_wraper .btn_wraper button::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  right: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.job_application .form_wraper .btn_wraper button:hover::before {
+  left: 65%;
+}
+
+.job_application .form_wraper .btn_wraper button:hover::after {
+  right: 65%;
+}
+
 .share .header_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
