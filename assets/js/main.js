@@ -1,3 +1,9 @@
+// START:: HANDILING PRELOADER
+$(window).on('load', function() {
+  $(".pre_loader").fadeOut('slow');
+})
+// END:: HANDILING PRELOADER
+
 $(document).ready( function() {
   // START:: COUNT UP
   // $('.counter').counterUp({
