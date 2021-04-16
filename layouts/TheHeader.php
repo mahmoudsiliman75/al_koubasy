@@ -75,10 +75,6 @@
       </li>
 
       <li> 
-        <a href="#"> Services </a>
-      </li>
-
-      <li> 
         <a href="AllProducts.php"> Product </a>
       </li>
 
@@ -162,31 +158,39 @@
     </li>
 
     <li> 
-      <a href="DrProfile.php"> Dr.khaled Profile </a>
+      <a href="AboutUs.php"> About Us </a>
     </li>
 
     <li> 
-      <a href="AllOperations.php"> Operations </a>
+      <a href="Faq.php"> FAQs </a>
     </li>
 
     <li> 
-      <a href="ShareWithUs.php"> How To Share With Us </a>
+      <a href="AllProducts.php"> Product </a>
     </li>
 
     <li> 
-      <a href="AllBooks.php"> Books </a>
+      <a href="Quality.php"> Quality </a>
     </li>
 
     <li> 
-      <a href="CairoUniversity.php"> Cairo University </a>
+      <a href="Media.php"> Media </a>
     </li>
 
     <li> 
-      <a href="AllVideos.php"> Videos Liberary </a>
+      <a href="AllVideos.php"> Videos </a>
+    </li>
+
+    <li> 
+      <a href="Carrers.php"> Carrers </a>
     </li>
 
     <li> 
       <a href="ContactUs.php"> Contact Us </a>
+    </li>
+
+    <li> 
+      <a href="UserProfile.php"> Profile </a>
     </li>
   </ul>
 </div>
