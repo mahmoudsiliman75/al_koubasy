@@ -3999,6 +3999,185 @@ nav .menu_btn svg {
   right: 65%;
 }
 
+.all_products {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.all_products .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.all_products .header_wraper h2 {
+  color: #00303f;
+  position: relative;
+}
+
+.all_products .header_wraper h2::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -70px;
+  width: 45px;
+  height: 2px;
+  background-color: #810000;
+}
+
+.all_products .header_wraper h2::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -55px;
+  width: 45px;
+  height: 2px;
+  background-color: #dc4040;
+}
+
+.all_products .filter_wraper {
+  padding: 20px 0;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
+          box-shadow: 0 0 9px 1px #d1d1d1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 25px;
+}
+
+.all_products .filter_wraper h6 {
+  color: #00303f;
+}
+
+.all_products .filter_wraper .form-group {
+  color: #666;
+}
+
+.all_products .product_details a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.all_products .product_details a img {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 250px;
+  max-height: 250px;
+  border-radius: 50%;
+}
+
+.all_products .product_details a h4 {
+  width: 100%;
+  text-align: start;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #00303f;
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
+  border-left: 2px solid #810000;
+}
+
+.all_products .product_details a h4 span {
+  margin-top: 10px;
+  color: #666;
+  display: block;
+}
+
+.all_products .product_details a svg {
+  margin-top: 8px;
+  color: #810000;
+}
+
+.all_products .btn_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.all_products .btn_box button {
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 2px solid #00303f;
+  background-color: transparent;
+  color: #00303f;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 5px;
+}
+
+.all_products .btn_box button::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.all_products .btn_box button::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  right: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.all_products .btn_box button:hover::before {
+  left: 65%;
+}
+
+.all_products .btn_box button:hover::after {
+  right: 65%;
+}
+
 .share .header_wraper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4848,277 +5027,6 @@ footer .copy_rights span a {
 }
 
 .operations .btn_box a:hover::after {
-  right: 65%;
-}
-
-.all_books {
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.all_books .header_wraper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.all_books .header_wraper h2 {
-  color: #00303f;
-  position: relative;
-}
-
-.all_books .header_wraper h2::after {
-  content: '';
-  position: absolute;
-  top: 15px;
-  left: -70px;
-  width: 45px;
-  height: 2px;
-  background-color: #810000;
-}
-
-.all_books .header_wraper h2::before {
-  content: '';
-  position: absolute;
-  top: 25px;
-  left: -55px;
-  width: 45px;
-  height: 2px;
-  background-color: #dc4040;
-}
-
-.all_books .filter_wraper {
-  padding: 20px 0;
-  border-radius: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
-          box-shadow: 0 0 9px 1px #d1d1d1;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.all_books .filter_wraper h6 {
-  color: #00303f;
-}
-
-.all_books .filter_wraper .form-group {
-  color: #666;
-}
-
-.all_books .book_details .card {
-  height: 100%;
-  position: relative;
-  border: none;
-}
-
-.all_books .book_details .card .card_img_wraper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.all_books .book_details .card .card_img_wraper img {
-  min-width: 145px;
-  max-width: 145px;
-  min-height: 195px;
-  max-height: 195px;
-}
-
-.all_books .book_details .card .card_img_wraper .badge {
-  position: absolute;
-  right: 25px;
-  top: 20px;
-  background-color: #d0af85;
-  color: #00303f;
-  padding: 5px;
-}
-
-.all_books .book_details .card .card-body {
-  padding-top: 5px;
-  min-height: 230px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.all_books .book_details .card .card-body h5 {
-  color: #00303f;
-}
-
-.all_books .book_details .card .card-body ul {
-  width: 100%;
-  min-height: 95px;
-  padding: 0;
-}
-
-.all_books .book_details .card .card-body ul li {
-  margin-top: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  color: #00303f;
-}
-
-.all_books .book_details .card .card-body ul li:first-child {
-  margin-top: 0;
-}
-
-.all_books .book_details .card .card-body ul li:last-child span:last-child {
-  color: #bb0808;
-}
-
-.all_books .book_details .card .card-body .btn_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  z-index: 1;
-}
-
-.all_books .book_details .card .card-body .btn_box a {
-  overflow: hidden;
-  text-decoration: none;
-  padding: 8px 15px;
-  border: 2px solid #00303f;
-  background-color: transparent;
-  color: #00303f;
-  font-size: 13px;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-  border-radius: 5px;
-}
-
-.all_books .book_details .card .card-body .btn_box a::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: 8%;
-  display: block;
-  width: 20%;
-  height: 2px;
-  background-color: #fff;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.all_books .book_details .card .card-body .btn_box a::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  right: 8%;
-  display: block;
-  width: 20%;
-  height: 2px;
-  background-color: #fff;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.all_books .book_details .card .card-body .btn_box a:hover::before {
-  left: 65%;
-}
-
-.all_books .book_details .card .card-body .btn_box a:hover::after {
-  right: 65%;
-}
-
-.all_books .btn_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.all_books .btn_box button {
-  text-decoration: none;
-  padding: 8px 15px;
-  border: 2px solid #00303f;
-  background-color: transparent;
-  color: #00303f;
-  font-size: 13px;
-  font-weight: bold;
-  text-transform: uppercase;
-  position: relative;
-  border-radius: 5px;
-}
-
-.all_books .btn_box button::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: 8%;
-  display: block;
-  width: 20%;
-  height: 2px;
-  background-color: #fff;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.all_books .btn_box button::after {
-  content: '';
-  position: absolute;
-  bottom: -2px;
-  right: 8%;
-  display: block;
-  width: 20%;
-  height: 2px;
-  background-color: #fff;
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
-}
-
-.all_books .btn_box button:hover::before {
-  left: 65%;
-}
-
-.all_books .btn_box button:hover::after {
   right: 65%;
 }
 

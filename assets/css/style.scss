@@ -1955,6 +1955,77 @@ nav {
 }
 // END:: ALL EVENTS SECTION STYLES
 
+// START:: ALL BOOKS SECTION STYLES
+.all_products {
+  padding-top: $paddingAmount;
+  padding-bottom: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .filter_wraper {
+    padding: 20px 0;
+    border-radius: $borderRadiusAmount;
+    @include flexCenterAlignment();
+    @include simpleShadow();
+    flex-direction: column;
+    position: sticky;
+    top: 25px;
+    h6 {
+      color: $deepBlue;
+    }
+    .form-group {
+      color: $lightGrey;
+    }
+  }
+
+  .product_details {
+    a {
+      text-decoration: none;
+      @include flexCenterAlignment();
+      flex-direction: column;
+      img {
+        min-width: 250px;
+        max-width: 250px;
+        min-height: 250px;
+        max-height: 250px;
+        @include borderradius(50%); 
+      }
+
+      h4 {
+        width: 100%;
+        text-align: start;
+        font-weight: 600;
+        margin-top: 10px;
+        color: $deepBlue;
+        padding-inline-start: 10px;
+        border-left: 2px solid $deepRed;
+        span {
+          margin-top: 10px;
+          color: $lightGrey;
+          display: block;
+        }
+      }
+
+      svg {
+        margin-top: 8px;
+        color: $deepRed;
+      }
+    }
+  }
+
+  .btn_box {
+    @include flexCenterAlignment();
+    button {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: ALL BOOKS SECTION STYLES
+
 
 
 
@@ -2415,107 +2486,7 @@ footer {
 
 
 
-// START:: ALL BOOKS SECTION STYLES
-.all_books {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
 
-  .filter_wraper {
-    padding: 20px 0;
-    border-radius: $borderRadiusAmount;
-    @include flexCenterAlignment();
-    @include simpleShadow();
-    flex-direction: column;
-    h6 {
-      color: $deepBlue;
-    }
-    .form-group {
-      color: $lightGrey;
-    }
-  }
-
-  .book_details {
-    .card {
-      height: 100%;
-      position: relative;
-      border: none;
-      .card_img_wraper {
-        @include flexCenterAlignment();
-        img {
-          min-width: 145px;
-          max-width: 145px;
-          min-height: 195px;
-          max-height: 195px;
-        }
-        .badge {
-          position: absolute;
-          right: 25px;
-          top: 20px;
-          background-color: $lightCoffee;
-          color: $deepBlue;
-          padding: 5px
-        }
-      }
-
-      .card-body {
-        padding-top: 5px;
-        min-height: 230px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        h5 {
-          color: $deepBlue;
-        }
-
-        ul {
-          width: 100%;
-          min-height: 95px;
-          padding: 0;
-          li {
-            margin-top: 10px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            color: $deepBlue;
-            &:first-child {
-              margin-top: 0;
-            }
-            &:last-child {
-              span {
-                &:last-child {
-                  color: $midRed;
-                }
-              }
-            }
-          }
-        }
-
-        .btn_box {
-          @include flexCenterAlignment();
-          z-index: 1;
-          a {
-            overflow: hidden;
-            @include btnHoverEffect();
-          }
-        }
-      }
-    }
-  }
-
-  .btn_box {
-    @include flexCenterAlignment();
-    button {
-      @include btnHoverEffect();
-    }
-  }
-}
-// END:: ALL BOOKS SECTION STYLES
 
 // START:: BOOK DETAILS PAGE STYLES
 .book_info {

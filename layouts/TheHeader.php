@@ -79,7 +79,7 @@
       </li>
 
       <li> 
-        <a href="#"> Product </a>
+        <a href="AllProducts.php"> Product </a>
       </li>
 
       <li> 
