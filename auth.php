@@ -4,15 +4,11 @@
 
 <!-- START:: HEDAER IMAGE SECTION -->
 <div class="header_img_wraper">
-  <img src="assets/media/pic2.jpg" alt="Intro Img">
+  <img src="assets/media/pic16.jpg" alt="Intro Img">
 
-  <!-- START:: SECTION CURVE -->
-  <div class="section_svg">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-      <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-    </svg>
-  </div>
-  <!-- END:: SECTION CURVE -->
+  <!-- START:: SECTION SPIKES -->
+  <section class="spikes"></section>
+  <!-- END:: SECTION SPIKES -->
 </div>
 <!-- END:: HEDAER IMAGE SECTION -->
 

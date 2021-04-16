@@ -1728,6 +1728,117 @@ nav {
 }
 // END:: VIDEOS SECTION STYLES
 
+// START:: AUTH PAGE STYLES
+.auth_forms_wraper {
+  padding: $paddingAmount 0;
+  border-left: 2px solid $lightCoffee;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  form {
+    position: relative;
+    margin-top: 15px;
+    padding: 0;
+    border-radius: $borderRadiusAmount;
+    overflow: hidden;
+    @include simpleShadow();
+    &.login {
+      max-height: 350px;
+      min-height: 350px;
+    }
+    &.sign_up {
+      max-height: 750px;
+      min-height: 750px;
+      svg {
+        position: relative;
+        top: -233px;
+        right: -180px;
+        z-index: -1;
+        &:last-of-type {
+          top: -319px;
+          left: -200px;
+          transform: rotate(30deg);
+        }
+      }
+      p {
+        color: $deepBlue;
+      }
+      ul {
+        li {
+          display: inline-block;
+          margin: 0;
+          img {
+            min-width: 50px; 
+            max-width: 50px; 
+            min-height: 50px; 
+            max-height: 50px; 
+          }
+        }
+      }
+    }
+    &.reset {
+      max-height: 220px;
+      min-height: 220px;
+    }
+    svg {
+      position: relative;
+      top: -233px;
+      right: -180px;
+      z-index: -1;
+    }
+    .form_overlay {
+      padding: 25px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      @include flexCenterAlignment();
+      flex-direction: column;
+      .form-group {
+        width: 100%;
+        input {
+          width: 100%;
+          background-color: transparent;
+          padding: 30px 10px;
+          border-radius: $largeBorderRadiusAmount;
+          @include simpleShadow();
+        }
+      }
+      .btn_box {
+        @include flexCenterAlignment();
+        button {
+          margin: 15px 0;
+          @include btnHoverEffect();
+          padding: 10px 10px;
+        }
+        span {
+          color: $deepBlue;
+          font-size: 14px;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+            color: rgb(49, 94, 146);
+          }
+        }
+      }
+      .back_link {
+        text-decoration: none;
+        color: $deepRed;
+        @include transitioning();
+        &:hover {
+          color: $deepBlue;
+        }
+      }
+    }
+  }
+}
+// END:: AUTH PAGE STYLES
+
 
 
 
@@ -2771,119 +2882,7 @@ footer {
 }
 // END:: ALL VIDEOS PAGE STYLES
 
-// START:: AUTH PAGE STYLES
-.auth_forms_wraper {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
-  border-left: 2px solid $lightCoffee;
-  .header_wraper {
-    @include flexCenterAlignment();
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
 
-  form {
-    position: relative;
-    margin-top: 15px;
-    padding: 0;
-    border-radius: $borderRadiusAmount;
-    overflow: hidden;
-    @include simpleShadow();
-    &.login {
-      max-height: 350px;
-      min-height: 350px;
-    }
-    &.sign_up {
-      max-height: 750px;
-      min-height: 750px;
-      svg {
-        position: relative;
-        top: -233px;
-        right: -180px;
-        z-index: -1;
-        &:last-of-type {
-          top: -319px;
-          left: -200px;
-          transform: rotate(30deg);
-        }
-      }
-      p {
-        color: $deepBlue;
-      }
-      ul {
-        li {
-          display: inline-block;
-          margin: 0;
-          img {
-            min-width: 50px; 
-            max-width: 50px; 
-            min-height: 50px; 
-            max-height: 50px; 
-          }
-        }
-      }
-    }
-    &.reset {
-      max-height: 220px;
-      min-height: 220px;
-    }
-    svg {
-      position: relative;
-      top: -233px;
-      right: -180px;
-      z-index: -1;
-    }
-    .form_overlay {
-      padding: 25px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      @include flexCenterAlignment();
-      flex-direction: column;
-      .form-group {
-        width: 100%;
-        input {
-          width: 100%;
-          background-color: transparent;
-          padding: 30px 10px;
-          border-radius: $largeBorderRadiusAmount;
-          @include simpleShadow();
-        }
-      }
-      .btn_box {
-        width: 100%;
-        button {
-          margin-bottom: 15px;
-          width: 100%;
-          @include btnHoverEffect();
-          padding: 10px 10px;
-          @include simpleShadow();
-        }
-        span {
-          color: $deepBlue;
-          font-size: 14px;
-          cursor: pointer;
-          &:hover {
-            text-decoration: underline;
-            color: rgb(49, 94, 146);
-          }
-        }
-      }
-      .back_link {
-        text-decoration: none;
-        color: $lightCoffee;
-        @include transitioning();
-        &:hover {
-          color: $deepBlue;
-        }
-      }
-    }
-  }
-}
-// END:: AUTH PAGE STYLES
 
 // START:: USER PROFILE PAGE CONTENT SECTION STYLES
 .page_content_wraper {
