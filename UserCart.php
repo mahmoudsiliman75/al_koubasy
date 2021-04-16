@@ -14,7 +14,7 @@
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
-            <th scope="col"> Book </th>
+            <th scope="col"> Product </th>
             <th scope="col"> Amount </th>
             <th scope="col"> price </th>
             <th scope="col"> Action </th>
@@ -23,7 +23,7 @@
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td> Book 1 </td>
+            <td> Product 1 </td>
             <td> 
               <span>
                 <button class="btn"> 
@@ -46,7 +46,7 @@
           </tr>
           <tr>
             <th scope="row">2</th>
-            <td> Book 2 </td>
+            <td> Product 2 </td>
             <td> 
               <span>
                 <button class="btn"> 

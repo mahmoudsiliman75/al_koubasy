@@ -2169,6 +2169,184 @@ nav {
 }
 // END:: CONTACT INFO SECTION STYLES
 
+// START:: USER PROFILE PAGE CONTENT SECTION STYLES
+.page_content_wraper {
+  padding: $paddingAmount;
+  .header_wraper {
+    @include flexCenterAlignment();
+    margin-bottom: 10px;
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  form {
+    position: relative;
+    margin-top: 15px;
+    padding: 0;
+    border-radius: $borderRadiusAmount;
+    overflow: hidden;
+    @include simpleShadow();
+    &.login {
+      max-height: 350px;
+      min-height: 350px;
+    }
+    &.sign_up {
+      max-height: 650px;
+      min-height: 650px;
+      svg {
+        position: relative;
+        top: -233px;
+        right: -180px;
+        z-index: -1;
+        &:last-of-type {
+          top: -319px;
+          left: -200px;
+          transform: rotate(30deg);
+        }
+      }
+      p {
+        color: $deepBlue;
+      }
+      ul {
+        li {
+          display: inline-block;
+          margin: 0;
+          img {
+            min-width: 50px; 
+            max-width: 50px; 
+            min-height: 50px; 
+            max-height: 50px; 
+          }
+        }
+      }
+    }
+    &.reset {
+      max-height: 220px;
+      min-height: 220px;
+    }
+    .form_overlay {
+      padding: 25px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      @include flexCenterAlignment();
+      flex-direction: column;
+      .form-group {
+        width: 100%;
+        input {
+          width: 100%;
+          background-color: transparent;
+          padding: 30px 10px;
+          border-radius: $largeBorderRadiusAmount;
+          @include simpleShadow();
+        }
+      }
+      .btn_box {
+        width: 100%;
+        @include flexCenterAlignment();
+        button {
+          margin-bottom: 15px;
+          margin-top: 20px;
+          @include btnHoverEffect();
+          padding: 10px 10px;
+        }
+        span {
+          color: $deepBlue;
+          font-size: 14px;
+          cursor: pointer;
+          &:hover {
+            text-decoration: underline;
+            color: rgb(49, 94, 146);
+          }
+        }
+      }
+    }
+  }
+
+  table {
+    td {
+      button {
+        color: $midRed;
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+
+  .caption_wraer {
+    h5 {
+      margin-top: 8px;
+      text-align: center;
+      color: $lightGrey;
+      font-weight: 400;
+      span {
+        color: $deepBlue;
+      }
+    }
+  }
+}
+// END:: USER PROFILE PAGE CONTENT SECTION STYLES
+
+// START:: USER PROFILE MENU SECTION STYLES
+.user_profile_menu {
+  padding: $paddingAmount;
+  padding-inline-end: 0;
+  border-left: 2px solid $deepRed;
+  background-color: #0f0c7014;
+  height: 100%;
+  min-height: 80vh;
+  ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    li {
+      @include menuHoverEffect();
+      margin: 8px 0;
+      color: $lightGrey;
+      &.active,
+      &:hover {
+        svg {
+          color: $deepRed;
+        }
+      }
+      button {
+        color: $lightGrey;
+      }
+    }
+  }
+}
+
+@media ( max-width: 767px) {
+  .page_content_wraper {
+    order: 2;
+  }
+
+  .user_menu_wraper {
+    order: 1;
+    .user_profile_menu {
+      min-height: auto !important;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-inline-start: 0;
+      ul {
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        li {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+// END:: USER PROFILE MENU SECTION STYLES
+
 // START:: FOOTER STYLES
 footer {
   background-color: $darkGrey;
@@ -2279,6 +2457,22 @@ footer {
   }
 }
 // END:: FOOTER STYLES
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2970,189 +3164,7 @@ footer {
 
 
 
-// START:: USER PROFILE PAGE CONTENT SECTION STYLES
-.page_content_wraper {
-  padding: $paddingAmount;
-  .header_wraper {
-    @include flexCenterAlignment();
-    margin-bottom: 10px;
-    h2 {
-      @include mainHeaderStyle();
-    }
-  }
 
-  form {
-    position: relative;
-    margin-top: 15px;
-    padding: 0;
-    border-radius: $borderRadiusAmount;
-    overflow: hidden;
-    @include simpleShadow();
-    &.login {
-      max-height: 350px;
-      min-height: 350px;
-    }
-    &.sign_up {
-      max-height: 650px;
-      min-height: 650px;
-      svg {
-        position: relative;
-        top: -233px;
-        right: -180px;
-        z-index: -1;
-        &:last-of-type {
-          top: -319px;
-          left: -200px;
-          transform: rotate(30deg);
-        }
-      }
-      p {
-        color: $deepBlue;
-      }
-      ul {
-        li {
-          display: inline-block;
-          margin: 0;
-          img {
-            min-width: 50px; 
-            max-width: 50px; 
-            min-height: 50px; 
-            max-height: 50px; 
-          }
-        }
-      }
-    }
-    &.reset {
-      max-height: 220px;
-      min-height: 220px;
-    }
-    svg {
-      position: relative;
-      top: -233px;
-      right: -180px;
-      z-index: -1;
-    }
-    .form_overlay {
-      padding: 25px;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      @include flexCenterAlignment();
-      flex-direction: column;
-      .form-group {
-        width: 100%;
-        input {
-          width: 100%;
-          background-color: transparent;
-          padding: 30px 10px;
-          border-radius: $largeBorderRadiusAmount;
-          @include simpleShadow();
-        }
-      }
-      .btn_box {
-        width: 100%;
-        button {
-          margin-bottom: 15px;
-          width: 100%;
-          @include btnHoverEffect();
-          padding: 10px 10px;
-          @include simpleShadow();
-        }
-        span {
-          color: $deepBlue;
-          font-size: 14px;
-          cursor: pointer;
-          &:hover {
-            text-decoration: underline;
-            color: rgb(49, 94, 146);
-          }
-        }
-      }
-    }
-  }
-
-  table {
-    td {
-      button {
-        color: $midRed;
-        &:focus {
-          outline: none;
-        }
-      }
-    }
-  }
-
-  .caption_wraer {
-    h5 {
-      margin-top: 8px;
-      text-align: center;
-      color: $lightGrey;
-      font-weight: 400;
-      span {
-        color: $deepBlue;
-      }
-    }
-  }
-}
-// END:: USER PROFILE PAGE CONTENT SECTION STYLES
-
-// START:: USER PROFILE MENU SECTION STYLES
-.user_profile_menu {
-  padding: $paddingAmount;
-  padding-inline-end: 0;
-  border-left: 2px solid $lightCoffee;
-  background-color: #ffe71f14;
-  height: 100%;
-  min-height: 80vh;
-  ul {
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    li {
-      @include menuHoverEffect();
-      margin: 8px 0;
-      color: $lightGrey;
-      &.active,
-      &:hover {
-        svg {
-          color: $lightCoffee;
-        }
-      }
-      button {
-        color: $lightGrey;
-      }
-    }
-  }
-}
-
-@media ( max-width: 767px) {
-  .page_content_wraper {
-    order: 2;
-  }
-
-  .user_menu_wraper {
-    order: 1;
-    .user_profile_menu {
-      min-height: auto !important;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-inline-start: 0;
-      ul {
-        flex-direction: row;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        li {
-          font-size: 13px;
-        }
-      }
-    }
-  }
-}
-// END:: USER PROFILE MENU SECTION STYLES
 
 
 
