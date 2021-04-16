@@ -1728,6 +1728,51 @@ nav {
 }
 // END:: VIDEOS SECTION STYLES
 
+// START:: ALL NEWS SECTION STYLES
+.all_news {
+  padding: $paddingAmount 0;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .card {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    @include flexCenterAlignment();
+    img {
+      width: 100%;
+      min-height: 250px;
+      max-height: 250px;
+    }
+
+    .card-body {
+      width: 100%;
+      border-left: 2px solid $deepRed;
+      padding: 0 0 0 10px;
+      h4 {
+        color: $deepBlue;
+      }
+
+      h5 {
+        color: $lightGrey;
+      }
+    }
+  }
+
+  .btn_wraper {
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: ALL NEWS SECTION STYLES
+
 // START:: AUTH PAGE STYLES
 .auth_forms_wraper {
   padding: $paddingAmount 0;
