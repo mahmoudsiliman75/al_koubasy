@@ -298,7 +298,7 @@
       <div class="col-12 col-md-6 my-2 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
         <div class="latest_article_text_wraper">
           <div class="header_wraper">
-            <h3> Conference Title </h3>
+            <h3> Article Title </h3>
             <h5> 27 - Aug - 2020 </h5>
           </div>
 

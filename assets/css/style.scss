@@ -1884,6 +1884,76 @@ nav {
 }
 // END:: AUTH PAGE STYLES
 
+// START:: ALL EVENTS SECTION STYLES
+.all_events {
+  padding: $paddingAmount 0;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .event_img_wraper {
+    position: relative;
+    img {
+      border-radius: $borderRadiusAmount;
+      width: 100%;
+      height: auto;
+    }
+
+    .event_date {
+      color: $white;
+      background-color: $midRed;
+      padding: 8px;
+      @include flexCenterAlignment();
+      @include borderradius(5px);
+      position: absolute;
+      left: -10%;
+      bottom: 20%;
+      p {
+        font-size: 13px;
+        margin-inline-start: 12px;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+
+  .event_text_wraper {
+    .header_wraper {
+      @include flexCenterAlignment();
+      justify-content: flex-start;
+      h3 {
+        color: $deepBlue;
+      }
+    }
+
+    .text_wraper {
+      font-size: 18px;
+      line-height: 1.6;
+      color: $lightGrey;
+    }
+
+    .btn_wraper {
+      margin-top: 20px;
+      @include flexEndAlignment();
+      a {
+        @include btnHoverEffect();
+      }
+    }
+  }
+
+  .btn_wraper {
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
+}
+// END:: ALL EVENTS SECTION STYLES
 
 
 
