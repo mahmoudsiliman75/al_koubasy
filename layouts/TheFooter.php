@@ -6,7 +6,7 @@
 </div> -->
 <!-- END:: FLOATING ICON SECTION -->
 
-<!-- START:: FOOTER -->
+<!-- START:: FOOTER --> 
 <footer>
   <div class="container-fluid">
     <div class="row justify-content-center">
@@ -17,15 +17,15 @@
       <div class="short_cuts col-12 col-md-4 d-flex justify-content-between justify-content-md-center"> 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
           <a href="index.php"> Home </a>
-          <a href="#"> About Us </a>
-          <a href="#"> FAQs </a>
-          <a href="#"> Products </a>
-          <a href="#"> Quality </a>
+          <a href="AboutUs.php"> About Us </a>
+          <a href="Faq.php"> FAQs </a>
+          <a href="AllProducts.php"> Product </a>
+          <a href="Quality.php"> Quality </a>
         </div>
 
         <div class="d-flex flex-column align-items-start justify-content-start p-3">
-          <a href="#"> Media </a>
-          <a href="#"> Carrers </a>
+          <a href="Media.php"> Media </a>
+          <a href="Carrers.php"> Carrers </a>
           <a href="auth.php"> Login </a>  
           <a href="ContactUs.php"> Contact Us </a>
         </div>
