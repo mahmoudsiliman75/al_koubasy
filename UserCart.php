@@ -26,41 +26,46 @@
             <td> Product 1 </td>
             <td> 
               <span>
-                <button class="btn"> 
+                <button class="btn plus_btn"> 
                   <i class="fas fa-plus text-primary"></i>
                 </button>
               </span>
-              <span> 1 </span>
+
+              <span class="amount"> 1 </span>
+
               <span>
-                <button class="btn"> 
+                <button class="btn minus_btn"> 
                   <i class="fas fa-minus text-warning"></i>
                 </button>
               </span>
             </td>
-            <td> 250 EGP </td>
+            <td> <span classs="amount_price">50</span> EGP </td>
             <td>
               <button class="btn"> 
                 <i class="fas fa-trash-alt text-danger fa-lg"></i>
               </button>
             </td>
           </tr>
+
           <tr>
             <th scope="row">2</th>
             <td> Product 2 </td>
             <td> 
               <span>
-                <button class="btn"> 
+                <button class="btn plus_btn"> 
                   <i class="fas fa-plus text-primary"></i>
                 </button>
               </span>
-              <span> 4 </span>
+
+              <span class="amount"> 1 </span>
+
               <span>
-                <button class="btn"> 
+                <button class="btn minus_btn"> 
                   <i class="fas fa-minus text-warning"></i>
                 </button>
               </span>
             </td>
-            <td> 800 EGP </td>
+            <td classs="amount_price"> <span classs="amount_price">50</span> EGP </td>
             <td>
               <button class="btn"> 
                 <i class="fas fa-trash-alt text-danger fa-lg"></i>

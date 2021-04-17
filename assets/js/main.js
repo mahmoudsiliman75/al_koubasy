@@ -290,4 +290,18 @@ $(document).ready( function() {
   $('#qualifications').selectpicker();
   $('#years').selectpicker();
   // END:: BOOTSTRAP SELECT
+
+  // START:: CART INCREASE & DECREASE BTNS
+  $(".plus_btn").on('click', function() {
+    let productAmount = parseInt($(this).parent().siblings('.amount').text());
+    productAmount += 1;
+    $(this).parent().siblings('.amount').text(productAmount);
+  });
+
+  $(".minus_btn").on('click', function() {
+    let productAmount = parseInt($(this).parent().siblings('.amount').text());
+    productAmount -= 1;
+    $(this).parent().siblings('.amount').text(productAmount);
+  });
+  // END:: CART INCREASE & DECREASE BTNS
 });
