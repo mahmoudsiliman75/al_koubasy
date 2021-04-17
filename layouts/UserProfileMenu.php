@@ -3,7 +3,7 @@
     <ul class="list-unstyled">
       <li class="active"> 
         <i class="fas fa-book"></i>
-        <a href="UserProfile.php"> My Books </a>
+        <a href="UserProfile.php"> My Purchases </a>
       </li>
 
       <li> 

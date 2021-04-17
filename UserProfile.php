@@ -7,46 +7,39 @@
     <!-- START:: PAGE CONTENT SECTION -->
     <div class="col-12 col-md-10 page_content_wraper">
       <div class="header_wraper">
-        <h2> My Books </h2>
+        <h2> My Purchases </h2>
       </div>
 
       <table class="table table-hover text-center">
         <thead class="thead-dark">
           <tr>
             <th scope="col">#</th>
-            <th scope="col">Book Name</th>
-            <th scope="col">PDF</th>
+            <th scope="col">Product</th>
+            <th scope="col">Price</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Book 1</td>
+            <td>Product 1</td>
             <td>
-              <button type="button" class="btn" data-toggle="modal" data-target="#pdf_modal">
-                <i class="far fa-file-pdf fa-lg"></i>
-                PDF version
-              </button>
+              $50.00
             </td>
           </tr>
+
           <tr>
             <th scope="row">2</th>
-            <td>Book 2</td>
+            <td>Product 2</td>
             <td>
-              <button type="button" class="btn" data-toggle="modal" data-target="#pdf_modal">
-                <i class="far fa-file-pdf fa-lg"></i>
-                PDF version
-              </button>
+              $50.00
             </td>
           </tr>
+
           <tr>
             <th scope="row">3</th>
-            <td>Book 3</td>
+            <td>Product 3</td>
             <td>
-              <button type="button" class="btn" data-toggle="modal" data-target="#pdf_modal">
-                <i class="far fa-file-pdf fa-lg"></i>
-                PDF version
-              </button>
+              $50.00
             </td>
           </tr>
         </tbody>
