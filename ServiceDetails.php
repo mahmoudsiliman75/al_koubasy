@@ -169,7 +169,7 @@
 <!-- END:: FAQS SECTION -->
 
 <!-- START:: SERVICE PRODUCTS SECTION -->
-<div class="service_products">
+<div class="related_products">
   <div class="container">
     <div class="header_wraper mb-3">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Service Products </h2>

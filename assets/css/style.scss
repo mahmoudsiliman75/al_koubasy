@@ -1119,7 +1119,7 @@ nav {
 // END:: ABOUT SERVICE SECTION
 
 // START:: SERVICE PRODUCTS SECTION STYLES
-.service_products {
+.related_products {
   padding: $paddingAmount 0;
   .header_wraper {
     @include flexCenterAlignment();
@@ -2021,13 +2021,120 @@ nav {
 }
 // END:: ALL BOOKS SECTION STYLES
 
+// START:: PRODUCT INFO SECTION STYLES
+.product_info {
+  padding: $paddingAmount 0;
+  .product_img_wraper {
+    img {
+      width: 100%;
+      height: auto;
+      @include borderradius($borderRadiusAmount);
+    }
+  }
+
+  .details_wraper {
+    height: calc(100% - 45px);
+    .hedaer_wraper {
+      @include flexStartAlignment();
+      h3 {
+        margin-inline-start: 75px;
+        @include mainHeaderStyle();
+      }
+    }
+
+    .form-group {
+      input {
+        border: 1px solid $lighterGrey;
+        @include borderradius($borderRadiusAmount);
+        &:focus {
+          box-shadow: none;
+          outline: none !important;
+        }
+      }
+      .bootstrap-select {
+        border: 1px solid $lighterGrey;
+        @include borderradius($borderRadiusAmount);
+        background-color: transparent;
+        width: 100% !important;
+        button {
+          @include borderradius($borderRadiusAmount);
+          &:focus {
+            border: none;
+            box-shadow: none;
+            outline: none !important;
+          }
+        }
+      }
+    }
+
+    .product_cat {
+      margin-inline-start: 30px;
+    }
+  }
+
+  .actions_wraper {
+    padding: 5px 0;
+    border-top: 1px solid $lighterGrey;
+    border-bottom: 1px solid $lighterGrey;
+
+    .offer {
+      color: $midRed;
+      span {
+        color: $lightGrey;
+        text-decoration: line-through;
+      }
+    }
+
+    .price {
+      margin-inline-start: 8px;
+      color: $deepBlue;
+    }
+
+    a {
+      text-decoration: none;
+      color: $deepBlue;
+      font-weight: 700;
+    }
+
+    button {
+      border: none;
+      background-color: transparent;
+      color: $deepBlue;
+      svg {
+        color: $midRed;
+      }
+    }
+  }
+}
+// END:: PRODUCT INFO SECTION STYLES
+
+// START:: PRODUCT PRIEF SECTION STYLES
+.product_prief {
+  padding: $paddingAmount 0;
+
+  .header_wraper {
+    @include flexStartAlignment();
+    color: $deepBlue;
+    font-weight: 800;
+  }
+
+  .prief {
+    font-size: 20px;
+    color: $lightGrey;
+    line-height: 1.7;
+    text-align: start;
+    word-break: break-word;
+  }
+}
+// END:: PRODUCT PRIEF SECTION STYLES
 
 
 
 
 
 
-// START:: HOW TO SHARE SECTION STYLES
+
+// START:: SHARE SECTION STYLES
 .share {
   .header_wraper {
     @include flexCenterAlignment();
@@ -2094,7 +2201,7 @@ nav {
     }
   }
 }
-// END:: HOW TO SHARE SECTION STYLES
+// END:: SHARE SECTION STYLES
 
 // START:: GET IN TOUCH SECTION STYLES
 .get_in_touch {
