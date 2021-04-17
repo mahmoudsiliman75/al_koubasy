@@ -198,6 +198,7 @@ $(document).ready( function() {
     autoplayHoverPause:true,
     margin:60,
     items:1,
+    rtl: true,
     responsive:{
       0:{
         items:1,
@@ -227,6 +228,7 @@ $(document).ready( function() {
     autoplayHoverPause:true,
     margin:60,
     items:1,
+    rtl: true,
     responsive:{
       0:{
         items:1,
