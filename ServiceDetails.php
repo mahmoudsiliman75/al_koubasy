@@ -61,7 +61,7 @@
         </div>
       </div>
 
-      <div class="col-5 col-md-4 my-3 border-right border-left wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <div class="col-5 col-md-4 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
         <div class="card flex-column">
           <div class="icon_wraper">
             <img src="assets/media/icons/idea.png" alt="Icon 1">

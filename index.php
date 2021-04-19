@@ -131,7 +131,7 @@
 <!-- END:: SERVICES SECTION -->
 
 <!-- START:: HEIGHLIGHTS SECTION -->
-<div class="heightlights">
+<div class="home_heightlights">
   <div class="container-fluid">
     <div class="header_wraper mb-4">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Al Koubasy Highlight </h2>
