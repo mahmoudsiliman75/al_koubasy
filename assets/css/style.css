@@ -12,46 +12,6 @@ body::-webkit-scrollbar-thumb {
   background-color: #00303f;
 }
 
-.flexslider {
-  margin-bottom: 15px !important;
-}
-
-.flexslider .flex-viewport {
-  max-height: 400px !important;
-}
-
-.flexslider .flex-viewport .slides img,
-.flexslider .flex-viewport .slides iframe {
-  border-radius: 10px;
-  min-height: 400px;
-  max-height: 400px;
-  width: 100%;
-}
-
-.flexslider .flex-viewport .slides .min_img {
-  min-width: 150px;
-  max-width: 150px;
-  min-height: 100px;
-  max-height: 100px;
-}
-
-.flexslider .flex-control-thumbs {
-  max-height: 120px !important;
-}
-
-.flexslider .flex-control-thumbs li {
-  padding: 0 5px;
-}
-
-.flexslider .flex-control-thumbs li img {
-  height: 120px !important;
-  border-radius: 10px;
-}
-
-.flexslider .flex-direction-nav {
-  display: none !important;
-}
-
 .header_img_wraper {
   position: relative;
   min-height: 300px;
@@ -670,6 +630,7 @@ nav .menu_btn svg {
 .services_sec .service_wraper a svg {
   margin-top: 8px;
   color: #810000;
+  display: none;
 }
 
 .heightlights {
@@ -715,7 +676,24 @@ nav .menu_btn svg {
   background-color: #dc4040;
 }
 
-.heightlights .card {
+.heightlights .row {
+  position: relative;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-block: 80px;
+}
+
+.heightlights .row .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding-block: 20px;
+}
+
+.heightlights .row .card {
   background-color: transparent;
   border: none;
   display: -webkit-box;
@@ -733,22 +711,22 @@ nav .menu_btn svg {
           flex-direction: row;
 }
 
-.heightlights .card .icon_wraper img {
+.heightlights .row .card .icon_wraper img {
   width: 150px;
   height: 150px;
 }
 
-.heightlights .card .info_wraper {
+.heightlights .row .card .info_wraper {
   text-align: start;
 }
 
-.heightlights .card .info_wraper h3 {
+.heightlights .row .card .info_wraper h2 {
   font-weight: 700;
-  color: #810000;
+  color: #fff;
 }
 
-.heightlights .card .info_wraper h5 {
-  color: #666;
+.heightlights .row .card .info_wraper h5 {
+  color: #fff;
 }
 
 .events_sec {
@@ -1001,6 +979,7 @@ nav .menu_btn svg {
 .products_cats .cats_wraper a svg {
   margin-top: 8px;
   color: #810000;
+  display: none;
 }
 
 .latest_news_sec {
@@ -1329,41 +1308,43 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
-.our_team_sec .owl-carousel .item .card img {
+.our_team_sec .owl-carousel .item .card:hover .img_wraper img {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.our_team_sec .owl-carousel .item .card .img_wraper {
+  margin-block: 15px;
   min-width: 250px;
   max-width: 250px;
-  min-height: 250px;
-  max-height: 250px;
+  min-height: 300px;
+  max-height: 300px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
+          box-shadow: 0 0 9px 1px #e2e2e2;
+  border-radius: 10px;
+}
+
+.our_team_sec .owl-carousel .item .card .img_wraper img {
+  width: 100%;
+  height: 100%;
 }
 
 .our_team_sec .owl-carousel .item .card .card-body {
   width: 100%;
-  border-left: 2px solid #810000;
-  padding: 0 0 0 10px;
+  margin-top: 0 !important;
 }
 
 .our_team_sec .owl-carousel .item .card .card-body h4 {
+  text-align: center;
   color: #00303f;
 }
 
 .our_team_sec .owl-carousel .item .card .card-body h5 {
+  text-align: center;
   color: #666;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.our_team_sec .owl-carousel .item .card .card-body h5 svg {
-  color: #810000;
 }
 
 .our_team_sec .owl-carousel .owl-nav {
@@ -1375,12 +1356,6 @@ nav .menu_btn svg {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 25%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
 
 .our_team_sec .owl-carousel .owl-nav .owl-prev,
@@ -1394,6 +1369,14 @@ nav .menu_btn svg {
   font-size: 30px;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+
+.our_team_sec .owl-carousel .owl-nav .owl-prev {
+  left: -70px;
+}
+
+.our_team_sec .owl-carousel .owl-nav .owl-next {
+  right: -70px;
 }
 
 @media (max-width: 997px) {
@@ -1935,8 +1918,8 @@ nav .menu_btn svg {
 }
 
 .faqs .faqs_wraper .question_wraper .card {
-  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
-          box-shadow: 0 0 9px 1px #d1d1d1;
+  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
+          box-shadow: 0 0 9px 1px #e2e2e2;
 }
 
 .faqs .faqs_wraper .question_wraper .card .card-header button {
@@ -2070,8 +2053,8 @@ nav .menu_btn svg {
   min-height: 205px;
   max-height: 205px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
-          box-shadow: 0 0 9px 1px #d1d1d1;
+  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
+          box-shadow: 0 0 9px 1px #e2e2e2;
 }
 
 .about_service {
@@ -2531,8 +2514,8 @@ nav .menu_btn svg {
 
 .job_application .form_wraper {
   padding: 20px;
-  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
-          box-shadow: 0 0 9px 1px #d1d1d1;
+  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
+          box-shadow: 0 0 9px 1px #e2e2e2;
   border-radius: 10px;
 }
 
@@ -2695,6 +2678,10 @@ nav .menu_btn svg {
   position: relative;
 }
 
+.latest_news_slider .owl-carousel .item {
+  direction: ltr;
+}
+
 .latest_news_slider .owl-carousel .item .latest_article_img_wraper {
   position: relative;
 }
@@ -2731,6 +2718,7 @@ nav .menu_btn svg {
   color: #666;
   text-align: start;
   word-break: break-word;
+  padding-inline: 15px;
 }
 
 .latest_news_slider .owl-carousel .item .btn_wraper {
@@ -2983,6 +2971,10 @@ nav .menu_btn svg {
   position: relative;
 }
 
+.events_slider .owl-carousel .item {
+  direction: ltr;
+}
+
 .events_slider .owl-carousel .item .event_img_wraper {
   position: relative;
 }
@@ -3051,6 +3043,7 @@ nav .menu_btn svg {
   color: #666;
   text-align: start;
   word-break: break-word;
+  padding-inline: 15px;
 }
 
 .events_slider .owl-carousel .item .event_text_wraper .btn_wraper {
@@ -3758,8 +3751,8 @@ nav .menu_btn svg {
   padding: 0;
   border-radius: 10px;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
-          box-shadow: 0 0 9px 1px #d1d1d1;
+  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
+          box-shadow: 0 0 9px 1px #e2e2e2;
 }
 
 .auth_forms_wraper form.login {
@@ -3845,8 +3838,8 @@ nav .menu_btn svg {
   background-color: transparent;
   padding: 30px 10px;
   border-radius: 30px;
-  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
-          box-shadow: 0 0 9px 1px #d1d1d1;
+  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
+          box-shadow: 0 0 9px 1px #e2e2e2;
 }
 
 .auth_forms_wraper form .form_overlay .btn_box {
@@ -4214,8 +4207,8 @@ nav .menu_btn svg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
-          box-shadow: 0 0 9px 1px #d1d1d1;
+  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
+          box-shadow: 0 0 9px 1px #e2e2e2;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -4818,8 +4811,8 @@ nav .menu_btn svg {
   padding: 0;
   border-radius: 10px;
   overflow: hidden;
-  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
-          box-shadow: 0 0 9px 1px #d1d1d1;
+  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
+          box-shadow: 0 0 9px 1px #e2e2e2;
 }
 
 .page_content_wraper form.login {
@@ -4898,8 +4891,8 @@ nav .menu_btn svg {
   background-color: transparent;
   padding: 30px 10px;
   border-radius: 30px;
-  -webkit-box-shadow: 0 0 9px 1px #d1d1d1;
-          box-shadow: 0 0 9px 1px #d1d1d1;
+  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
+          box-shadow: 0 0 9px 1px #e2e2e2;
 }
 
 .page_content_wraper form .form_overlay .btn_box {

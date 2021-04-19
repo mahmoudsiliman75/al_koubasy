@@ -133,17 +133,20 @@
 <!-- START:: HEIGHLIGHTS SECTION -->
 <div class="heightlights">
   <div class="container-fluid">
-    <div class="header_wraper">
+    <div class="header_wraper mb-4">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Al Koubasy Highlight </h2>
     </div>
-    <div class="row justify-content-around justify-content-md-center overflow-hidden">
+
+    <div class="row justify-content-around justify-content-md-center overflow-hidden" style="background-image: url('assets/media/sec_bg.jpg')">
+      <div class="overlay"></div>
+
       <div class="col-5 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
         <div class="card">
           <div class="icon_wraper">
             <img src="assets/media/icons/contract.png" alt="Icon 1">
           </div> 
           <div class="info_wraper">
-            <h3> 25 </h3>
+            <h2> 25 </h2>
             <h5> Years Of Experience </h5>
           </div>
         </div>
@@ -155,7 +158,7 @@
             <img src="assets/media/icons/team.png" alt="Icon 1">
           </div> 
           <div class="info_wraper">
-            <h3> 90 </h3>
+            <h2> 90 </h2>
             <h5> Clients </h5>
           </div>
         </div>
@@ -167,7 +170,7 @@
             <img src="assets/media/icons/financ.png" alt="Icon 1">
           </div> 
           <div class="info_wraper">
-            <h3> 50+ </h3>
+            <h2> 50+ </h2>
             <h5> Products </h5>
           </div>
         </div>
@@ -179,7 +182,7 @@
             <img src="assets/media/icons/chart.png" alt="Icon 1">
           </div> 
           <div class="info_wraper">
-            <h3> 90 </h3>
+            <h2> 90 </h2>
             <h5> Local States </h5>
           </div>
         </div>
@@ -189,54 +192,136 @@
 </div>
 <!-- END:: HEIGHLIGHTS SECTION -->
 
-<!-- START::EVENTS SECTION -->
-<div class="events_sec">
+<!-- START:: EVENTS SLIDER -->
+<div class="events_slider">
   <div class="container">
     <div class="header_wraper">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Events </h2>
     </div>
 
-    <div class="row justify-content-between p-2 overflow-hidden">
-      <div class="col-12 col-md-6 my-2 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-        <div class="event_text_wraper">
-          <div class="header_wraper">
-            <h3> Conference Title </h3>
-          </div>
+    <div class="row flex-column align-items-center justify-content-center mt-3 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <div id="events" class="owl-carousel owl-theme col-12">
 
-          <div class="text_wraper">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-            maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-            repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-            exercitationem temporibus veritatis nam.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-            maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-            repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-            exercitationem temporibus veritatis nam.
-          </div>
+        <div class="item">
+          <div class="row justify-content-between p-2">
+            <div class="col-12 col-md-6 my-2">
+              <div class="event_text_wraper">
+                <div class="header_wraper">
+                  <h3> Conference Title </h3>
+                </div>
 
-          <div class="btn_wraper">
-            <a href="AllEvents.php"> view more </a>
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+                  maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+                  repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+                  exercitationem temporibus veritatis nam.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+                  maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+                  repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+                  exercitationem temporibus veritatis nam.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5 my-2">
+              <div class="event_img_wraper">
+                <img src="./assets/media/pic21.jpg" alt="about us iamge">
+
+                <div class="event_date">
+                  <i class="far fa-calendar-alt fa-lg"></i>
+                  <p>
+                    <span> Event Date </span>
+                    <span> 1 - Apr - 2021 </span>
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+
+        <div class="item">
+          <div class="row justify-content-between p-2">
+            <div class="col-12 col-md-6 my-2">
+              <div class="event_text_wraper">
+                <div class="header_wraper">
+                  <h3> Conference Title </h3>
+                </div>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+                  maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+                  repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+                  exercitationem temporibus veritatis nam.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+                  maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+                  repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+                  exercitationem temporibus veritatis nam.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5 my-2">
+              <div class="event_img_wraper">
+                <img src="./assets/media/pic21.jpg" alt="about us iamge">
+
+                <div class="event_date">
+                  <i class="far fa-calendar-alt fa-lg"></i>
+                  <p>
+                    <span> Event Date </span>
+                    <span> 1 - Apr - 2021 </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="row justify-content-between p-2">
+            <div class="col-12 col-md-6 my-2">
+              <div class="event_text_wraper">
+                <div class="header_wraper">
+                  <h3> Conference Title </h3>
+                </div>
+
+                <div class="text_wraper">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+                  maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+                  repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+                  exercitationem temporibus veritatis nam.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
+                  maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
+                  repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
+                  exercitationem temporibus veritatis nam.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-5 my-2">
+              <div class="event_img_wraper">
+                <img src="./assets/media/pic21.jpg" alt="about us iamge">
+
+                <div class="event_date">
+                  <i class="far fa-calendar-alt fa-lg"></i>
+                  <p>
+                    <span> Event Date </span>
+                    <span> 1 - Apr - 2021 </span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="col-12 col-md-5 my-2 wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-        <div class="event_img_wraper">
-          <img src="./assets/media/pic21.jpg" alt="about us iamge">
-
-          <div class="event_date">
-            <i class="far fa-calendar-alt fa-lg"></i>
-            <p>
-              <span> Event Date </span>
-              <span> 1 - Apr - 2021 </span>
-            </p>
-          </div>
-        </div>
+      <div class="btn_wraper">
+        <a href="AllEvents.php"> View More </a>
       </div>
     </div>
   </div>
 </div>
-<!-- END::EVENTS SECTION -->
+<!-- END:: EVENTS SLIDER -->
 
 <!-- START:: PRODUCTS CATS SECTION -->
 <div class="products_cats">
@@ -400,78 +485,72 @@
 
         <div class="item">
           <div class="card">
-            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="img_wraper">
+              <img src="assets/media/member1.jpg" class="card-img-top" alt="...">
+            </div>
             <div class="card-body mt-4">
               <h4>Personal Name 1</h4>
-              <h5>
-                <i class="fas fa-share-alt-square fa-lg"></i>
-                Consultant
-              </h5>
+              <h5>Consultant</h5>
             </div>
           </div>
         </div>
 
         <div class="item">
           <div class="card">
-            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="img_wraper">
+              <img src="assets/media/member2.jpg" class="card-img-top" alt="...">
+            </div>
             <div class="card-body mt-4">
               <h4>Personal Name 2</h4>
-              <h5>
-                <i class="fas fa-share-alt-square fa-lg"></i>
-                Consultant
-              </h5>
+              <h5>Consultant</h5>
             </div>
           </div>
         </div>
 
         <div class="item">
           <div class="card">
-            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="img_wraper">
+              <img src="assets/media/member3.jpg" class="card-img-top" alt="...">
+            </div>
             <div class="card-body mt-4">
               <h4>Personal Name 3</h4>
-              <h5>
-                <i class="fas fa-share-alt-square fa-lg"></i>
-                Consultant
-              </h5>
+              <h5>Consultant</h5>
             </div>
           </div>
         </div>
 
         <div class="item">
           <div class="card">
-            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="img_wraper">
+              <img src="assets/media/member4.jpg" class="card-img-top" alt="...">
+            </div>
             <div class="card-body mt-4">
               <h4>Personal Name 4</h4>
-              <h5>
-                <i class="fas fa-share-alt-square fa-lg"></i>
-                Consultant
-              </h5>
+              <h5>Consultant</h5>
             </div>
           </div>
         </div>
 
         <div class="item">
           <div class="card">
-            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="img_wraper">
+              <img src="assets/media/member5.jpg" class="card-img-top" alt="...">
+            </div>
             <div class="card-body mt-4">
               <h4>Personal Name 5</h4>
-              <h5>
-                <i class="fas fa-share-alt-square fa-lg"></i>
-                Consultant
-              </h5>
+              <h5>Consultant</h5>
             </div>
           </div>
         </div>
 
         <div class="item">
           <div class="card">
-            <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            <div class="img_wraper">
+              <img src="assets/media/member6.jpg" class="card-img-top" alt="...">
+            </div>
             <div class="card-body mt-4">
               <h4>Personal Name 6</h4>
-              <h5>
-                <i class="fas fa-share-alt-square fa-lg"></i>
-                Consultant
-              </h5>
+              <h5>Consultant</h5>
             </div>
           </div>
         </div>

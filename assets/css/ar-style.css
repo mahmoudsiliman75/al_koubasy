@@ -147,6 +147,10 @@ nav .lang-button a span.ar {
   border-left: none;
 }
 
+.events_slider .owl-carousel .item {
+  direction: rtl;
+}
+
 .events_slider .owl-carousel .item .event_img_wraper .event_date {
   right: -10%;
   left: auto;
@@ -163,6 +167,10 @@ nav .lang-button a span.ar {
   color: #666;
   word-break: break-word;
   text-align: start;
+}
+
+.latest_news_slider .owl-carousel .item {
+  direction: rtl;
 }
 
 .all_news .card .card-body {

@@ -164,6 +164,7 @@ nav {
 .events_slider {
   .owl-carousel {
     .item {
+      direction: rtl;
       .event_img_wraper {    
         .event_date {
           right: -10%;
@@ -190,6 +191,14 @@ nav {
       color: $lightGrey;
       word-break: break-word;
       text-align: start;
+    }
+  }
+}
+
+.latest_news_slider {
+  .owl-carousel {
+    .item {
+      direction: rtl;
     }
   }
 }
