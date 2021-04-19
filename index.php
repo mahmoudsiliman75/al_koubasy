@@ -146,7 +146,7 @@
             <img src="assets/media/icons/contract.png" alt="Icon 1">
           </div> 
           <div class="info_wraper">
-            <h2> 25 </h2>
+            <h2 class="timer count-title count-number" data-to="25" data-speed="3500"></h2>
             <h5> Years Of Experience </h5>
           </div>
         </div>
@@ -158,7 +158,7 @@
             <img src="assets/media/icons/team.png" alt="Icon 1">
           </div> 
           <div class="info_wraper">
-            <h2> 90 </h2>
+            <h2 class="timer count-title count-number" data-to="90" data-speed="3500"></h2>
             <h5> Clients </h5>
           </div>
         </div>
@@ -170,7 +170,7 @@
             <img src="assets/media/icons/financ.png" alt="Icon 1">
           </div> 
           <div class="info_wraper">
-            <h2> 50+ </h2>
+            <h2 class="timer count-title count-number" data-to="50" data-speed="3500">  </h2>
             <h5> Products </h5>
           </div>
         </div>
@@ -182,7 +182,7 @@
             <img src="assets/media/icons/chart.png" alt="Icon 1">
           </div> 
           <div class="info_wraper">
-            <h2> 90 </h2>
+            <h2 class="timer count-title count-number" data-to="90" data-speed="3500"></h2>
             <h5> Local States </h5>
           </div>
         </div>

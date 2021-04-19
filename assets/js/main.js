@@ -6,10 +6,10 @@ $(window).on('load', function() {
 
 $(document).ready( function() {
   // START:: COUNT UP
-  // $('.counter').counterUp({
-  //   delay: 10,
-  //   time: 1000
-  // });
+//   $('.counter').counterUp({
+//     delay: 10,
+//     time: 1000
+// });
   // END:: COUNT UP
 
   // START:: WOW JS

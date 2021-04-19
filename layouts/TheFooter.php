@@ -6,7 +6,7 @@
 </div> -->
 <!-- END:: FLOATING ICON SECTION -->
 
-<!-- START:: FOOTER --> 
+<!-- START:: FOOTER -->
 <footer>
   <div class="container-fluid">
     <div class="row justify-content-center">
@@ -142,8 +142,7 @@
 <!-- END:: INCLUDING WOW JS SCRIPT FILE -->
 
 <!-- START:: INCLUDING COUNTUP SCRIPT FILES -->
-<!-- <script src="assets/js/waypoint.js"></script>
-<script src="assets/js/jquery.counterup.min.js"></script> -->
+<script src="assets/js/countup.js"></script>
 <!-- END:: INCLUDING COUNTUP SCRIPT FILES -->
 
 <!-- START:: INCLUDING MAIN SCRIPT FILE -->
