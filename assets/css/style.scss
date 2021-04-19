@@ -416,7 +416,7 @@ nav {
       left: 0;
       width: 100%;
       height: 100%;
-      background-color: rgba(0, 0, 0, 0.4);
+      background-color: rgba(0, 0, 0, 0.6);
       padding-block: 20px;
     }
 
@@ -437,6 +437,7 @@ nav {
         h2 {
           font-weight: 700;
           color: $white;
+          font-size: 55px;
         }
         h5 {
           color: $white;
@@ -2475,14 +2476,48 @@ nav {
     }
   }
 
-  .caption_wraer {
-    h5 {
-      margin-top: 8px;
-      text-align: center;
-      color: $lightGrey;
-      font-weight: 400;
-      span {
-        color: $deepBlue;
+  .caption_wraper {
+    .checkout_btn {
+      display: flex;
+      align-items: center;
+      padding: 0;
+      border: 1px solid #28A745;
+      border-radius: 15px;
+      overflow: hidden;
+      .total_price {
+        margin-inline-end: 8px;
+        background-color: $white;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0 5px;
+      }
+      .check_out {
+        background-color: #28A745;
+        color: $white;
+        padding: 10px;
+      }
+    }
+
+    .form-group {
+      margin: 0 15px;
+      .bootstrap-select {
+        border: 1px solid $lighterGrey;
+        @include borderradius($borderRadiusAmount);
+        background-color: transparent;
+        width: 100% !important;
+        min-width: 160px;
+        button {
+          @include borderradius($borderRadiusAmount);
+          &:focus {
+            border: none;
+            box-shadow: none;
+            outline: none !important;
+          }
+        }
+        .filter-option-inner-inner {
+          text-align: start;
+          color: $lightGrey;
+        }
       }
     }
   }

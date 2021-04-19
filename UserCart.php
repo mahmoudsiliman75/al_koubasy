@@ -78,13 +78,25 @@
         </tbody>
       </table>
 
-      <div class="caption_wraer d-flex justify-content-around">
-        <h5> <span> Total Price: </span> 1050 EGP </h5>
-        <button class="btn btn-success"> 
-          <i class="fab fa-cc-visa fa-lg"></i>
-          <span>Check Out</span> 
+      <form class="caption_wraper d-flex align-items-center justify-content-center">
+        <button class="btn checkout_btn"> 
+          <span class="total_price text-success">
+            100 EGP
+          </span>
+
+          <span class="check_out">
+            <i class="fab fa-cc-visa fa-2x"></i>
+          </span> 
         </button>
-      </div>
+
+        <div class="form-group">
+          <select id="type_selector" class="selectpicker" style="width: 40%">
+            <option class="option">Payment Method</option>
+            <option value="cash" class="option">Cash On Deliver</option>
+            <option value="credit" class="option">Credit</option>
+          </select>
+        </div>
+      </form>
 
     </div>
     <!-- END:: PAGE CONTENT SECTION -->

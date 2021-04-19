@@ -221,6 +221,36 @@ $(document).ready( function() {
     }
   });
 
+  $('#media_latest_news').owlCarousel({
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:6000,
+    autoplayHoverPause:true,
+    margin:60,
+    items:1,
+    rtl: true,
+    responsive:{
+      0:{
+        items:1,
+        nav:false,
+        dots:false,
+        loop:true
+      },
+      600:{
+        items:1,
+        nav:false,
+        dots:false,
+        loop:true
+      },
+      1000:{
+        items:1,
+        nav:true,
+        dots:true,
+        loop:true
+      }
+    }
+  });
+
   $('#events').owlCarousel({
     loop:true,
     autoplay:true,

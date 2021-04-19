@@ -689,7 +689,7 @@ nav .menu_btn svg {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
   padding-block: 20px;
 }
 
@@ -723,6 +723,7 @@ nav .menu_btn svg {
 .home_heightlights .row .card .info_wraper h2 {
   font-weight: 700;
   color: #fff;
+  font-size: 55px;
 }
 
 .home_heightlights .row .card .info_wraper h5 {
@@ -4987,15 +4988,60 @@ nav .menu_btn svg {
   outline: none;
 }
 
-.page_content_wraper .caption_wraer h5 {
-  margin-top: 8px;
-  text-align: center;
-  color: #666;
-  font-weight: 400;
+.page_content_wraper .caption_wraper .checkout_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  border: 1px solid #28A745;
+  border-radius: 15px;
+  overflow: hidden;
 }
 
-.page_content_wraper .caption_wraer h5 span {
-  color: #00303f;
+.page_content_wraper .caption_wraper .checkout_btn .total_price {
+  -webkit-margin-end: 8px;
+          margin-inline-end: 8px;
+  background-color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 0 5px;
+}
+
+.page_content_wraper .caption_wraper .checkout_btn .check_out {
+  background-color: #28A745;
+  color: #fff;
+  padding: 10px;
+}
+
+.page_content_wraper .caption_wraper .form-group {
+  margin: 0 15px;
+}
+
+.page_content_wraper .caption_wraper .form-group .bootstrap-select {
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 100% !important;
+  min-width: 160px;
+}
+
+.page_content_wraper .caption_wraper .form-group .bootstrap-select button {
+  border-radius: 10px;
+}
+
+.page_content_wraper .caption_wraper .form-group .bootstrap-select button:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none !important;
+}
+
+.page_content_wraper .caption_wraper .form-group .bootstrap-select .filter-option-inner-inner {
+  text-align: start;
+  color: #666;
 }
 
 .user_profile_menu {

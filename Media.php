@@ -20,7 +20,7 @@
     </div>
 
     <div class="row flex-column align-items-center justify-content-center mt-3 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-      <div id="latest_news" class="owl-carousel owl-theme col-12 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <div id="media_latest_news" class="owl-carousel owl-theme col-12 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
 
         <div class="item">
           <div class="row justify-content-between p-2 overflow-hidden">
@@ -32,7 +32,7 @@
 
             <div class="col-12 col-md-6 my-2">
               <div class="latest_article_text_wraper">
-                <div class="header_wraper">
+                <div class="header_wraper d-flex align-items-start justify-content-between">
                   <h3> Conference Title </h3>
                   <h5> 27 - Aug - 2020 </h5>
                 </div>
@@ -68,7 +68,7 @@
 
             <div class="col-12 col-md-6 my-2">
               <div class="latest_article_text_wraper">
-                <div class="header_wraper">
+                <div class="header_wraper d-flex align-items-start justify-content-between">
                   <h3> Conference Title </h3>
                   <h5> 27 - Aug - 2020 </h5>
                 </div>
@@ -104,7 +104,7 @@
 
             <div class="col-12 col-md-6 my-2">
               <div class="latest_article_text_wraper">
-                <div class="header_wraper">
+                <div class="header_wraper d-flex align-items-start justify-content-between">
                   <h3> Conference Title </h3>
                   <h5> 27 - Aug - 2020 </h5>
                 </div>
