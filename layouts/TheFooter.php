@@ -11,7 +11,9 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       <div class="footer_logo col-6 col-md-2"> 
-        <img src="assets/media/logo.png">
+        <a href="index.php">
+          <img src="assets/media/logo.png" alt="The Logo">
+        </a>
       </div>
 
       <div class="short_cuts col-12 col-md-4 d-flex justify-content-between justify-content-md-center"> 

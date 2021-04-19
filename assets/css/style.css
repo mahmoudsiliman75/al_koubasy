@@ -1160,9 +1160,9 @@ nav .menu_btn svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .latest_news_sec .btn_wraper a {
@@ -3927,12 +3927,16 @@ nav .menu_btn svg {
 }
 
 .auth_forms_wraper form .form_overlay .form-group input {
-  width: 100%;
-  background-color: transparent;
-  padding: 30px 10px;
-  border-radius: 30px;
-  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
-          box-shadow: 0 0 9px 1px #e2e2e2;
+  padding-block: 25px;
+  margin-bottom: 8px;
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+}
+
+.auth_forms_wraper form .form_overlay .form-group input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none !important;
 }
 
 .auth_forms_wraper form .form_overlay .btn_box {
@@ -5240,7 +5244,7 @@ footer .short_cuts {
 
 footer .short_cuts a {
   text-decoration: none;
-  color: #c1c1c1;
+  color: #fff;
   overflow: hidden;
   position: relative;
 }
@@ -5267,24 +5271,28 @@ footer .short_cuts a:hover::before {
 }
 
 footer .get_in_touch h5 {
-  color: #c1c1c1;
+  color: #fff;
 }
 
 footer .get_in_touch ul {
-  color: #c1c1c1;
+  color: #fff;
 }
 
 footer .get_in_touch ul li {
   margin: 8px 0;
 }
 
-footer .get_in_touch ul li span {
+footer .get_in_touch ul li svg {
   color: #dc4040;
+}
+
+footer .get_in_touch ul li span {
+  color: #fff;
 }
 
 footer .get_in_touch ul li span a {
   text-decoration: none;
-  color: #dc4040;
+  color: #fff;
 }
 
 footer .follow_us h5 {
@@ -5303,8 +5311,23 @@ footer .follow_us ul li {
 }
 
 footer .follow_us ul li a {
-  color: #fff;
   opacity: 0.5;
+}
+
+footer .follow_us ul li a svg.fa-facebook-square {
+  color: #097CEB;
+}
+
+footer .follow_us ul li a svg.fa-instagram-square {
+  color: #983AA8;
+}
+
+footer .follow_us ul li a svg.fa-youtube {
+  color: #FF011D;
+}
+
+footer .follow_us ul li a svg.fa-twitter-square {
+  color: #2AA9E0;
 }
 
 footer .follow_us ul li:hover {

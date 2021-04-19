@@ -55,7 +55,9 @@
 <nav class="d-flex justify-content-between align-items-center">
   <!-- START:: THE LOGO -->
   <div class="site-logo">
-    <img src="assets/media/logo.png" alt="The Logo">
+    <a href="index.php">
+      <img src="assets/media/logo.png" alt="The Logo">
+    </a>
   </div>
   <!-- END:: THE LOGO -->
 

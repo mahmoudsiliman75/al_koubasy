@@ -653,7 +653,7 @@ nav {
 
   .btn_wraper {
     margin-top: 20px;
-    @include flexCenterAlignment();
+    @include flexEndAlignment();
     a {
       @include btnHoverEffect();
     }
@@ -1934,10 +1934,12 @@ nav {
     border-radius: $borderRadiusAmount;
     overflow: hidden;
     @include simpleShadow();
+
     &.login {
       max-height: 350px;
       min-height: 350px;
     }
+
     &.sign_up {
       max-height: 750px;
       min-height: 750px;
@@ -1968,10 +1970,12 @@ nav {
         }
       }
     }
+
     &.reset {
       max-height: 220px;
       min-height: 220px;
     }
+
     svg {
       position: relative;
       top: -233px;
@@ -1990,11 +1994,14 @@ nav {
       .form-group {
         width: 100%;
         input {
-          width: 100%;
-          background-color: transparent;
-          padding: 30px 10px;
-          border-radius: $largeBorderRadiusAmount;
-          @include simpleShadow();
+          padding-block: 25px;
+          margin-bottom: 8px;
+          border: 1px solid $lighterGrey;
+          @include borderradius($borderRadiusAmount);
+          &:focus {
+            box-shadow: none;
+            outline: none !important;
+          }
         }
       }
       .btn_box {
@@ -2014,6 +2021,7 @@ nav {
           }
         }
       }
+
       .back_link {
         text-decoration: none;
         color: $deepRed;
@@ -2617,7 +2625,7 @@ footer {
     flex-direction: row;
     a {
       text-decoration: none;
-      color: $lighterGrey;
+      color: $white;
       overflow: hidden;
       position: relative;
       &::before {
@@ -2642,17 +2650,20 @@ footer {
 
   .get_in_touch {
     h5 {
-      color: $lighterGrey;
+      color: $white;
     }
     ul {
-      color: $lighterGrey; 
+      color: $white; 
       li {
         margin: 8px 0;
-        span {
+        svg {
           color: $lightRed;
+        }
+        span {
+          color: $white;
           a {
             text-decoration: none;
-            color: $lightRed;
+            color: $white;
           }
         }
       }
@@ -2670,8 +2681,21 @@ footer {
         margin: 3px 5px;
         @include transitioning();
         a {
-          color: $white;
           opacity: 0.5;
+          svg{
+            &.fa-facebook-square {
+              color: #097CEB;
+            }
+            &.fa-instagram-square {
+              color: #983AA8;
+            }
+            &.fa-youtube {
+              color: #FF011D;
+            }
+            &.fa-twitter-square {
+              color: #2AA9E0;
+            }
+          }
         }
         &:hover {
           transform: rotate(360deg) scale(1.2);

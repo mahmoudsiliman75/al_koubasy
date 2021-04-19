@@ -397,11 +397,10 @@
             repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
             exercitationem temporibus veritatis nam.
           </div>
+          <div class="btn_wraper col-12 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+            <a href="AllNews.php"> view more </a>
+          </div>
         </div>
-      </div>
-
-      <div class="btn_wraper col-12 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-        <a href="AllNews.php"> view more </a>
       </div>
     </div>
   </div>
