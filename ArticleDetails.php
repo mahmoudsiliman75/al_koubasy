@@ -57,111 +57,53 @@
       <div id="latest_news" class="owl-carousel owl-theme col-12 wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
 
         <div class="item">
-          <div class="row justify-content-between p-2 overflow-hidden">
-            <div class="col-12 col-md-6 my-2">
-              <div class="latest_article_img_wraper">
-                <img src="assets/media/pic5.jpg" alt="about us iamge">
-              </div>
+          <a href="ArticleDetails.php" class="card">
+            <img src="assets/media/pic1.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4> Article Title </h4>
+              <h5> 27 - Aug - 2020 </h5>
             </div>
-
-            <div class="col-12 col-md-6 my-2">
-              <div class="latest_article_text_wraper">
-                <div class="header_wraper">
-                  <h3> Conference Title </h3>
-                  <h5> 27 - Aug - 2020 </h5>
-                </div>
-
-                <div>
-                  <div class="text_wraper">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-                    repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-                    exercitationem temporibus veritatis nam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-                    repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-                    exercitationem temporibus veritatis nam.
-                  </div>
-
-                  <div class="btn_wraper">
-                    <a href="ArticleDetails.php"> More Details </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="item">
-          <div class="row justify-content-between p-2 overflow-hidden">
-            <div class="col-12 col-md-6 my-2">
-              <div class="latest_article_img_wraper">
-                <img src="assets/media/pic15.jpg" alt="about us iamge">
-              </div>
+          <a href="ArticleDetails.php" class="card">
+            <img src="assets/media/pic2.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4> Article Title </h4>
+              <h5> 27 - Aug - 2020 </h5>
             </div>
-
-            <div class="col-12 col-md-6 my-2">
-              <div class="latest_article_text_wraper">
-                <div class="header_wraper">
-                  <h3> Conference Title </h3>
-                  <h5> 27 - Aug - 2020 </h5>
-                </div>
-
-                <div>
-                  <div class="text_wraper">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-                    repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-                    exercitationem temporibus veritatis nam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-                    repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-                    exercitationem temporibus veritatis nam.
-                  </div>
-
-                  <div class="btn_wraper">
-                    <a href="ArticleDetails.php"> More Details </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          </a>
         </div>
 
         <div class="item">
-          <div class="row justify-content-between p-2 overflow-hidden">
-            <div class="col-12 col-md-6 my-2">
-              <div class="latest_article_img_wraper">
-                <img src="assets/media/pic22.jpg" alt="about us iamge">
-              </div>
+          <a href="ArticleDetails.php" class="card">
+            <img src="assets/media/pic3.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4> Article Title </h4>
+              <h5> 27 - Aug - 2020 </h5>
             </div>
+          </a>
+        </div>
 
-            <div class="col-12 col-md-6 my-2">
-              <div class="latest_article_text_wraper">
-                <div class="header_wraper">
-                  <h3> Conference Title </h3>
-                  <h5> 27 - Aug - 2020 </h5>
-                </div>
-
-                <div>
-                  <div class="text_wraper">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-                    repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-                    exercitationem temporibus veritatis nam.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus.
-                    maiores, nulla explicabo exercitationem dolorum quas veniam aut ex.
-                    repudiandae facere nostrum soluta. Dicta explicabo corrupti totam
-                    exercitationem temporibus veritatis nam.
-                  </div>
-
-                  <div class="btn_wraper">
-                    <a href="ArticleDetails.php"> More Details </a>
-                  </div>
-                </div>
-              </div>
+        <div class="item">
+          <a href="ArticleDetails.php" class="card">
+            <img src="assets/media/pic4.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4> Article Title </h4>
+              <h5> 27 - Aug - 2020 </h5>
             </div>
-          </div>
+          </a>
+        </div>
+
+        <div class="item">
+          <a href="ArticleDetails.php" class="card">
+            <img src="assets/media/pic5.jpg" class="card-img-top" alt="...">
+            <div class="card-body mt-4">
+              <h4> Article Title </h4>
+              <h5> 27 - Aug - 2020 </h5>
+            </div>
+          </a>
         </div>
 
       </div>

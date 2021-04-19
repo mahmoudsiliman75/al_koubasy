@@ -207,15 +207,15 @@ $(document).ready( function() {
         loop:true
       },
       600:{
-        items:1,
+        items:2,
         nav:false,
         dots:false,
         loop:true
       },
       1000:{
-        items:1,
+        items:3,
         nav:true,
-        dots: true,
+        dots:false,
         loop:true
       }
     }
