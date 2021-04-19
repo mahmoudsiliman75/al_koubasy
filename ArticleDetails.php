@@ -47,7 +47,7 @@
 <!-- END:: ARTICLE DETAILS SECTION -->
 
 <!-- START:: RELATED NEWS SLIDER -->
-<div class="latest_news_slider">
+<div class="related_news_slider">
   <div class="container">
     <div class="header_wraper">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Related Articles </h2>

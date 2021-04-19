@@ -79,29 +79,6 @@ nav {
   }
 }
 
-.our_team_sec {
-  .owl-carousel {
-    .item {
-      .card {
-        .card-body {
-          border-right: 2px solid $deepRed;
-          border-left: none;
-          padding-inline-start: 8px;
-          h4 {
-            text-align: start;
-          }
-
-          h5 {
-            @include flexEndAlignment();
-            justify-content: space-between;
-            flex-direction: row-reverse;
-          }
-        }
-      }
-    }
-  }
-}
-
 .story {
   padding: $paddingAmount 0;
   .header_wraper {
@@ -203,6 +180,29 @@ nav {
   }
 }
 
+.related_news_slider {
+  padding: $paddingAmount;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .owl-carousel {
+    .item {
+      .card {
+        .card-body {
+          border-right: 2px solid $deepRed;
+          border-left: none;
+        }
+      }
+    }
+  }
+
+}
+
 .all_news {
   .card {
     .card-body {
@@ -210,5 +210,10 @@ nav {
       border-left: none;
     }
   }
+}
+
+.user_profile_menu {
+  border-right: 2px solid $deepRed;
+  border-left: none;
 }
 // END:: PAGES AR STYLES
