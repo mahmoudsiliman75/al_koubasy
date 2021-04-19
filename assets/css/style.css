@@ -3797,6 +3797,7 @@ nav .menu_btn svg {
 }
 
 .auth_forms_wraper {
+  min-height: calc(100vh - (92px + 220px));
   padding: 30px 0;
   border-left: 2px solid #d0af85;
 }

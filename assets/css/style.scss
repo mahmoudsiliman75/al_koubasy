@@ -1918,6 +1918,7 @@ nav {
 
 // START:: AUTH PAGE STYLES
 .auth_forms_wraper {
+  min-height: calc(100vh - (92px + 220px));
   padding: $paddingAmount 0;
   border-left: 2px solid $lightCoffee;
   .header_wraper {
