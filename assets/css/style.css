@@ -3855,6 +3855,10 @@ nav .menu_btn svg {
   min-height: 350px;
 }
 
+.auth_forms_wraper form.sign_up {
+  min-height: 750px;
+}
+
 .auth_forms_wraper form.sign_up p {
   color: #00303f;
 }
