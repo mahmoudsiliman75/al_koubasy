@@ -16,31 +16,33 @@
             <th scope="col">#</th>
             <th scope="col">Product</th>
             <th scope="col">Price</th>
+            <th scope="col">Payment Method</th>
+            <th scope="col">Order Details</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
             <td>Product 1</td>
-            <td>
-              $50.00
-            </td>
+            <td>$50.00</td>
+            <td>Cash</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
           </tr>
 
           <tr>
             <th scope="row">2</th>
             <td>Product 2</td>
-            <td>
-              $50.00
-            </td>
+            <td>$50.00</td>
+            <td>Credit</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
           </tr>
 
           <tr>
             <th scope="row">3</th>
             <td>Product 3</td>
-            <td>
-              $50.00
-            </td>
+            <td>$50.00</td>
+            <td>Cash</td>
+            <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</td>
           </tr>
         </tbody>
       </table>

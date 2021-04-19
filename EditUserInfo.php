@@ -11,30 +11,30 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-10 col-md-8">
-          <form action="" class="sign_up">
-            <div class="form_overlay">
-              <div class="form-group">
+        <div class="col-10">
+          <form action="" class="edit_info">
+            <div class="row">
+              <div class="form-group col-12 col-md-6">
                 <input type="text" class="form-control" placeholder="Usename">
               </div>
 
-              <div class="form-group">
+              <div class="form-group col-12 col-md-6">
                 <input type="tele" class="form-control" placeholder="Phone Number">
               </div>
 
-              <div class="form-group">
+              <div class="form-group col-12 col-md-6">
                 <input type="text" class="form-control" placeholder="Address">
               </div>
 
-              <div class="form-group">
+              <div class="form-group col-12 col-md-6">
                 <input type="email" class="form-control" placeholder="Email">
               </div>
 
-              <div class="form-group">
+              <div class="form-group col-12">
                 <input type="password" class="form-control" placeholder="New Password">
               </div>
 
-              <div class="form-group">
+              <div class="form-group col-12">
                 <input type="password" class="form-control" placeholder="Confirm New Password">
               </div>
 

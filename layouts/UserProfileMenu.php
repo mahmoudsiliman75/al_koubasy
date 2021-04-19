@@ -7,11 +7,6 @@
       </li>
 
       <li> 
-        <i class="fas fa-dollar-sign"></i>
-        <a href="UserPayments.php"> My Payments </a>
-      </li>
-
-      <li> 
         <i class="fas fa-shopping-cart"></i>
         <a href="UserCart.php"> My Cart </a>
       </li>

@@ -15,6 +15,7 @@
           <tr>
             <th scope="col">#</th>
             <th scope="col"> Product </th>
+            <th scope="col"> Size </th>
             <th scope="col"> Amount </th>
             <th scope="col"> price </th>
             <th scope="col"> Action </th>
@@ -24,6 +25,7 @@
           <tr>
             <th scope="row">1</th>
             <td> Product 1 </td>
+            <td> 3 </td>
             <td> 
               <span>
                 <button class="btn plus_btn"> 
@@ -50,6 +52,7 @@
           <tr>
             <th scope="row">2</th>
             <td> Product 2 </td>
+            <td> 1 </td>
             <td> 
               <span>
                 <button class="btn plus_btn"> 

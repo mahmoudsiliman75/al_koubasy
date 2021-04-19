@@ -1942,19 +1942,6 @@ nav {
     }
 
     &.sign_up {
-      max-height: 750px;
-      min-height: 750px;
-      svg {
-        position: relative;
-        top: -233px;
-        right: -180px;
-        z-index: -1;
-        &:last-of-type {
-          top: -319px;
-          left: -200px;
-          transform: rotate(30deg);
-        }
-      }
       p {
         color: $deepBlue;
       }
@@ -1977,12 +1964,6 @@ nav {
       min-height: 220px;
     }
 
-    svg {
-      position: relative;
-      top: -233px;
-      right: -180px;
-      z-index: -1;
-    }
     .form_overlay {
       padding: 25px;
       position: absolute;
@@ -2432,6 +2413,7 @@ nav {
 // START:: USER PROFILE PAGE CONTENT SECTION STYLES
 .page_content_wraper {
   padding: $paddingAmount;
+  height: calc(100vh - (92px + 220px));
   .header_wraper {
     @include flexCenterAlignment();
     margin-bottom: 10px;
@@ -2440,87 +2422,43 @@ nav {
     }
   }
 
-  form {
+  form.edit_info {
     position: relative;
     margin-top: 15px;
-    padding: 0;
+    padding: 20px;
     border-radius: $borderRadiusAmount;
     overflow: hidden;
     @include simpleShadow();
-    &.login {
-      max-height: 350px;
-      min-height: 350px;
-    }
-    &.sign_up {
-      max-height: 650px;
-      min-height: 650px;
-      svg {
-        position: relative;
-        top: -233px;
-        right: -180px;
-        z-index: -1;
-        &:last-of-type {
-          top: -319px;
-          left: -200px;
-          transform: rotate(30deg);
-        }
-      }
-      p {
-        color: $deepBlue;
-      }
-      ul {
-        li {
-          display: inline-block;
-          margin: 0;
-          img {
-            min-width: 50px; 
-            max-width: 50px; 
-            min-height: 50px; 
-            max-height: 50px; 
-          }
-        }
-      }
-    }
-    &.reset {
-      max-height: 220px;
-      min-height: 220px;
-    }
-    .form_overlay {
-      padding: 25px;
-      position: absolute;
-      top: 0;
-      left: 0;
+
+    .form-group {
       width: 100%;
-      height: 100%;
-      @include flexCenterAlignment();
-      flex-direction: column;
-      .form-group {
-        width: 100%;
-        input {
-          width: 100%;
-          background-color: transparent;
-          padding: 30px 10px;
-          border-radius: $largeBorderRadiusAmount;
-          @include simpleShadow();
+      input {
+        margin-bottom: 15px;
+        padding: 25px 5px;
+        border: 1px solid $lighterGrey;
+        @include borderradius($borderRadiusAmount);
+        &:focus {
+          box-shadow: none;
+          outline: none !important;
         }
       }
-      .btn_box {
-        width: 100%;
-        @include flexCenterAlignment();
-        button {
-          margin-bottom: 15px;
-          margin-top: 20px;
-          @include btnHoverEffect();
-          padding: 10px 10px;
-        }
-        span {
-          color: $deepBlue;
-          font-size: 14px;
-          cursor: pointer;
-          &:hover {
-            text-decoration: underline;
-            color: rgb(49, 94, 146);
-          }
+    }
+    .btn_box {
+      width: 100%;
+      @include flexCenterAlignment();
+      button {
+        margin-bottom: 15px;
+        margin-top: 20px;
+        @include btnHoverEffect();
+        padding: 10px 10px;
+      }
+      span {
+        color: $deepBlue;
+        font-size: 14px;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+          color: rgb(49, 94, 146);
         }
       }
     }
@@ -2558,7 +2496,7 @@ nav {
   border-left: 2px solid $deepRed;
   background-color: #0f0c7014;
   height: 100%;
-  min-height: 80vh;
+  height: calc(100vh - (92px + 220px));
   ul {
     padding: 0;
     display: flex;
