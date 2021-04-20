@@ -78,8 +78,8 @@
         </tbody>
       </table>
 
-      <form class="caption_wraper d-flex align-items-center justify-content-center">
-        <button class="btn checkout_btn"> 
+      <div class="caption_wraper d-flex align-items-center justify-content-center">
+        <button type="button" class="btn checkout_btn" data-toggle="modal" data-target="#details"> 
           <span class="total_price text-success">
             100 EGP
           </span>
@@ -88,15 +88,44 @@
             <i class="fab fa-cc-visa fa-2x"></i>
           </span> 
         </button>
+      </div>
 
-        <div class="form-group">
-          <select id="type_selector" class="selectpicker" style="width: 40%">
-            <option class="option">Payment Method</option>
-            <option value="cash" class="option">Cash On Deliver</option>
-            <option value="credit" class="option">Credit</option>
-          </select>
+      <div class="modal fade" id="details" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Order Details</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+
+            <div class="modal-body p-3">
+              <form class="caption_wraper">
+                <div class="row">
+                  <div class="form-group col-12">
+                    <label for="type_selector">Payment Method</label>
+                    <select id="type_selector" class="selectpicker" style="width: 100%">
+                      <option class="option">Payment Method</option>
+                      <option value="cash" class="option">Cash On Deliver</option>
+                      <option value="credit" class="option">Credit</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group col-12 mt-3">
+                    <label for="address">Payment Method</label>
+                    <input type="text" name="client_address" class="form-control">
+                  </div>
+
+                  <div class="form-group col-12 text-center mt-3">
+                    <button type="button" class="btn btn-primary"> Confirm </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-      </form>
+      </div>
 
     </div>
     <!-- END:: PAGE CONTENT SECTION -->

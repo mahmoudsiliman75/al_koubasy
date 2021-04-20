@@ -2648,6 +2648,25 @@ nav {
       }
     }
   }
+
+  .modal {
+    .modal-dialog {
+      .modal-header {
+        h5 {
+          color: $deepBlue;
+        }
+      }
+
+      .caption_wraper {
+        .form-group {
+          margin: 15px 0;
+          label {
+            color: $lightGrey;
+          }
+        }
+      }
+    }
+  }
 }
 // END:: USER PROFILE PAGE CONTENT SECTION STYLES
 

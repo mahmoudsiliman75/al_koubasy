@@ -5283,6 +5283,18 @@ nav .menu_btn svg {
   color: #666;
 }
 
+.page_content_wraper .modal .modal-dialog .modal-header h5 {
+  color: #00303f;
+}
+
+.page_content_wraper .modal .modal-dialog .caption_wraper .form-group {
+  margin: 15px 0;
+}
+
+.page_content_wraper .modal .modal-dialog .caption_wraper .form-group label {
+  color: #666;
+}
+
 .user_profile_menu {
   padding: 30px;
   -webkit-padding-end: 0;
