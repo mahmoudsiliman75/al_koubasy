@@ -17,6 +17,16 @@
       </li>
 
       <li> 
+        <i class="fas fa-cogs"></i>
+        <a href="ChangePassword.php"> Change Password </a>
+      </li>
+
+      <li> 
+        <i class="fas fa-cogs"></i>
+        <a href="ConfirmPassword.php"> Confirm Password </a>
+      </li>
+
+      <li> 
         <button class="btn p-0"> 
           <i class="fas fa-sign-out-alt"></i>
           <span> Sign Out </span>

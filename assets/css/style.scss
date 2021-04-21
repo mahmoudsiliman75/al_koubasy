@@ -2726,6 +2726,63 @@ nav {
 }
 // END:: USER PROFILE MENU SECTION STYLES
 
+// START:: CHANGE PASSWORD FORM STYLS
+.reset_password {
+  min-height: calc(100vh - (92px + 220px) );
+  padding: $paddingAmount 0;
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .form_wraper {
+    padding: 20px;
+    @include simpleShadow();
+    @include borderradius($borderRadiusAmount);
+
+    .form-group {
+      text-align: start;
+      input {
+        border: 1px solid $lighterGrey;
+        @include borderradius($borderRadiusAmount);
+        &:focus {
+          box-shadow: none;
+          outline: none !important;
+        }
+      }
+      .bootstrap-select {
+        border: 1px solid $lighterGrey;
+        @include borderradius($borderRadiusAmount);
+        background-color: transparent;
+        width: 100% !important;
+        button {
+          @include borderradius($borderRadiusAmount);
+          &:focus {
+            border: none;
+            box-shadow: none;
+            outline: none !important;
+          }
+        }
+        .filter-option-inner-inner {
+          text-align: start;
+          color: $lightGrey;
+        }
+      }
+    }
+
+    .btn_wraper {
+      width: 100%;
+      @include flexCenterAlignment();
+      button {
+        @include btnHoverEffect();
+      }
+    }
+  }
+}
+// END:: CHANGE PASSWORD FORM STYLS
+
 // START:: FOOTER STYLES
 footer {
   background-color: $darkGrey;

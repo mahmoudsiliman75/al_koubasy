@@ -5419,6 +5419,153 @@ nav .menu_btn svg {
   }
 }
 
+.reset_password {
+  min-height: calc(100vh - (92px + 220px));
+  padding: 30px 0;
+}
+
+.reset_password .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reset_password .header_wraper h2 {
+  color: #00303f;
+  position: relative;
+}
+
+.reset_password .header_wraper h2::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -70px;
+  width: 45px;
+  height: 2px;
+  background-color: #810000;
+}
+
+.reset_password .header_wraper h2::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -55px;
+  width: 45px;
+  height: 2px;
+  background-color: #dc4040;
+}
+
+.reset_password .form_wraper {
+  padding: 20px;
+  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
+          box-shadow: 0 0 9px 1px #e2e2e2;
+  border-radius: 10px;
+}
+
+.reset_password .form_wraper .form-group {
+  text-align: start;
+}
+
+.reset_password .form_wraper .form-group input {
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+}
+
+.reset_password .form_wraper .form-group input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none !important;
+}
+
+.reset_password .form_wraper .form-group .bootstrap-select {
+  border: 1px solid #c1c1c1;
+  border-radius: 10px;
+  background-color: transparent;
+  width: 100% !important;
+}
+
+.reset_password .form_wraper .form-group .bootstrap-select button {
+  border-radius: 10px;
+}
+
+.reset_password .form_wraper .form-group .bootstrap-select button:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none !important;
+}
+
+.reset_password .form_wraper .form-group .bootstrap-select .filter-option-inner-inner {
+  text-align: start;
+  color: #666;
+}
+
+.reset_password .form_wraper .btn_wraper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.reset_password .form_wraper .btn_wraper button {
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 2px solid #00303f;
+  background-color: transparent;
+  color: #00303f;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 5px;
+}
+
+.reset_password .form_wraper .btn_wraper button::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.reset_password .form_wraper .btn_wraper button::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  right: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.reset_password .form_wraper .btn_wraper button:hover::before {
+  left: 65%;
+}
+
+.reset_password .form_wraper .btn_wraper button:hover::after {
+  right: 65%;
+}
+
 footer {
   background-color: #212121;
 }

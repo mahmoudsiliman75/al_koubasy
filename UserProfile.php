@@ -1,5 +1,5 @@
 <!-- START:: INCLUDING THE HEADER -->
-<?php include('./layouts/TheHeader.php')?>
+<?php include('layouts/TheHeader.php')?>
 <!-- END:: INCLUDING THE HEADER -->
 
 <div class="container-fluid">
@@ -69,11 +69,11 @@
     <!-- END:: PAGE CONTENT SECTION -->
 
     <!-- START:: INCLUDING USER PROFILE MENU -->
-    <?php include('./layouts/UserProfileMenu.php')?>
+    <?php include('layouts/UserProfileMenu.php')?>
     <!-- END:: INCLUDING USER PROFILE MENU -->
   </div>
 </div>
 
 <!-- START:: INCLUDING THE FOOTER -->
-<?php include('./layouts/TheFooter.php')?>
+<?php include('layouts/TheFooter.php')?>
 <!-- END:: INCLUDING THE FOOTER -->
