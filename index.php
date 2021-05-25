@@ -14,16 +14,16 @@
 
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/media/slider1.jpeg" class="d-block" alt="Slide 1">
+      <img src="assets/media/folder/SQ6B4159.jpg" class="d-block" alt="Slide 1">
     </div>
     <div class="carousel-item">
-      <img src="assets/media/slider2.jpeg" class="d-block" alt="Slide 2">
+      <img src="assets/media/folder/SQ6B4210.jpg" class="d-block" alt="Slide 2">
     </div>
     <div class="carousel-item">
-      <img src="assets/media/slider3.jpeg" class="d-block" alt="Slide 3">
+      <img src="assets/media/folder/SQ6B4200.jpg" class="d-block" alt="Slide 3">
     </div>
     <div class="carousel-item">
-      <img src="assets/media/slider4.jpeg" class="d-block" alt="Slide 4">
+      <img src="assets/media/folder/SQ6B4201.jpg" class="d-block" alt="Slide 4">
     </div>
   </div>
 

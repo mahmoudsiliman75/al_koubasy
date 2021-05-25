@@ -300,6 +300,19 @@ nav {
       max-height: 800px;
     }
   }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 35px;
+    margin: 30px;
+    background-color: $midRed;
+    @include borderradius(50%);
+    @include flexCenterAlignment();
+  }
 }
 // END:: HOME SLIDER STYLES
 
