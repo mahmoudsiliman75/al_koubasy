@@ -171,18 +171,18 @@
         <h5 class="my-3 d-flex"> Contact Us </h5>
 
         <ul class="list-unstyled p-0">
-          <li class="d-flex"> 
+          <li class="d-flex align-items-center"> 
             <i class="fas fa-map-marker-alt mx-1"></i>
             <span> El Doki, Giza, Egypt </span>
           </li>
 
-          <li class="d-flex"> 
+          <li class="d-flex align-items-center"> 
             <i class="fas fa-envelope mx-1"></i>
             <span> 
               <a href="mailto: info@Al-koubasy.com"> info@Al-koubasy.com </a> </span>
           </li>
 
-          <li class="d-flex"> 
+          <li class="d-flex align-items-center"> 
             <i class="fas fa-mobile-alt mx-1"></i>
             <span> 
               <a href="tele:01000000001">01000000001 </a>
@@ -198,35 +198,39 @@
         <ul class="list-unstyled">
           <li> 
             <a href="#" class="facebook" target="_blanck"> 
-              <i class="fab fa-facebook-square fa-2x"></i>
+              <img src="assets/media/icons/social/facebook.png">
             </a>
           </li>
 
           <li> 
             <a href="#" class="instagram" target="_blanck"> 
-              <i class="fab fa-instagram-square fa-2x"></i>
+              <img src="assets/media/icons/social/instagram.png">
             </a>
           </li>
 
           <li> 
             <a href="#" class="youtube" target="_blanck"> 
-              <i class="fab fa-youtube fa-2x"></i>
+              <img src="assets/media/icons/social/youtube.png">
             </a>
           </li>
 
           <li> 
             <a href="#" class="twitter" target="_blanck"> 
-              <i class="fab fa-twitter-square fa-2x"></i>
+              <img src="assets/media/icons/social/twitter.png">
             </a>
           </li>
         </ul>
 
-        <h5 class="text-center mt-0 mb-2"> Payment System </h5>
-        <span class="d-block text-center mt-0 mb-2 payment"> 
-          <a href="#" target="_blanck">
-            <i class="fab fa-cc-visa fa-2x"></i>
-          </a>
-        </span>
+        <h5 class="text-center mt-0 mb-2"> Payment Methods </h5>
+        <div class="payment_methods text-center mt-0 mb-2"> 
+          <span>
+            <img src="assets/media/icons/visa.png">
+          </span>
+
+          <span>
+            Cash On Deliver
+          </span>
+        </div>
       </div>
 
       <div class="copy_rights col-12 d-flex justify-content-between">

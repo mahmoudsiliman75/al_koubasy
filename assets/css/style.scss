@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Cairo:wght@300;400;600;700;900&display=swap');
+
 // START:: VARIABLES
 @import 'variables.scss';
 // END:: VARIABLES
@@ -2876,6 +2878,7 @@ footer {
           color: $lightRed;
         }
         span {
+          margin-inline-start: 5px;
           color: $white;
           a {
             text-decoration: none;
@@ -2897,20 +2900,10 @@ footer {
         margin: 3px 5px;
         @include transitioning();
         a {
-          opacity: 0.5;
-          svg{
-            &.fa-facebook-square {
-              color: #097CEB;
-            }
-            &.fa-instagram-square {
-              color: #983AA8;
-            }
-            &.fa-youtube {
-              color: #FF011D;
-            }
-            &.fa-twitter-square {
-              color: #2AA9E0;
-            }
+          opacity: 0.6;
+          img {
+            width: 40px;
+            height: 40px;
           }
         }
         &:hover {
@@ -2922,14 +2915,21 @@ footer {
       }
     }
 
-    .payment {
-      @include transitioning();
-      a {
-        text-decoration: none;
-        color: $lightRed;
-      }
-      &:hover {
-        transform: scale(1.2)
+    .payment_methods {
+      @include flexCenterAlignment();
+      span {
+        font-family: 'Acme', sans-serif;
+        margin-inline: 10px;
+        font-size: 20px;
+        color: $white;
+        @include transitioning();
+        img {
+          width: 50px;
+          height: 50px;
+        }
+        &:hover {
+          transform: scale(1.1);
+        }
       }
     }
   }
@@ -2948,53 +2948,6 @@ footer {
   }
 }
 // END:: FOOTER STYLES
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // START:: FLOATING ICON STYLES
 // .floating_icon {

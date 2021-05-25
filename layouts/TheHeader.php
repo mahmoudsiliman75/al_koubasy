@@ -34,10 +34,6 @@
   <link rel="stylesheet" href="assets/css/animate.css">
   <!-- END:: INCLUDING WOW JS STYLE FILE -->
 
-  <!-- START: INCLUDING GOOGLE FONT -->
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
-  <!-- START: INCLUDING GOOGLE FONT -->
-
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- <link rel="stylesheet" href="assets/css/ar-style.css"> -->

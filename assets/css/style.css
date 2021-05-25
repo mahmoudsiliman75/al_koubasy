@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Cairo:wght@300;400;600;700;900&display=swap");
 body {
   font-family: 'Cairo', sans-serif;
   overflow-x: hidden;
@@ -5700,6 +5701,8 @@ footer .get_in_touch ul li svg {
 }
 
 footer .get_in_touch ul li span {
+  -webkit-margin-start: 5px;
+          margin-inline-start: 5px;
   color: #fff;
 }
 
@@ -5724,23 +5727,12 @@ footer .follow_us ul li {
 }
 
 footer .follow_us ul li a {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
-footer .follow_us ul li a svg.fa-facebook-square {
-  color: #097CEB;
-}
-
-footer .follow_us ul li a svg.fa-instagram-square {
-  color: #983AA8;
-}
-
-footer .follow_us ul li a svg.fa-youtube {
-  color: #FF011D;
-}
-
-footer .follow_us ul li a svg.fa-twitter-square {
-  color: #2AA9E0;
+footer .follow_us ul li a img {
+  width: 40px;
+  height: 40px;
 }
 
 footer .follow_us ul li:hover {
@@ -5752,19 +5744,35 @@ footer .follow_us ul li:hover a {
   opacity: 1;
 }
 
-footer .follow_us .payment {
+footer .follow_us .payment_methods {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .follow_us .payment_methods span {
+  font-family: 'Acme', sans-serif;
+  margin-inline: 10px;
+  font-size: 20px;
+  color: #fff;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
-footer .follow_us .payment a {
-  text-decoration: none;
-  color: #dc4040;
+footer .follow_us .payment_methods span img {
+  width: 50px;
+  height: 50px;
 }
 
-footer .follow_us .payment:hover {
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+footer .follow_us .payment_methods span:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 footer .copy_rights {
