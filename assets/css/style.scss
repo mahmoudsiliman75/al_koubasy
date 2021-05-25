@@ -44,6 +44,50 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+.bg_wraper_2 {
+  background: url('../media/shapes/header-sape6.png');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.flexslider {
+  margin-bottom: 15px !important;
+  .flex-viewport {
+    max-height: 400px !important;
+    .slides {
+      img,
+      iframe {
+        border-radius: $borderRadiusAmount;
+        min-height: 400px;
+        max-height: 400px;
+        width: 100%
+      }
+      .min_img {
+        min-width: 150px;
+        max-width: 150px;
+        min-height: 100px;
+        max-height: 100px;
+      }
+    } 
+  }
+
+  .flex-control-thumbs {
+    max-height: 120px !important;
+    li {
+      padding: 0 5px;
+      img {
+        height: 120px !important;
+        border-radius: $borderRadiusAmount;
+      }
+    }
+  }
+
+  .flex-direction-nav {
+    display: none !important;
+  }
+}
 // END:: GLOBAL STYLES
 
 // START:: LARGE SCREENS NAVBAR STYLES
@@ -328,6 +372,10 @@ nav {
 // START:: ABOUT US SECTION STYLES
 .about_us_sec {
   padding: $paddingAmount;
+  background: url('../media/shapes/header-sape6.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 
   .about_us_img_wraper {
     img {
@@ -370,6 +418,11 @@ nav {
 // START:: OUR SERVICES SECTION STYLES
 .services_sec {
   padding: $paddingAmount;
+  padding: $paddingAmount;
+  background: url('../media/shapes/4.png');
+  background-position: left 35%;
+  background-repeat: no-repeat;
+
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
@@ -1804,7 +1857,7 @@ nav {
           }
         }
       }
-    
+
       .event_text_wraper {
         .header_wraper {
           @include flexCenterAlignment();
@@ -1821,6 +1874,14 @@ nav {
           text-align: start;
           word-break: break-word;
           padding-inline: 15px;
+        }
+
+        .card_btn_wraper {
+          margin-top: 20px;
+          @include flexStartAlignment();
+          button {
+            @include btnHoverEffect();
+          }
         }
     
         .btn_wraper {
@@ -2186,6 +2247,10 @@ nav {
 // START:: ALL EVENTS SECTION STYLES
 .all_events {
   padding: $paddingAmount 0;
+  background: url('../media//shapes/striples-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
 
   .header_wraper {
     @include flexCenterAlignment();
@@ -2234,6 +2299,14 @@ nav {
       font-size: 18px;
       line-height: 1.6;
       color: $lightGrey;
+    }
+
+    .card_btn_wraper {
+      margin-top: 20px;
+      @include flexStartAlignment();
+      button {
+        @include btnHoverEffect();
+      }
     }
 
     .btn_wraper {
