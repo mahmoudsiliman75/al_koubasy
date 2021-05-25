@@ -28,23 +28,11 @@ body {
     min-height: 300px;
     max-height: 300px;
   }
-  .spikes {
-    position: relative;
-    background: transparent;
-    &::after {
-      content: '';
-      position: absolute;
-      right: 0;
-      left: -0%;
-      bottom: 0;
-      z-index: 10;
-      display: block;
-      height: 30px;
-      background-size: 30px 100%;
-      background-image: linear-gradient(325deg, #fff 25%, transparent 25%), 
-                        linear-gradient(36deg, #fff 25%, transparent 25%);
-      background-position: 0 0;
-    }
+
+  .lower_svg_wraper {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 }
 // END:: GLOBAL STYLES
@@ -279,6 +267,15 @@ nav {
 
 // START:: HOME SLIDER STYLES
 .carousel {
+  position: relative;
+
+  .svg_wraper {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+  }
+
   .carousel-indicators {
     li {
       padding: 0;
@@ -402,13 +399,20 @@ nav {
       @include mainHeaderStyle();
     }
   }
-  
-  
+
   .row {
     position: relative;
     background-attachment: fixed;
     background-size: cover;
     padding-block: 80px;
+
+    .upper_svg_wraper {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      z-index: 1;
+      transform: rotate(180deg);
+    }
 
     .overlay {
       position: absolute;
@@ -418,6 +422,13 @@ nav {
       height: 100%;
       background-color: rgba(0, 0, 0, 0.6);
       padding-block: 20px;
+    }
+
+    .lower_svg_wraper {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      z-index: 1;
     }
 
     .card {
@@ -685,6 +696,11 @@ nav {
           width: 100%;
           min-height: 150px;
           max-height: 150px;
+          filter: grayscale(90%);
+          @include transitioning();
+          &:hover {
+            filter: grayscale(0%);
+          }
         }
       }
 
@@ -2785,7 +2801,17 @@ nav {
 
 // START:: FOOTER STYLES
 footer {
+  padding-top: 25px;
   background-color: $darkGrey;
+  position: relative;
+
+  .upper_svg_wraper {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    transform: rotate(180deg);
+  }
 
   .footer_logo {
     @include flexCenterAlignment();

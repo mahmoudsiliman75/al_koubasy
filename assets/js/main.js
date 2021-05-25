@@ -54,6 +54,8 @@ $(document).ready( function() {
     dots: false,
     items:1,
     rtl: true, 
+    smartSpeed: 2000,
+    dotsSpeed: 2000,
     responsive:{
       0:{
         items:1,
@@ -78,7 +80,9 @@ $(document).ready( function() {
     autoplayHoverPause:true,
     margin:60,
     items:1,
-    rtl: true, 
+    rtl: true,
+    smartSpeed: 2000,
+    dotsSpeed: 2000, 
     responsive:{
       0:{
         items:1,
@@ -111,6 +115,8 @@ $(document).ready( function() {
     dots: false,
     items:1,
     rtl: true, 
+    smartSpeed: 2000,
+    dotsSpeed: 2000,
     responsive:{
       0:{
         items:2,
@@ -136,9 +142,10 @@ $(document).ready( function() {
     autoplayTimeout:6000,
     autoplayHoverPause:true,
     margin:10,
-
     items:1,
-    rtl: true, 
+    rtl: true,
+    smartSpeed: 2000,
+    dotsSpeed: 2000, 
     responsive:{
       0:{
         items:2,
@@ -168,7 +175,9 @@ $(document).ready( function() {
     autoplayHoverPause:true,
     margin:60,
     items:1,
-    rtl: true, 
+    rtl: true,
+    smartSpeed: 2000,
+    dotsSpeed: 2000, 
     responsive:{
       0:{
         items:1,
@@ -199,6 +208,8 @@ $(document).ready( function() {
     margin:60,
     items:1,
     rtl: true,
+    smartSpeed: 2000,
+    dotsSpeed: 2000,
     responsive:{
       0:{
         items:1,
@@ -229,6 +240,8 @@ $(document).ready( function() {
     margin:60,
     items:1,
     rtl: true,
+    smartSpeed: 2000,
+    dotsSpeed: 2000,
     responsive:{
       0:{
         items:1,
@@ -259,6 +272,8 @@ $(document).ready( function() {
     margin:60,
     items:1,
     rtl: true,
+    smartSpeed: 2000,
+    dotsSpeed: 2000,
     responsive:{
       0:{
         items:1,

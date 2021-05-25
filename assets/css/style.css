@@ -24,23 +24,10 @@ body::-webkit-scrollbar-thumb {
   max-height: 300px;
 }
 
-.header_img_wraper .spikes {
-  position: relative;
-  background: transparent;
-}
-
-.header_img_wraper .spikes::after {
-  content: '';
+.header_img_wraper .lower_svg_wraper {
+  width: 100%;
   position: absolute;
-  right: 0;
-  left: -0%;
   bottom: 0;
-  z-index: 10;
-  display: block;
-  height: 30px;
-  background-size: 30px 100%;
-  background-image: linear-gradient(325deg, #fff 25%, transparent 25%), linear-gradient(36deg, #fff 25%, transparent 25%);
-  background-position: 0 0;
 }
 
 nav {
@@ -405,6 +392,17 @@ nav .menu_btn svg {
   }
 }
 
+.carousel {
+  position: relative;
+}
+
+.carousel .svg_wraper {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
 .carousel .carousel-indicators li {
   padding: 0;
   width: 13px;
@@ -683,6 +681,15 @@ nav .menu_btn svg {
   padding-block: 80px;
 }
 
+.home_heightlights .row .upper_svg_wraper {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .home_heightlights .row .overlay {
   position: absolute;
   top: 0;
@@ -691,6 +698,13 @@ nav .menu_btn svg {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   padding-block: 20px;
+}
+
+.home_heightlights .row .lower_svg_wraper {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
 }
 
 .home_heightlights .row .card {
@@ -1277,6 +1291,15 @@ nav .menu_btn svg {
   width: 100%;
   min-height: 150px;
   max-height: 150px;
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.our_clients_sec .owl-carousel .item .img_wraper img:hover {
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
 }
 
 .our_clients_sec .btn_box {
@@ -5567,7 +5590,18 @@ nav .menu_btn svg {
 }
 
 footer {
+  padding-top: 25px;
   background-color: #212121;
+  position: relative;
+}
+
+footer .upper_svg_wraper {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 footer .footer_logo {
