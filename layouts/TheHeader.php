@@ -85,10 +85,6 @@
       </li>
 
       <li> 
-        <a href="AllVideos.php"> Videos </a>
-      </li>
-
-      <li> 
         <a href="Carrers.php"> Carrers </a>
       </li>
 

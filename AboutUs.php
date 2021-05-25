@@ -199,6 +199,28 @@
 </div>
 <!-- END:: ABOUT INFO SECTION -->
 
+
+<!-- START:: VISION SECTION --> 
+<div class="vision overflow-hidden">
+  <div class="container">
+    <div class="header_wraper mb-3">
+      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Vision </h2>
+    </div>
+
+    <div class="vision_text_wraper wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Quasi ex, necessitatibus accusamus laboriosam eius animi 
+      laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
+      asperiores ratione facilis sunt veritatis quod sequi.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      Quasi ex, necessitatibus accusamus laboriosam eius animi 
+      laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
+      asperiores ratione facilis sunt veritatis quod sequi.
+    </div>
+  </div>
+</div>
+<!-- END:: VISION SECTION -->
+
 <!-- START:: STORY SECTION -->
 <div class="story overflow-hidden">
   <div class="container px-5">
@@ -271,27 +293,6 @@
   </div>
 </div>  
 <!-- END:: STORY SECTION -->
-
-<!-- START:: VISION SECTION --> 
-<div class="vision overflow-hidden">
-  <div class="container">
-    <div class="header_wraper mb-3">
-      <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Vision </h2>
-    </div>
-
-    <div class="vision_text_wraper wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Quasi ex, necessitatibus accusamus laboriosam eius animi 
-      laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
-      asperiores ratione facilis sunt veritatis quod sequi.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-      Quasi ex, necessitatibus accusamus laboriosam eius animi 
-      laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
-      asperiores ratione facilis sunt veritatis quod sequi.
-    </div>
-  </div>
-</div>
-<!-- END:: VISION SECTION -->
 
 <!-- START:: AWARDS SECTION -->
 <div class="awards_rec">
