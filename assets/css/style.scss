@@ -37,6 +37,13 @@ body {
     bottom: 0;
   }
 }
+
+.bg_wraper {
+  background: url('../media/shapes/striples-bg.svg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 // END:: GLOBAL STYLES
 
 // START:: LARGE SCREENS NAVBAR STYLES
