@@ -1387,7 +1387,7 @@ nav .menu_btn svg {
           filter: grayscale(0%);
 }
 
-.our_clients_sec .btn_box {
+.our_clients_sec .btn_wraper {
   margin-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1400,8 +1400,7 @@ nav .menu_btn svg {
           justify-content: center;
 }
 
-.our_clients_sec .btn_box a {
-  overflow: hidden;
+.our_clients_sec .btn_wraper a {
   text-decoration: none;
   padding: 8px 15px;
   border: 2px solid #00303f;
@@ -1414,7 +1413,7 @@ nav .menu_btn svg {
   border-radius: 5px;
 }
 
-.our_clients_sec .btn_box a::before {
+.our_clients_sec .btn_wraper a::before {
   content: '';
   position: absolute;
   top: -2px;
@@ -1427,7 +1426,7 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.our_clients_sec .btn_box a::after {
+.our_clients_sec .btn_wraper a::after {
   content: '';
   position: absolute;
   bottom: -2px;
@@ -1440,11 +1439,133 @@ nav .menu_btn svg {
   transition: all 0.4s ease-in-out;
 }
 
-.our_clients_sec .btn_box a:hover::before {
+.our_clients_sec .btn_wraper a:hover::before {
   left: 65%;
 }
 
-.our_clients_sec .btn_box a:hover::after {
+.our_clients_sec .btn_wraper a:hover::after {
+  right: 65%;
+}
+
+.all_clients_sec {
+  padding: 30px 0;
+  background: url("../media/shapes/9.png");
+  background-position: center;
+  background-size: 100%;
+}
+
+.all_clients_sec .header_wraper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.all_clients_sec .header_wraper h2 {
+  color: #00303f;
+  position: relative;
+}
+
+.all_clients_sec .header_wraper h2::after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -70px;
+  width: 45px;
+  height: 2px;
+  background-color: #810000;
+}
+
+.all_clients_sec .header_wraper h2::before {
+  content: '';
+  position: absolute;
+  top: 25px;
+  left: -55px;
+  width: 45px;
+  height: 2px;
+  background-color: #dc4040;
+}
+
+.all_clients_sec .item .img_wraper {
+  min-height: 150px;
+  max-height: 150px;
+}
+
+.all_clients_sec .item .img_wraper img {
+  width: 100%;
+  min-height: 150px;
+  max-height: 150px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.all_clients_sec .item .img_wraper img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.all_clients_sec .btn_wraper {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.all_clients_sec .btn_wraper a {
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 2px solid #00303f;
+  background-color: transparent;
+  color: #00303f;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  border-radius: 5px;
+}
+
+.all_clients_sec .btn_wraper a::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.all_clients_sec .btn_wraper a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  right: 8%;
+  display: block;
+  width: 20%;
+  height: 2px;
+  background-color: #fff;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.all_clients_sec .btn_wraper a:hover::before {
+  left: 65%;
+}
+
+.all_clients_sec .btn_wraper a:hover::after {
   right: 65%;
 }
 
@@ -2080,6 +2201,9 @@ nav .menu_btn svg {
 
 .faqs {
   padding: 30px 0;
+  background: url("../media/shapes/striples-bg.svg");
+  background-position: center;
+  background-size: 100%;
 }
 
 .faqs .header_wraper {
@@ -2124,7 +2248,12 @@ nav .menu_btn svg {
           box-shadow: 0 0 9px 1px #e2e2e2;
 }
 
+.faqs .faqs_wraper .question_wraper .card .card-header {
+  padding: 0;
+}
+
 .faqs .faqs_wraper .question_wraper .card .card-header button {
+  padding: 10px 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2139,6 +2268,20 @@ nav .menu_btn svg {
   color: #810000;
   -webkit-margin-end: 10px;
           margin-inline-end: 10px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.faqs .faqs_wraper .question_wraper .card .card-header button[aria-expanded=true] {
+  background: url("../media/shapes/pattern-2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.faqs .faqs_wraper .question_wraper .card .card-header button[aria-expanded=true] svg {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 .faqs .faqs_wraper .question_wraper .card .card-body {

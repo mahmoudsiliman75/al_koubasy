@@ -77,6 +77,10 @@
       </li>
 
       <li> 
+        <a href="AllClients.php"> Clients </a>
+      </li>
+
+      <li> 
         <a href="Quality.php"> Quality </a>
       </li>
 

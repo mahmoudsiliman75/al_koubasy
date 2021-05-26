@@ -948,6 +948,10 @@
 
       </div>
     </div>
+
+    <div class="btn_wraper wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <a href="AllClients.php"> View More </a>
+    </div>
   </div>
 </div>
 <!-- END:: OUR CLIENTS SECTION --> 
