@@ -978,66 +978,6 @@
           </div>
         </div>
 
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <img src="assets/media/member2.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 2</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <img src="assets/media/member3.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 3</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <img src="assets/media/member4.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 4</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <img src="assets/media/member5.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 5</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="card">
-            <div class="img_wraper">
-              <img src="assets/media/member6.jpg" class="card-img-top" alt="...">
-            </div>
-            <div class="card-body mt-4">
-              <h4>Personal Name 6</h4>
-              <h5>Consultant</h5>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
   </div>

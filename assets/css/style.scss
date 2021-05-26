@@ -2123,6 +2123,10 @@ nav {
 // START:: ALL VIDEOS PAGE STYLES
 .videos {
   padding-bottom: $paddingAmount;
+  background: url('../media/shapes/striples-bg.svg');
+  background-position: center;
+  background-size: 100%;
+
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
@@ -2155,6 +2159,9 @@ nav {
 // START:: ALL NEWS SECTION STYLES
 .all_news {
   padding: $paddingAmount 0;
+  background: url('../media/shapes/striples-bg.svg');
+  background-position: center;
+  background-size: 100%;
 
   .header_wraper {
     @include flexCenterAlignment();

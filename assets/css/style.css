@@ -4095,6 +4095,9 @@ nav .menu_btn svg {
 
 .videos {
   padding-bottom: 30px;
+  background: url("../media/shapes/striples-bg.svg");
+  background-position: center;
+  background-size: 100%;
 }
 
 .videos .header_wraper {
@@ -4207,6 +4210,9 @@ nav .menu_btn svg {
 
 .all_news {
   padding: 30px 0;
+  background: url("../media/shapes/striples-bg.svg");
+  background-position: center;
+  background-size: 100%;
 }
 
 .all_news .header_wraper {
