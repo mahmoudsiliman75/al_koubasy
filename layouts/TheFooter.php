@@ -151,7 +151,7 @@
       </div>
 
       <div class="short_cuts col-12 col-md-4 d-flex justify-content-between justify-content-md-center"> 
-        <div class="d-flex flex-column align-items-start justify-content-start p-3">
+        <div class="d-flex flex-column align-items-start justify-content-center p-3">
           <a href="index.php"> Home </a>
           <a href="AboutUs.php"> About Us </a>
           <a href="Faq.php"> FAQs </a>
@@ -159,7 +159,7 @@
           <a href="Quality.php"> Quality </a>
         </div>
 
-        <div class="d-flex flex-column align-items-start justify-content-start p-3">
+        <div class="d-flex flex-column align-items-start justify-content-center p-3">
           <a href="Media.php"> Media </a>
           <a href="Carrers.php"> Carrers </a>
           <a href="auth.php"> Login </a>  

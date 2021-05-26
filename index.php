@@ -810,7 +810,7 @@
   
     <div class="container">
       <div class="row cats_wraper justify-content-center mt-3 overflow-hidden">
-        <div class="col-6 col-md-4 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+        <div class="col-6 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
           <a href="AllProducts.php">
             <img src="assets/media/pic4.jpg" alt="Why Section Icon 1">
             <h5> 
@@ -820,7 +820,7 @@
           </a>
         </div>
   
-        <div class="col-6 col-md-4 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
+        <div class="col-6 col-md-3 my-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.6s">
           <a href="AllProducts.php">
             <img src="assets/media/pic6.jpg" alt="Why Section Icon 1">
             <h5> 
@@ -830,11 +830,21 @@
           </a>
         </div>
   
-        <div class="col-6 col-md-4 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.9s">
+        <div class="col-6 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.9s">
           <a href="AllProducts.php">
             <img src="assets/media/pic1.jpg" alt="Why Section Icon 1">
             <h5> 
               Juices
+            </h5>
+            <i class="fas fa-angle-double-right"></i>
+          </a>
+        </div>
+
+        <div class="col-6 col-md-3 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.9s">
+          <a href="AllProducts.php">
+            <img src="assets/media/pic15.jpg" alt="Why Section Icon 1">
+            <h5> 
+              Ice Cream
             </h5>
             <i class="fas fa-angle-double-right"></i>
           </a>

@@ -49,13 +49,13 @@
 
 <!-- START:: LARGE SCREENS NAVBAR -->
 <nav class="d-flex justify-content-between align-items-center">
-  <!-- START:: THE LOGO -->
-  <div class="site-logo">
-    <a href="index.php">
-      <img src="assets/media/logo.png" alt="The Logo">
-    </a>
+  <!-- START:: SEARCH BOX -->
+  <div class="search_box px-4">
+    <span>
+      <i class="fas fa-search fa-2x"></i>
+    </span>
   </div>
-  <!-- END:: THE LOGO -->
+  <!-- END:: SEARCH BOX -->
 
   <!-- START:: NAV LINKS -->
   <div class="nav-links">
@@ -76,10 +76,21 @@
         <a href="AllProducts.php"> Product </a>
       </li>
 
-      <li> 
-        <a href="AllClients.php"> Clients </a>
-      </li>
+    </ul>
+  </div>
+  <!-- START:: NAV LINKS -->
 
+  <!-- START:: THE LOGO -->
+  <div class="site-logo">
+    <a href="index.php">
+      <img src="assets/media/logo.png" alt="The Logo">
+    </a>
+  </div>
+  <!-- END:: THE LOGO -->
+
+  <!-- START:: NAV LINKS -->
+  <div class="nav-links">
+    <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
       <li> 
         <a href="Quality.php"> Quality </a>
       </li>
@@ -96,15 +107,34 @@
         <a href="ContactUs.php"> Contact Us </a>
       </li>
 
-      <li> 
+      <!-- <li> 
         <a href="UserProfile.php"> Profile </a>
-      </li>
+      </li> -->
 
     </ul>
   </div>
   <!-- START:: NAV LINKS -->
 
   <div class="menu_btns d-flex align-items-center">
+    <!-- START:: LANG BUTTON -->  
+    <span class="lang_btn mx-2">     
+      <a href="#"> 
+        <i class="fas fa-globe-africa fa-lg"></i>
+        <span class="en">E</span> 
+        <span class="ar">ع</span> 
+      </a>
+    </span>
+    <!-- END:: LANG BUTTON -->
+
+    <!-- START:: ACCOUNT LINK -->
+    <span class="account_link mx-2">     
+      <a href="UserProfile.php"> 
+        <i class="fas fa-user fa-lg"></i>
+        Account 
+      </a>
+    </span>
+    <!-- END:: ACCOUNT LINK -->
+
     <!-- START:: LOGIN BUTTON -->
     <span class="login_btn mx-2"> 
       <a href="auth.php"> 
@@ -120,17 +150,19 @@
         <span class="badge badge-pill badge-danger">2</span>
         <i class="fas fa-shopping-cart fa-lg"></i>
       </a>
+
+      <span> Cart </span>
     </div>
     <!-- END:: CART BUTTON -->
 
     <!-- START:: LANG BUTTON -->
-    <div class="lang-button mx-2">
+    <!-- <div class="lang-button mx-2">
       <a href="#"> 
         <span class="en"> E </span>
         <span class="ar"> ع </span>
         <span class="circle"></span>
       </a>
-    </div>
+    </div> -->
     <!-- END:: LANG BUTTON -->
 
     <!-- START:: MENU BUTTON -->

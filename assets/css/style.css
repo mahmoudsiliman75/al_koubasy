@@ -86,13 +86,22 @@ body::-webkit-scrollbar-thumb {
 }
 
 nav {
-  padding: 5px 10px;
+  padding: 0 10px;
   border-bottom: 2px solid #810000;
 }
 
 nav .site-logo {
-  min-width: 80px;
-  max-width: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 150px;
+  max-width: 150px;
   min-height: 80px;
   max-height: 80px;
 }
@@ -108,6 +117,7 @@ nav .nav-links ul li {
   padding-bottom: 5px;
   position: relative;
   font-size: 16px;
+  font-weight: 700;
 }
 
 nav .nav-links ul li a {
@@ -156,38 +166,7 @@ nav .nav-links ul li:hover::before {
   left: 0;
 }
 
-nav .cart_btn a {
-  text-decoration: none;
-  position: relative;
-}
-
-nav .cart_btn a span {
-  position: absolute;
-  top: -8px;
-  right: -8px;
-}
-
-nav .cart_btn a svg {
-  color: #00303f;
-}
-
-nav .login_btn a {
-  text-decoration: none;
-  color: #00303f;
-}
-
-nav .login_btn a:hover {
-  color: #810000;
-}
-
-nav .lang-button a {
-  text-decoration: none;
-  color: #212121;
-  padding: 0 5px;
-  font-weight: bold;
-  border: 2px solid #bb0808;
-  border-radius: 30px;
-  width: 60px;
+nav .cart_btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,24 +176,57 @@ nav .lang-button a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-weight: 700;
 }
 
-nav .lang-button a span {
-  font-size: 16px;
+nav .cart_btn a {
+  text-decoration: none;
+  position: relative;
 }
 
-nav .lang-button a span.ar {
+nav .cart_btn a span {
+  position: absolute;
+  top: -5px;
+  right: -8px;
+}
+
+nav .cart_btn a svg {
+  color: #00303f;
+}
+
+nav .lang_btn a,
+nav .account_link a,
+nav .login_btn a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-decoration: none;
+  color: #00303f;
+  font-weight: 700;
+}
+
+nav .lang_btn a:hover,
+nav .account_link a:hover,
+nav .login_btn a:hover {
+  color: #810000;
+}
+
+nav .lang_btn span.ar {
   display: none;
-}
-
-nav .lang-button a span.circle {
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  background-color: #bb0808;
 }
 
 nav .menu_btn {
@@ -696,7 +708,7 @@ nav .menu_btn svg {
   max-width: 200px;
   min-height: 200px;
   max-height: 200px;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 .services_sec .service_wraper a h5 {
@@ -1153,7 +1165,7 @@ nav .menu_btn svg {
   max-width: 200px;
   min-height: 200px;
   max-height: 200px;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 .products_cats .cats_wraper a h5 {
@@ -1650,10 +1662,10 @@ nav .menu_btn svg {
 
 .our_team_sec .owl-carousel .owl-stage-outer .item .card .img_wraper {
   margin-block: 15px;
-  min-width: 150px;
-  max-width: 150px;
-  min-height: 150px;
-  max-height: 150px;
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  max-height: 120px;
   overflow: hidden;
   -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
           box-shadow: 0 0 9px 1px #e2e2e2;
@@ -1870,10 +1882,10 @@ nav .menu_btn svg {
 
 .all_team_sec .item .card .img_wraper {
   margin-block: 15px;
-  min-width: 150px;
-  max-width: 150px;
-  min-height: 150px;
-  max-height: 150px;
+  min-width: 120px;
+  max-width: 120px;
+  min-height: 120px;
+  max-height: 120px;
   overflow: hidden;
   -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
           box-shadow: 0 0 9px 1px #e2e2e2;
@@ -6169,10 +6181,10 @@ footer .footer_logo {
 }
 
 footer .footer_logo img {
-  min-width: 100px;
-  max-width: 100px;
-  min-height: 100px;
-  max-height: 100px;
+  min-width: 180px;
+  max-width: 180px;
+  min-height: 80px;
+  max-height: 80px;
 }
 
 footer .short_cuts {
