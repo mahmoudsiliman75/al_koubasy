@@ -152,25 +152,25 @@
     <div class="row justify-content-center my-4 social">
       <div class="col-3 col-md-1 text-center">
         <a href="#" target="_blanck">
-          <img src="assets/media/icons/facebook.png">
+          <img src="assets/media/icons/social/facebook.png">
         </a>
       </div>
 
       <div class="col-3 col-md-1 text-center">
         <a href="#" target="_blanck">
-          <img src="assets/media/icons/instagram.png">
+          <img src="assets/media/icons/social/instagram.png">
         </a>
       </div>
 
       <div class="col-3 col-md-1 text-center">
         <a href="#" target="_blanck">
-          <img src="assets/media/icons/youtube.png">
+          <img src="assets/media/icons/social/youtube.png">
         </a>
       </div>
 
       <div class="col-3 col-md-1 text-center">
         <a href="#" target="_blanck">
-          <img src="assets/media/icons/twitter.png">
+          <img src="assets/media/icons/social/twitter.png">
         </a>
       </div>
     </div>
