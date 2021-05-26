@@ -343,6 +343,17 @@ nav {
     }
   }
 
+  @media ( max-width: 767px ) {
+    .carousel-inner {
+      max-height: 400px;
+      img {
+        width: 100%;
+        min-height: 400px;
+        max-height: 400px;
+      }
+    }
+  }
+
   .carousel-control-prev,
   .carousel-control-next {
     position: absolute;
@@ -363,7 +374,6 @@ nav {
   padding: $paddingAmount;
   background: url('../media/shapes/header-sape6.png');
   background-position: center;
-  background-repeat: no-repeat;
   background-size: 100%;
 
   .about_us_img_wraper {
