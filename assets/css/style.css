@@ -4882,7 +4882,13 @@ nav .menu_btn svg {
   background-color: #dc4040;
 }
 
-.all_products .filter_wraper {
+.all_products .wraper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 25px;
+}
+
+.all_products .wraper .filter_wraper {
   padding: 20px 0;
   border-radius: 10px;
   display: -webkit-box;
@@ -4894,22 +4900,37 @@ nav .menu_btn svg {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-shadow: 0 0 9px 1px #e2e2e2;
-          box-shadow: 0 0 9px 1px #e2e2e2;
+  -webkit-box-shadow: 25px -25px 40px -25px #e6e6e6;
+          box-shadow: 25px -25px 40px -25px #e6e6e6;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 25px;
 }
 
-.all_products .filter_wraper h6 {
+.all_products .wraper .filter_wraper h5 {
+  padding-bottom: 5px;
   color: #00303f;
+  position: relative;
 }
 
-.all_products .filter_wraper .form-group {
+.all_products .wraper .filter_wraper h5::after {
+  content: '';
+  display: block;
+  width: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  border-bottom: 1px solid #810000;
+}
+
+.all_products .wraper .filter_wraper form {
+  width: 100%;
+}
+
+.all_products .wraper .filter_wraper form .form-group {
   color: #666;
 }
 

@@ -151,49 +151,71 @@
 
     <div class="row mt-3 justify-content-center">
       <div class="col-8 col-md-3 mb-3 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
-        <div class="filter_wraper">
-          <h5 class="mb-3"> Products Categories </h5>
-          <form action="" class="row m-0 px-3">
-            <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
-              <input type="checkbox" class="form-check-input" id="cat_1">
-              <label class="form-check-label" for="cat_1">Category 1</label>
-            </div>
+        <div class="wraper">
+          <div class="filter_wraper">
+            <h5 class="mb-3"> Products Categories </h5>
+            <form action="" class="row m-0 px-3">
+              <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
+                <input type="checkbox" class="form-check-input" id="vegetables">
+                <label class="form-check-label" for="vegetables">Vegetables</label>
+              </div>
+  
+              <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
+                <input type="checkbox" class="form-check-input" id="fruits">
+                <label class="form-check-label" for="fruits">Fruits</label>
+              </div>
+  
+              <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
+                <input type="checkbox" class="form-check-input" id="juice">
+                <label class="form-check-label" for="juice">Juice</label>
+              </div>
+  
+              <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
+                <input type="checkbox" class="form-check-input" id="ice_cream">
+                <label class="form-check-label" for="ice_cream">Ice Cream</label>
+              </div>
+            </form>
+          </div>
+  
+          <div class="filter_wraper my-4">
+            <h5 class="mb-3"> Brand </h5>
+            <form action="" class="row m-0 px-3">
+              <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
+                <input type="checkbox" class="form-check-input" id="brand_1">
+                <label class="form-check-label" for="brand_1">Brand 1</label>
+              </div>
+  
+              <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
+                <input type="checkbox" class="form-check-input" id="brand_2">
+                <label class="form-check-label" for="brand_2">Brand 2</label>
+              </div>
+  
+              <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
+                <input type="checkbox" class="form-check-input" id="brand_3">
+                <label class="form-check-label" for="brand_3">Brand 3</label>
+              </div>
+  
+              <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
+                <input type="checkbox" class="form-check-input" id="brand_4">
+                <label class="form-check-label" for="brand_4">Brand 4</label>
+              </div>
+            </form>
+          </div>
+  
+          <div class="filter_wraper">
+            <h5 class="mb-3"> Type </h5>
+            <form action="" class="row m-0 px-3">
+              <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
+                <input type="checkbox" class="form-check-input" id="bottels">
+                <label class="form-check-label" for="bottels">Bottels</label>
+              </div>
 
-            <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
-              <input type="checkbox" class="form-check-input" id="cat_2">
-              <label class="form-check-label" for="cat_2">Category 2</label>
-            </div>
-
-            <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
-              <input type="checkbox" class="form-check-input" id="cat_3">
-              <label class="form-check-label" for="cat_3">Category 3</label>
-            </div>
-
-            <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
-              <input type="checkbox" class="form-check-input" id="cat_4">
-              <label class="form-check-label" for="cat_4">Category 4</label>
-            </div>
-
-            <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
-              <input type="checkbox" class="form-check-input" id="cat_5">
-              <label class="form-check-label" for="cat_5">Category 5</label>
-            </div>
-
-            <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
-              <input type="checkbox" class="form-check-input" id="cat_6">
-              <label class="form-check-label" for="cat_6">Category 6</label>
-            </div>
-
-            <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
-              <input type="checkbox" class="form-check-input" id="cat_7">
-              <label class="form-check-label" for="cat_7">Category 7</label>
-            </div>
-
-            <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
-              <input type="checkbox" class="form-check-input" id="cat_8">
-              <label class="form-check-label" for="cat_8">Category 8</label>
-            </div>
-          </form>
+              <div class="col-12 form-group form-check d-flex jutify-content-start mb-2">
+                <input type="checkbox" class="form-check-input" id="boxes">
+                <label class="form-check-label" for="boxes">Boxes</label>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
 

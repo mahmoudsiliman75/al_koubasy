@@ -2395,19 +2395,36 @@ nav {
     }
   }
 
-  .filter_wraper {
-    padding: 20px 0;
-    border-radius: $borderRadiusAmount;
-    @include flexCenterAlignment();
-    @include simpleShadow();
-    flex-direction: column;
+  .wraper {
     position: sticky;
     top: 25px;
-    h6 {
-      color: $deepBlue;
-    }
-    .form-group {
-      color: $lightGrey;
+    .filter_wraper {
+      padding: 20px 0;
+      border-radius: $borderRadiusAmount;
+      @include flexCenterAlignment();
+      box-shadow: 25px -25px 40px -25px #e6e6e6;
+      flex-direction: column;
+      h5 {
+        padding-bottom: 5px;
+        color: $deepBlue;
+        position: relative;
+        &::after {
+          content: '';
+          display: block;
+          width: 30px;
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          border-bottom: 1px solid $deepRed;
+        }
+      }
+      form {
+        width: 100%;
+        .form-group {
+          color: $lightGrey;
+        }
+      }
     }
   }
 
