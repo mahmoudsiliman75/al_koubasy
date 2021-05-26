@@ -25,6 +25,12 @@ $(document).ready( function() {
   wow.init();
   // END:: WOW JS
 
+  // START:: TRIGGER SEARCH BOX
+  $('#search_trigger').on('click', function() {
+    $('#search_form_wraper').css({'transform': 'scale(1)', "opacity": "1"});
+  });
+  // END:: TRIGGER SEARCH BOX
+
   // START:: TOGGLE MENU
   $('#open_menu').on('click', () => {
     $('.small_menu').css('display', 'flex');
