@@ -417,8 +417,7 @@ nav {
 
 // START:: OUR SERVICES SECTION STYLES
 .services_sec {
-  padding: $paddingAmount;
-  padding: $paddingAmount;
+  padding: $paddingAmount 0;
   background: url('../media/shapes/4.png');
   background-position: left 35%;
   background-repeat: no-repeat;
@@ -701,7 +700,10 @@ nav {
 
 // START:: LATEST NEWS SECTION STYLES
 .latest_news_sec {
-  padding: $paddingAmount;
+  padding: $paddingAmount 0;
+  background: url('../media/shapes/3.png');
+  background-position: right 35%;
+  background-repeat: no-repeat;
 
   .header_wraper {
     @include flexCenterAlignment();
@@ -750,8 +752,12 @@ nav {
 
 // START:: OUR CLIENTS SECTION STYLES
 .our_clients_sec {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
+  padding: $paddingAmount 0;
+  background: url('../media/shapes/pattern-2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
@@ -820,7 +826,6 @@ nav {
         }
       }
     }
-
   }
 
   .btn_wraper {
@@ -835,8 +840,12 @@ nav {
 
 // START:: OUR TEAM SECTION STYLES
 .our_team_sec {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
+  padding: $paddingAmount*1.5 0;
+  background: url('../media/shapes/header-sape4.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
@@ -847,46 +856,49 @@ nav {
   .owl-carousel {
     position: relative;
 
-    .item {
-      .card {
-        background-color: transparent;
-        border: none;
-        @include flexCenterAlignment();
+    .owl-stage-outer {
+      .item {
+        .card {
+          background-color: transparent;
+          border: none;
+          @include flexCenterAlignment();
+          flex-direction: row-reverse;
 
-        &:hover {
-          .img_wraper {
-            img {
-              transform: scale(1.1);
-              @include transitioning();
+          &:hover {
+            .img_wraper {
+              img {
+                transform: scale(1.1);
+                @include transitioning();
+              }
             }
           }
-        }
-
-        .img_wraper {
-          margin-block: 15px;
-          min-width: 250px;
-          max-width: 250px;
-          min-height: 300px;
-          max-height: 300px;
-          overflow: hidden;
-          @include simpleShadow();
-          @include borderradius($borderRadiusAmount);
-          img {
+  
+          .img_wraper {
+            margin-block: 15px;
+            min-width: 150px;
+            max-width: 150px;
+            min-height: 150px;
+            max-height: 150px;
+            overflow: hidden;
+            @include simpleShadow();
+            @include borderradius(50%);
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .card-body {
             width: 100%;
-            height: 100%;
-          }
-        }
-        .card-body {
-          width: 100%;
-          margin-top: 0 !important;
-          h4 {
-            text-align: center;
-            color: $deepBlue;
-          }
-
-          h5 {
-            text-align: center;
-            color: $lightGrey;
+            margin-top: 0 !important;
+            h4 {
+              text-align: end;
+              color: $deepBlue;
+            }
+  
+            h5 {
+              text-align: end;
+              color: $lightGrey;
+            }
           }
         }
       }
@@ -953,6 +965,13 @@ nav {
     }
   }
 
+  .btn_wraper {
+    margin-top: 15px;
+    @include flexCenterAlignment();
+    a {
+      @include btnHoverEffect();
+    }
+  }
 }
 // END:: OUR TEAM SECTION STYLES
 

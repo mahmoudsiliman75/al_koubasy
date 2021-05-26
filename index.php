@@ -271,7 +271,7 @@
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Al Koubasy Highlight </h2>
     </div>
 
-    <div class="row justify-content-around justify-content-md-center overflow-hidden" style="background-image: url('assets/media/sec_bg.jpg')">
+    <div class="row justify-content-around justify-content-md-center overflow-hidden" style="background-image: url('assets/media/slider3.jpeg')">
       <!-- START:: UPPER SECTION SVG -->
       <div class="upper_svg_wraper">
         <svg class="eltdf-cut-off-effect eltdf-cut-off-effect-bottom" preserveAspectRatio="none" width="100%" height="20px" viewBox="0 0 1920 27" enable-background="new 0 0 1920 27">
@@ -923,7 +923,7 @@
 
         <div class="item text-center">
           <div class="img_wraper">
-            <img src="assets/media/prand5.jpg" alt="client">
+            <img src="assets/media/prand6.png" alt="client">
           </div>
         </div>
 
@@ -958,7 +958,7 @@
 
 <!-- START:: OUR TEAM SECTION -->
 <div class="our_team_sec">
-  <div class="container">
+  <div class="container-fluid">
     <div class="header_wraper">
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Team </h2>
     </div>
@@ -978,7 +978,73 @@
           </div>
         </div>
 
+        <div class="item">
+          <div class="card">
+            <div class="img_wraper">
+              <img src="assets/media/member2.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body mt-4">
+              <h4>Personal Name 2</h4>
+              <h5>Consultant</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <div class="img_wraper">
+              <!-- THIS IMAGE WILL BE DISPLAIED IF THERE IS NO IMAGE UPLOADED -->
+              <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body mt-4">
+              <h4>Personal Name 3</h4>
+              <h5>Consultant</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <div class="img_wraper">
+              <img src="assets/media/member1.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body mt-4">
+              <h4>Personal Name 1</h4>
+              <h5>Consultant</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <div class="img_wraper">
+              <img src="assets/media/member2.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body mt-4">
+              <h4>Personal Name 2</h4>
+              <h5>Consultant</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="card">
+            <div class="img_wraper">
+              <!-- THIS IMAGE WILL BE DISPLAIED IF THERE IS NO IMAGE UPLOADED -->
+              <img src="assets/media/default.jpg" class="card-img-top" alt="...">
+            </div>
+            <div class="card-body mt-4">
+              <h4>Personal Name 3</h4>
+              <h5>Consultant</h5>
+            </div>
+          </div>
+        </div>
+
       </div>
+    </div>
+
+    <div class="btn_wraper wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s">
+      <a href="Team.php"> View More </a>
     </div>
   </div>
 </div>
