@@ -2524,8 +2524,11 @@ nav {
 
 // START:: ALL BOOKS SECTION STYLES
 .all_products {
-  padding-top: $paddingAmount;
-  padding-bottom: $paddingAmount;
+  padding: $paddingAmount 0;
+  background: url('../media/shapes/1.svg');
+  background-size: 100%;
+  background-position: center;
+
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
@@ -2537,6 +2540,10 @@ nav {
     position: sticky;
     top: 25px;
     .filter_wraper {
+      background: url('../media/shapes/contact-background.png') $white;
+      background-position: 100%;
+      background-size: 100%;
+      background-repeat: no-repeat;
       padding: 20px 0;
       border-radius: $borderRadiusAmount;
       @include flexCenterAlignment();
@@ -2572,26 +2579,29 @@ nav {
       @include flexCenterAlignment();
       flex-direction: column;
       img {
-        min-width: 250px;
-        max-width: 250px;
+        width: 70%;
         min-height: 250px;
         max-height: 250px;
-        @include borderradius(50%); 
+        @include borderradius(10px); 
       }
 
-      h4 {
+      .product_title {
         width: 100%;
         text-align: start;
-        font-weight: 600;
+        word-break: break-word;
+        font-size: 1.5rem;
+        font-weight: 500;
         margin-top: 10px;
         color: $deepBlue;
         padding-inline-start: 10px;
-        border-left: 2px solid $deepRed;
-        span {
-          margin-top: 10px;
-          color: $lightGrey;
-          display: block;
-        }
+      }
+
+      .product_price {
+        width: 100%;
+        text-align: start;
+        font-size: 1.2rem;
+        color: $lightGrey;
+        padding-inline-start: 10px;
       }
 
       svg {
@@ -3240,19 +3250,4 @@ footer {
   }
 }
 // END:: FOOTER STYLES
-
-// START:: FLOATING ICON STYLES
-// .floating_icon {
-//   position: fixed;
-//   bottom: 30px;
-//   right: 5px;
-//   z-index: 999;
-//   img {
-//     min-width: 90px;
-//     max-width: 90px;
-//     min-height: 90px;
-//     max-height: 90px;
-//   }
-// }
-//END:: FLOATING ICON STYLES
 

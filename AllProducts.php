@@ -142,7 +142,7 @@
 </div>
 <!-- END:: HEDAER IMAGE SECTION -->
 
-<!-- START:: ALL BOOKS SECTION -->
+<!-- START:: ALL PRODUCTS SECTION -->
 <div class="all_products">
   <div class="container-fluid">
     <div class="header_wraper">
@@ -222,95 +222,95 @@
       <div class="col-12 col-md-9 wow fadeInUpBig" data-wow-duration="1.5s" data-wow-delay="0.5s">
         <div class="row">
 
-          <div class="col-12 col-sm-6 col-md-4 product_details my-3">
+          <div class="col-12 col-sm-6 col-md-4 product_details my-4">
+            <a href="ProductDetails.php">
+              <img src="assets/media/folder/Nine_Essentials.png" alt="Why Section Icon 1">
+              <div class="product_title">
+                Product Name
+              </div>
+              <div class="product_price"> 50 EGP </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 product_details my-4">
+            <a href="ProductDetails.php">
+              <img src="assets/media/folder/Nine_Essentials.png" alt="Why Section Icon 1">
+              <div class="product_title">
+                Product Name
+              </div>
+              <div class="product_price"> 50 EGP </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 product_details my-4">
+            <a href="ProductDetails.php">
+              <img src="assets/media/folder/Nine_Essentials.png" alt="Why Section Icon 1">
+              <div class="product_title">
+                Product Name
+              </div>
+              <div class="product_price"> 50 EGP </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 product_details my-4">
+            <a href="ProductDetails.php">
+              <img src="assets/media/folder/Nine_Essentials.png" alt="Why Section Icon 1">
+              <div class="product_title">
+                Product Name
+              </div>
+              <div class="product_price"> 50 EGP </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 product_details my-4">
+            <a href="ProductDetails.php">
+              <img src="assets/media/folder/Nine_Essentials.png" alt="Why Section Icon 1">
+              <div class="product_title">
+                Product Name
+              </div>
+              <div class="product_price"> 50 EGP </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 product_details my-4">
+            <a href="ProductDetails.php">
+              <img src="assets/media/folder/Nine_Essentials.png" alt="Why Section Icon 1">
+              <div class="product_title">
+                Product Name
+              </div>
+              <div class="product_price"> 50 EGP </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 product_details my-4">
+            <a href="ProductDetails.php">
+              <img src="assets/media/folder/Nine_Essentials.png" alt="Why Section Icon 1">
+              <div class="product_title">
+                Product Name
+              </div>
+              <div class="product_price"> 50 EGP </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 product_details my-4">
+            <a href="ProductDetails.php">
+              <img src="assets/media/folder/Nine_Essentials.png" alt="Why Section Icon 1">
+              <div class="product_title">
+                Product Name
+              </div>
+              <div class="product_price"> 50 EGP </div>
+            </a>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 product_details my-4">
             <a href="ProductDetails.php">
               <img src="assets/media/pic1.jpg" alt="Why Section Icon 1">
-              <h4> 
+              <div class="product_title">
                 Product Name
-                <span>$50.00</span>
-              </h4>
+              </div>
+              <div class="product_price"> 50 EGP </div>
             </a>
           </div>
-
-          <div class="col-12 col-sm-6 col-md-4 product_details my-3">
-            <a href="ProductDetails.php">
-              <img src="assets/media/pic2.jpg" alt="Why Section Icon 1">
-              <h4> 
-                Product Name
-                <span>$50.00</span>
-              </h4>
-            </a>
-          </div>
-
-          <div class="col-12 col-sm-6 col-md-4 product_details my-3">
-            <a href="ProductDetails.php">
-              <img src="assets/media/pic3.jpg" alt="Why Section Icon 1">
-              <h4> 
-                Product Name
-                <span>$50.00</span>
-              </h4>
-            </a>
-          </div>  
-
-          <div class="col-12 col-sm-6 col-md-4 product_details my-3">
-            <a href="ProductDetails.php">
-              <img src="assets/media/pic4.jpg" alt="Why Section Icon 1">
-              <h4> 
-                Product Name
-                <span>$50.00</span>
-              </h4>
-            </a>
-          </div>  
-
-          <div class="col-12 col-sm-6 col-md-4 product_details my-3">
-            <a href="ProductDetails.php">
-              <img src="assets/media/pic5.jpg" alt="Why Section Icon 1">
-              <h4> 
-                Product Name
-                <span>$50.00</span>
-              </h4>
-            </a>
-          </div>  
-
-          <div class="col-12 col-sm-6 col-md-4 product_details my-3">
-            <a href="ProductDetails.php">
-              <img src="assets/media/pic6.jpg" alt="Why Section Icon 1">
-              <h4> 
-                Product Name
-                <span>$50.00</span>
-              </h4>
-            </a>
-          </div> 
-
-          <div class="col-12 col-sm-6 col-md-4 product_details my-3">
-            <a href="ProductDetails.php">
-              <img src="assets/media/pic7.jpg" alt="Why Section Icon 1">
-              <h4> 
-                Product Name
-                <span>$50.00</span>
-              </h4>
-            </a>
-          </div> 
-
-          <div class="col-12 col-sm-6 col-md-4 product_details my-3">
-            <a href="ProductDetails.php">
-              <img src="assets/media/pic8.jpg" alt="Why Section Icon 1">
-              <h4> 
-                Product Name
-                <span>$50.00</span>
-              </h4>
-            </a>
-          </div> 
-
-          <div class="col-12 col-sm-6 col-md-4 product_details my-3">
-            <a href="ProductDetails.php">
-              <img src="assets/media/pic9.jpg" alt="Why Section Icon 1">
-              <h4> 
-                Product Name
-                <span>$50.00</span>
-              </h4>
-            </a>
-          </div> 
 
           <div class="col-12 btn_box">
             <button> Load More </button>
@@ -320,7 +320,7 @@
     </div>
   </div>
 </div>
-<!-- END:: ALL BOOKS SECTION -->
+<!-- END:: ALL PRODUCTS SECTION -->
 
 <!-- START:: INCLUDING THE FOOTER -->
 <?php include('layouts/TheFooter.php')?>
