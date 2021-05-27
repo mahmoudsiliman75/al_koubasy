@@ -84,7 +84,7 @@
       </li>
 
       <li> 
-        <a href="AllProducts.php"> Product </a>
+        <a href="AllProducts.php"> Products </a>
       </li>
 
     </ul>

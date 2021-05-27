@@ -323,8 +323,8 @@ $(document).ready( function() {
     controlNav: true,
     animationLoop: true,
     slideshow: true,
-    itemWidth: 160,
-    itemMargin: 0,
+    itemWidth: 140,
+    itemMargin: 20,
     asNavFor: '#slider'
   });
 
