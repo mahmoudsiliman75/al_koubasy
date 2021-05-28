@@ -746,9 +746,6 @@
                 <div id="slider" class="flexslider">
                   <ul class="slides">
                     <li>
-                      <iframe src="https://www.youtube.com/embed/8udmtW-y8Qc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </li>
-                    <li>
                       <img src="assets/media/pic2.jpg" />
                     </li>
                     <li>
@@ -768,12 +765,9 @@
                     </li>
                   </ul>
                 </div>
-
+  
                 <div id="carousel" class="flexslider">
                   <ul class="slides">
-                    <li>
-                      <img class="min_img" src="https://i.ytimg.com/vi/8udmtW-y8Qc/default.jpg" />
-                    </li>
                     <li>
                       <img class="min_img" src="assets/media/pic2.jpg" />
                     </li>

@@ -966,19 +966,21 @@ nav .menu_btn svg {
   background-color: #dc4040;
 }
 
-.heightlights .row > div:nth-child(2) {
-  border-left: 1px solid #d1d1d1;
-  border-right: 1px solid #d1d1d1;
+.heightlights .row .product_img_wraper img {
+  width: 100%;
+  height: auto;
+  min-height: 450px;
+  -webkit-animation: product_animation;
+          animation: product_animation;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
 }
 
-@media (max-width: 767px) {
-  .heightlights .row > div:nth-child(2) {
-    border-left: none;
-    border-right: none;
-  }
-}
-
-.heightlights .row .card {
+.heightlights .row > div:first-child .card {
   background-color: transparent;
   border: none;
   display: -webkit-box;
@@ -987,31 +989,99 @@ nav .menu_btn svg {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: end;
+  margin-bottom: 25px;
 }
 
-.heightlights .row .card .icon_wraper img {
-  width: 150px;
-  height: 150px;
+.heightlights .row > div:first-child .card:last-child {
+  margin-bottom: 0;
 }
 
-.heightlights .row .card .info_wraper {
-  text-align: start;
+.heightlights .row > div:first-child .card h4 {
+  width: 100%;
+  color: #00303f;
+  margin-bottom: 8px;
 }
 
-.heightlights .row .card .info_wraper h2 {
-  font-weight: 700;
-  color: #fff;
-}
-
-.heightlights .row .card .info_wraper h5 {
+.heightlights .row > div:first-child .card .heighlight_text_wraper {
+  word-break: break-word;
+  line-height: 1.6;
+  word-spacing: 2px;
+  font-size: 16px;
   color: #666;
+}
+
+.heightlights .row > div:last-child .card {
+  background-color: transparent;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: start;
+  margin-bottom: 25px;
+}
+
+.heightlights .row > div:last-child .card:last-child {
+  margin-bottom: 0;
+}
+
+.heightlights .row > div:last-child .card h4 {
+  width: 100%;
+  color: #00303f;
+  margin-bottom: 8px;
+}
+
+.heightlights .row > div:last-child .card .heighlight_text_wraper {
+  word-break: break-word;
+  line-height: 1.6;
+  word-spacing: 2px;
+  font-size: 16px;
+  color: #666;
+}
+
+@media (max-width: 767px) {
+  .heightlights .row > div:first-child .card, .heightlights .row > div:last-child .card {
+    text-align: start;
+  }
+}
+
+@-webkit-keyframes product_animation {
+  0% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+}
+
+@keyframes product_animation {
+  0% {
+    -webkit-transform: translateY(-5px);
+            transform: translateY(-5px);
+  }
+  100% {
+    -webkit-transform: translateY(5px);
+            transform: translateY(5px);
+  }
 }
 
 .events_sec {
@@ -2786,27 +2856,36 @@ nav .menu_btn svg {
 }
 
 .related_products .owl-carousel .item a img {
-  min-width: 200px;
-  max-width: 200px;
-  min-height: 200px;
-  max-height: 200px;
-  border-radius: 50%;
+  width: 100%;
+  min-height: 180px;
+  max-height: 180px;
+  border-radius: 10px;
 }
 
-.related_products .owl-carousel .item a h5 {
-  text-align: center;
-  font-weight: 600;
+.related_products .owl-carousel .item a .product_title {
+  width: 100%;
+  text-align: end;
+  word-break: break-word;
+  font-size: 1.5rem;
+  font-weight: 500;
   margin-top: 10px;
   color: #00303f;
   -webkit-padding-end: 10px;
           padding-inline-end: 10px;
-  border-left: 2px solid #810000;
+}
+
+.related_products .owl-carousel .item a .product_price {
+  width: 100%;
+  text-align: end;
+  font-size: 1.2rem;
+  color: #666;
+  -webkit-padding-end: 10px;
+          padding-inline-end: 10px;
 }
 
 .related_products .owl-carousel .item a svg {
   margin-top: 8px;
   color: #810000;
-  display: none;
 }
 
 .related_products .owl-carousel .owl-nav {

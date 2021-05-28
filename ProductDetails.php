@@ -284,35 +284,72 @@
       <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.9s"> Product Highlights </h2>
     </div>
     <div class="row justify-content-around justify-content-md-center overflow-hidden">
-      <div class="col-5 col-md-4 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-        <div class="card flex-column">
-          <div class="icon_wraper">
-            <img src="assets/media/icons/hospital.png" alt="Icon 1">
-          </div> 
-          <div class="info_wraper mt-3">
-            <h5 class="text-center"> Delivery Speed </h5>
+      <div class="col-12 col-md-4 my-3 order-2 order-md-1 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+        <div class="card">
+          <h4> Heighlight1 </h4>
+          <div class="heighlight_text_wraper">
+            Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Possimus sed ratione 
+            tempore quasi tenetur maxime. Possimus 
+            sed ratione tempore quasi tenetur maxime.
+          </div>
+        </div>
+
+        <div class="card">
+          <h4> Heighlight2 </h4>
+          <div class="heighlight_text_wraper">
+            Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Possimus sed ratione 
+            tempore quasi tenetur maxime. Possimus 
+            sed ratione tempore quasi tenetur maxime.
+          </div>
+        </div>
+
+        <div class="card">
+          <h4> Heighlight3 </h4>
+          <div class="heighlight_text_wraper">
+            Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Possimus sed ratione 
+            tempore quasi tenetur maxime. Possimus 
+            sed ratione tempore quasi tenetur maxime.
           </div>
         </div>
       </div>
 
-      <div class="col-5 col-md-4 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-        <div class="card flex-column">
-          <div class="icon_wraper">
-            <img src="assets/media/icons/clock.png" alt="Icon 1">
-          </div> 
-          <div class="info_wraper mt-3">
-            <h5 class="text-center"> Expiration Date </h5>
-          </div>
+      <div class="col-12 col-md-4 order-1 order-md-2 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+        <div class="product_img_wraper">
+          <img src="assets/media/folder/Nine_Essentials.png" alt="">
         </div>
       </div>
 
-      <div class="col-5 col-md-4 my-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-        <div class="card flex-column">
-          <div class="icon_wraper">
-            <img src="assets/media/icons/idea.png" alt="Icon 1">
-          </div> 
-          <div class="info_wraper mt-3">
-            <h5 class="text-center"> Product Quality </h5>
+      <div class="col-12 col-md-4 my-3 order-3 order-md-3 wow fadeInDownBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
+        <div class="card">
+          <h4> Heighlight4 </h4>
+          <div class="heighlight_text_wraper">
+            Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Possimus sed ratione 
+            tempore quasi tenetur maxime. Possimus 
+            sed ratione tempore quasi tenetur maxime.
+          </div>
+        </div>
+
+        <div class="card">
+          <h4> Heighlight5 </h4>
+          <div class="heighlight_text_wraper">
+            Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Possimus sed ratione 
+            tempore quasi tenetur maxime. Possimus 
+            sed ratione tempore quasi tenetur maxime.
+          </div>
+        </div>
+
+        <div class="card">
+          <h4> Heighlight6 </h4>
+          <div class="heighlight_text_wraper">
+            Lorem ipsum, dolor sit amet consectetur 
+            adipisicing elit. Possimus sed ratione 
+            tempore quasi tenetur maxime. Possimus 
+            sed ratione tempore quasi tenetur maxime.
           </div>
         </div>
       </div>
@@ -333,61 +370,41 @@
 
         <div class="item">
           <a href="ProductDetails.php">
-            <img src="assets/media/pic1.jpg" alt="Why Section Icon 1">
-            <h5> 
-              Product Name
-            </h5>
-            <i class="fas fa-angle-double-right"></i>
+            <img src="assets/media/folder/product1.png" alt="">
+            <div class="product_title">
+              Product Name 1
+            </div>
+            <div class="product_price"> 50 EGP </div>
           </a>
         </div>
 
         <div class="item">
           <a href="ProductDetails.php">
-            <img src="assets/media/pic2.jpg" alt="Why Section Icon 1">
-            <h5> 
-              Product Name
-            </h5>
-            <i class="fas fa-angle-double-right"></i>
+            <img src="assets/media/folder/product2.png" alt="">
+            <div class="product_title">
+              Product Name 2
+            </div>
+            <div class="product_price"> 50 EGP </div>
           </a>
         </div>
 
         <div class="item">
           <a href="ProductDetails.php">
-            <img src="assets/media/pic3.jpg" alt="Why Section Icon 1">
-            <h5> 
-              Product Name
-            </h5>
-            <i class="fas fa-angle-double-right"></i>
+            <img src="assets/media/folder/product3.png" alt="">
+            <div class="product_title">
+              Product Name 3
+            </div>
+            <div class="product_price"> 50 EGP </div>
           </a>
         </div>
 
         <div class="item">
           <a href="ProductDetails.php">
-            <img src="assets/media/pic4.jpg" alt="Why Section Icon 1">
-            <h5> 
-              Product Name
-            </h5>
-            <i class="fas fa-angle-double-right"></i>
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="ProductDetails.php">
-            <img src="assets/media/pic5.jpg" alt="Why Section Icon 1">
-            <h5> 
-              Product Name
-            </h5>
-            <i class="fas fa-angle-double-right"></i>
-          </a>
-        </div>
-
-        <div class="item">
-          <a href="ProductDetails.php">
-            <img src="assets/media/pic6.jpg" alt="Why Section Icon 1">
-            <h5> 
-              Product Name
-            </h5>
-            <i class="fas fa-angle-double-right"></i>
+            <img src="assets/media/folder/product4.png" alt="">
+            <div class="product_title">
+              Product Name 4
+            </div>
+            <div class="product_price"> 50 EGP </div>
           </a>
         </div>
 
