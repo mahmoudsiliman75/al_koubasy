@@ -145,7 +145,7 @@
 <!-- START:: PRODUCT INFO SECTION -->
 <div class="product_info wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
   <div class="container-fluid">
-    <div class="row">
+    <div class="row justify-content-center">
       <div class="col-11 col-md-5 mb-3">
         <div class="product_img_wraper">
           <div id="slider" class="flexslider">
@@ -208,6 +208,35 @@
             <span class="new_price"> 50 EGP </span>
           </div>
 
+          <div class="col-12 product_prief">
+            <div class="prief">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati 
+              distinctio nemo perspiciatis, quibusdam consequatur unde odit sequi at, 
+              architecto exercitationem ratione quos laudantium consequuntur iste nostrum 
+              praesentium. Corporis, veritatis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati 
+              distinctio nemo perspiciatis, quibusdam consequatur unde odit sequi at, 
+              architecto exercitationem ratione quos laudantium consequuntur iste nostrum 
+              praesentium. Corporis, veritatis.
+            </div>
+          </div>
+
+          <div class="col-6 brand_wraper mt-3">
+            <div class="icon_wraper">
+              <img src="assets/media/prand6.png" alt="">  
+            </div>
+          </div>
+
+          <div class="col-6 cat_wraper mt-3">
+            <div class="icon_wraper">
+              <img src="assets/media/icons/Juice.png" alt="">  
+            </div>
+
+            <div class="cat_name">
+              Juice
+            </div>
+          </div>
+
           <div id="add_to_cart_btn" class="col-10 my-4 add_to_cart_btn">
             <button class="btn"> Add To Cart <i class="fas fa-cart-plus"></i> </button>
           </div>
@@ -225,23 +254,6 @@
   </div>
 </div>
 <!-- END:: PRODUCT INFO SECTION -->
-
-<!-- START:: PRODUCT PRIEF SECTION -->
-<div class="product_prief wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-  <div class="container">
-    <div class="prief">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati 
-      distinctio nemo perspiciatis, quibusdam consequatur unde odit sequi at, 
-      architecto exercitationem ratione quos laudantium consequuntur iste nostrum 
-      praesentium. Corporis, veritatis.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati 
-      distinctio nemo perspiciatis, quibusdam consequatur unde odit sequi at, 
-      architecto exercitationem ratione quos laudantium consequuntur iste nostrum 
-      praesentium. Corporis, veritatis.
-    </div>
-  </div>
-</div>
-<!-- END:: PRODUCT PRIEF SECTION -->
 
 <!-- START:: HEIGHLIGHTS SECTION -->
 <div class="heightlights">

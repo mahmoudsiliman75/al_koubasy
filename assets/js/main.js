@@ -55,7 +55,7 @@ $(document).ready( function() {
 
   $('#add_to_cart_btn button').on('click', function(e) {
     e.preventDefault();
-    $(this).css('display', 'none');
+    $(this).parent().css('display', 'none');
     $('#cart_btn').css('display', 'block');
     $('#continue_shopping_btn').css('display', 'block');
   });
@@ -330,6 +330,14 @@ $(document).ready( function() {
   // END:: TOGGLE FORMS
 
   // START:: FLEX SLIDER
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+  });
+
   $('#carousel').flexslider({
     animation: "slide",
     controlNav: true,
@@ -338,14 +346,6 @@ $(document).ready( function() {
     itemWidth: 140,
     itemMargin: 20,
     asNavFor: '#slider'
-  });
-
-  $('#slider').flexslider({
-    animation: "slide",
-    controlNav: false,
-    animationLoop: false,
-    slideshow: false,
-    sync: "#carousel"
   });
   // END:: FLEX SLIDER
 

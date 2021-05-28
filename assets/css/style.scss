@@ -1532,6 +1532,10 @@ nav {
 // START:: SERVICE PRODUCTS SECTION STYLES
 .related_products {
   padding: $paddingAmount 0;
+  background: url('../media/shapes/9.png');
+  background-size: 100%;
+  background-position: center;
+
   .header_wraper {
     @include flexCenterAlignment();
     h2 {
@@ -2694,6 +2698,10 @@ nav {
   }
 
   .product_info_wraper {
+    background: url('../media/shapes/9.png');
+    background-size: 100%;
+    background-position: center;
+
     .header_wraper {
       @include flexStartAlignment();
       h3 {
@@ -2725,33 +2733,66 @@ nav {
       }
     }
 
+    .product_prief {
+      margin-block: 15px;
+      .prief {
+        padding-inline-start: 75px;
+        padding-inline-end: 15px;
+        font-size: 18px;
+        color: $lightGrey;
+        line-height: 1.6;
+        text-align: start;
+        word-break: break-word;
+      }
+    }
+
+    .brand_wraper {
+      @include flexCenterAlignment();
+
+      .icon_wraper {
+        margin-inline-start: 75px;
+        img {
+          min-width: 120px;
+          max-width: 120px;
+        }
+      }
+    }
+
+    .cat_wraper {
+      @include flexCenterAlignment();
+
+      .icon_wraper {
+        margin-inline-start: 75px;
+        img {
+          min-width: 50px;
+          max-width: 50px;
+          min-height: 65px;
+          max-height: 65px;
+        }
+      }
+
+      .cat_name {
+        font-size: 1.5rem;
+        margin-inline-start: 8px;
+        color: $deepBlue;
+      }
+    }
+
     .add_to_cart_btn,
     .cart_btn,
     .continue_shopping_btn {
       button,
       a {
-        width: 100%;
         @include btnHoverEffect();
-        font-size: 1.05rem
+        width: 100%;
+        font-size: 1.05rem;
+        display: inline-block;
+        text-align: center;
       }
     }
   }
 }
 // END:: PRODUCT INFO SECTION STYLES
-
-// START:: PRODUCT PRIEF SECTION STYLES
-.product_prief {
-  padding: $paddingAmount 0;
-
-  .prief {
-    font-size: 20px;
-    color: $lightGrey;
-    line-height: 1.7;
-    text-align: center;
-    word-break: break-word;
-  }
-}
-// END:: PRODUCT PRIEF SECTION STYLES
 
 // START:: SHARE SECTION STYLES
 .share {
