@@ -109,14 +109,13 @@ nav {
 
   .search_form_wraper {
     position: fixed;
-    top: 0;
-    left: 0;
+    left: -100%;
     width: 100%;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.95);
+    height: 82px;
+    background-color: $white;
     z-index: 9999;
+    border-bottom: 2px solid $deepRed;
     @include flexCenterAlignment();
-    transform: scale(0);
     opacity: 0;
     @include transitioning();
 
@@ -124,20 +123,68 @@ nav {
       width: 50%;
       .wraper {
         @include flexCenterAlignment();
-        border-bottom: 2px solid $deepRed;
+        border-bottom: 1px solid $lightGrey;
         input {
           background-color: transparent;
           border: none;
-          color: $white;
-          font-size: 2rem;
+          color: $deepBlue;
+          font-size: 1.05rem;
           &:focus {
             box-shadow: none;
           }
         }
         button {
-          color: $midRed;
+          color: $lightGrey;
           &:focus {
             box-shadow: none;
+          }
+        }
+      }
+    }
+
+    .close_form_btn {
+      position: absolute;
+      right: 15px;
+      top: 20px;
+      svg {
+        color: $deepRed;
+        @include transitioning();
+      }
+    }
+  }
+
+  @media ( max-width: 767px ) {
+    .search_form_wraper {
+      position: fixed;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.95);
+      z-index: 9999;
+      @include flexCenterAlignment();
+      opacity: 0;
+      @include transitioning();
+  
+      form {
+        width: 50%;
+        .wraper {
+          @include flexCenterAlignment();
+          border-bottom: 2px solid $deepRed;
+          input {
+            background-color: transparent;
+            border: none;
+            color: $white;
+            font-size: 2rem;
+            &:focus {
+              box-shadow: none;
+            }
+          }
+          button {
+            color: $midRed;
+            &:focus {
+              box-shadow: none;
+            }
           }
         }
       }

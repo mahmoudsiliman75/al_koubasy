@@ -27,7 +27,11 @@ $(document).ready( function() {
 
   // START:: TRIGGER SEARCH BOX
   $('#search_trigger').on('click', function() {
-    $('#search_form_wraper').css({'transform': 'scale(1)', "opacity": "1"});
+    $('#search_form_wraper').css({'left': '0', "opacity": "1"});
+  });
+
+  $('#close_form_btn').on('click', function() {
+    $('#search_form_wraper').css({'left': '-100%', "opacity": "0"});
   });
   // END:: TRIGGER SEARCH BOX
 

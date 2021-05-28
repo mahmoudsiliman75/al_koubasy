@@ -50,7 +50,7 @@
 <!-- START:: LARGE SCREENS NAVBAR -->
 <nav class="d-flex justify-content-between align-items-center">
   <!-- START:: SEARCH BOX -->
-  <div class="search_btn_wraper px-5">
+  <div class="search_btn_wraper px-1 px-md-5">
     <span id="search_trigger">
       <i class="fas fa-search fa-2x"></i>
     </span>
@@ -61,10 +61,14 @@
       <div class="wraper">
         <input type="text" class="form-control" name="search" aria-describedby="search">
         <button type="submit" class="btn">
-          <i class="fas fa-arrow-right fa-2x"></i>
+          <i class="fas fa-search fa-lg"></i>
         </button>
       </div>
     </form>
+
+    <button id="close_form_btn" class="btn close_form_btn">
+      <i class="fas fa-times fa-lg"></i>
+    </button>
   </div>
   <!-- END:: SEARCH BOX -->
 
