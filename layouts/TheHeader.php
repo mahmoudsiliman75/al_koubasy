@@ -170,16 +170,6 @@
     </div>
     <!-- END:: CART BUTTON -->
 
-    <!-- START:: LANG BUTTON -->
-    <!-- <div class="lang-button mx-2">
-      <a href="#"> 
-        <span class="en"> E </span>
-        <span class="ar"> ع </span>
-        <span class="circle"></span>
-      </a>
-    </div> -->
-    <!-- END:: LANG BUTTON -->
-
     <!-- START:: MENU BUTTON -->
     <button id="open_menu" class="menu_btn mx-2">
       <i class="fas fa-bars"></i>
@@ -242,7 +232,7 @@
 <!-- END:: SMALL SCREENS MENU -->
 
 <!-- START:: PRE LOADER -->
-<!-- <div class="pre_loader">
+<div class="pre_loader">
   <img src="assets/media/logo.png">
   <div class="spinner">
     <div class="rect1"></div>
@@ -251,5 +241,5 @@
     <div class="rect4"></div>
     <div class="rect5"></div>
   </div>
-</div> -->
+</div>
 <!-- END:: PRE LOADER -->
