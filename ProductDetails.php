@@ -146,7 +146,7 @@
 <div class="product_info wow fadeInLeftBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-11 col-md-5">
+      <div class="col-11 col-md-5 mb-3">
         <div class="product_img_wraper">
           <div id="slider" class="flexslider">
             <ul class="slides">
@@ -197,57 +197,27 @@
       </div>
 
       <form class="col-12 col-md-7">
-        <div class="row details_wraper">
-          <div class="col-12 col-md-6">
-            <div class="hedaer_wraper mb-3">
-              <h3>Categories</h3>
-            </div>
-
-            <div class="product_cat mt-3">
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="fresh_fruits" disabled>
-                <label class="form-check-label" for="fresh_fruits">Fresh Fruits</label>
-              </div>
-
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="fresh_Vegetables" checked disabled>
-                <label class="form-check-label" for="fresh_Vegetables">Fresh Vegetables</label>
-              </div>
-
-              <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="juices" disabled>
-                <label class="form-check-label" for="juices">Juices</label>
-              </div>
-            </div>
+        <div class="row justify-content-center product_info_wraper">
+          <div class="col-12 header_wraper">
+            <h3> Product Name </h3>
           </div>
 
-          <div class="col-12 col-md-6">
-            <div class="hedaer_wraper mb-3">
-              <h3>Order Details</h3>
-            </div>
-
-            <div class="form-group">
-              <input type="number" min="1" placeholder="Quantity" class="form-control" id="quantity">
-            </div>
+          <div class="col-12 price_wraper">
+            <span> Price: </span>
+            <span class="old_price"> 80 EGP </span>
+            <span class="new_price"> 50 EGP </span>
           </div>
-        </div>
 
-        <div class="actions_wraper">
-          <div class="row justify-content-between">
-            <div class="col-6 col-md-4 my-1">
-              <span class="offer"> Offer: <span>35 EGP</span> </span>
-              <span class="price"> 20 EGP </span>
-            </div>
+          <div id="add_to_cart_btn" class="col-10 my-4 add_to_cart_btn">
+            <button class="btn"> Add To Cart <i class="fas fa-cart-plus"></i> </button>
+          </div>
 
-            <div class="col-6 col-md-4 my-1 text-center">
-              <a href="ContactUs.php"> 
-                Contact Us
-              </a>
-            </div>
+          <div id="cart_btn" class="col-10 col-md-5 my-4 cart_btn">
+            <a href="UserCart.php"> Shopping Cart <i class="fas fa-shopping-cart"></i> </a>
+          </div>
 
-            <div class="col-12 col-md-4 my-1 d-flex justify-content-center justify-content-md-end">
-              <button> Add To Cart <i class="fas fa-cart-plus"></i> </button>
-            </div>
+          <div id="continue_shopping_btn" class="col-10 col-md-5 my-4 continue_shopping_btn">
+            <a href="AllProducts.php"> Continue Shopping </a>
           </div>
         </div>
       </form>
@@ -258,11 +228,7 @@
 
 <!-- START:: PRODUCT PRIEF SECTION -->
 <div class="product_prief wow fadeInRightBig" data-wow-duration="1.5s" data-wow-delay="0.3s">
-  <div class="container-fluid">
-    <div class="header_wraper mb-3">
-      <h3> Product Name </h3>
-    </div>
-
+  <div class="container">
     <div class="prief">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati 
       distinctio nemo perspiciatis, quibusdam consequatur unde odit sequi at, 

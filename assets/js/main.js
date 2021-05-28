@@ -49,6 +49,18 @@ $(document).ready( function() {
   });
   // END:: TOGGLE MENU
 
+  // START:: TOGGLE PRODUCT BUTTONS
+  $('#cart_btn').css('display', 'none');
+  $('#continue_shopping_btn').css('display', 'none');
+
+  $('#add_to_cart_btn button').on('click', function(e) {
+    e.preventDefault();
+    $(this).css('display', 'none');
+    $('#cart_btn').css('display', 'block');
+    $('#continue_shopping_btn').css('display', 'block');
+  });
+  // END:: TOGGLE PRODUCT BUTTONS
+
   // START:: OWL CAROUSEL
   $('#videos_slider').owlCarousel({
     loop:true,

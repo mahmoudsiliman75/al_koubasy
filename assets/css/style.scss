@@ -597,6 +597,11 @@ nav {
 
   .row {
     .product_img_wraper {
+      background: url('../media/shapes/contact-background.png');
+      background-size: 75%;
+      background-position: center;
+      background-repeat: no-repeat;
+
       img {
         width: 100%;
         height: auto;
@@ -604,7 +609,7 @@ nav {
         animation: product_animation;
         animation-iteration-count: infinite;
         animation-direction: alternate;
-        animation-duration: 3s;
+        animation-duration: 2s;
       }
     }
 
@@ -2688,81 +2693,46 @@ nav {
     }
   }
 
-  .details_wraper {
-    height: calc(100% - 45px);
-    .hedaer_wraper {
+  .product_info_wraper {
+    .header_wraper {
       @include flexStartAlignment();
       h3 {
-        margin-inline-start: 75px;
         @include mainHeaderStyle();
+        margin-inline-start: 75px;
       }
     }
 
-    .form-group {
-      input {
-        border: 1px solid $lighterGrey;
-        @include borderradius($borderRadiusAmount);
-        &:focus {
-          box-shadow: none;
-          outline: none !important;
-        }
-      }
-      .bootstrap-select {
-        border: 1px solid $lighterGrey;
-        @include borderradius($borderRadiusAmount);
-        background-color: transparent;
-        width: 100% !important;
-        button {
-          @include borderradius($borderRadiusAmount);
-          &:focus {
-            border: none;
-            box-shadow: none;
-            outline: none !important;
-          }
-        }
-        .filter-option-inner-inner {
-          text-align: start;
-          color: $lightGrey;
-        }
-      }
-    }
-
-    .product_cat {
-      text-align: start;
-      margin-inline-start: 30px;
-    }
-  }
-
-  .actions_wraper {
-    padding: 5px 0;
-    border-top: 1px solid $lighterGrey;
-    border-bottom: 1px solid $lighterGrey;
-
-    .offer {
-      color: $midRed;
+    .price_wraper {
+      @include flexStartAlignment();
       span {
-        color: $lightGrey;
-        text-decoration: line-through;
+        font-size: 1.07rem;
+        &:first-child {
+          margin-inline-start: 75px;
+          color: $darkGrey;
+          font-weight: 700;
+        }
+
+        &.old_price {
+          margin-inline-start: 8px;
+          color: $midRed;
+          text-decoration: line-through;
+        }
+
+        &.new_price {
+          margin-inline-start: 8px;
+          color: $deepBlue;
+        }
       }
     }
 
-    .price {
-      margin-inline-start: 8px;
-      color: $deepBlue;
-    }
-
-    a {
-      text-decoration: none;
-      color: $deepBlue;
-      font-weight: 700;
-    }
-
-    button {
-      border: none;
-      background-color: transparent;
-      color: $deepBlue;
-      svg {
-        color: $midRed;
+    .add_to_cart_btn,
+    .cart_btn,
+    .continue_shopping_btn {
+      button,
+      a {
+        width: 100%;
+        @include btnHoverEffect();
+        font-size: 1.05rem
       }
     }
   }
@@ -2773,17 +2743,11 @@ nav {
 .product_prief {
   padding: $paddingAmount 0;
 
-  .header_wraper {
-    @include flexStartAlignment();
-    color: $deepBlue;
-    font-weight: 800;
-  }
-
   .prief {
     font-size: 20px;
     color: $lightGrey;
     line-height: 1.7;
-    text-align: start;
+    text-align: center;
     word-break: break-word;
   }
 }
