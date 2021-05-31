@@ -48,9 +48,9 @@
 <body>
 
 <!-- START:: LARGE SCREENS NAVBAR -->
-<nav class="d-flex justify-content-between align-items-center">
+<nav class="d-flex flex-wrap justify-content-center justify-content-md-between align-items-center">
   <!-- START:: SEARCH BOX -->
-  <div class="search_btn_wraper px-1 px-md-5">
+  <div class="search_btn_wraper mx-2 mx-md-0 px-1 px-md-5">
     <span id="search_trigger">
       <i class="fas fa-search fa-2x"></i>
     </span>
@@ -96,7 +96,7 @@
   <!-- START:: NAV LINKS -->
 
   <!-- START:: THE LOGO -->
-  <div class="site-logo">
+  <div class="site-logo mx-2 mx-md-0">
     <a href="index.php">
       <img src="assets/media/logo.png" alt="The Logo">
     </a>
@@ -130,7 +130,7 @@
   </div>
   <!-- START:: NAV LINKS -->
 
-  <div class="menu_btns d-flex align-items-center">
+  <div class="menu_btns my-2 my-md-0 d-flex align-items-center">
     <!-- START:: LANG BUTTON -->  
     <span class="lang_btn mx-2">     
       <a href="#"> 
@@ -232,7 +232,7 @@
 <!-- END:: SMALL SCREENS MENU -->
 
 <!-- START:: PRE LOADER -->
-<div class="pre_loader">
+<!-- <div class="pre_loader">
   <img src="assets/media/logo.png">
   <div class="spinner">
     <div class="rect1"></div>
@@ -241,5 +241,5 @@
     <div class="rect4"></div>
     <div class="rect5"></div>
   </div>
-</div>
+</div> -->
 <!-- END:: PRE LOADER -->

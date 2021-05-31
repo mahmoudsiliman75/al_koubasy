@@ -34,7 +34,7 @@ body {
   .lower_svg_wraper {
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: -1px;
   }
 }
 
@@ -553,6 +553,17 @@ nav {
         display: none;
       }
     }
+
+    @media ( max-width: 500px ) {
+      a {
+        img {
+          min-width: 150px;
+          max-width: 150px;
+          min-height: 150px;
+          max-height: 150px;
+        }
+      }
+    }
   }
 }
 // END:: OUR SERVICES SECTION STYLES
@@ -608,8 +619,8 @@ nav {
       flex-direction: row;
       .icon_wraper {
         img {
-          width: 150px;
-          height: 150px;
+          width: 120px;
+          height: 120px;
         }
       }
   
@@ -618,10 +629,21 @@ nav {
         h2 {
           font-weight: 700;
           color: $white;
-          font-size: 55px;
+          font-size: 50px;
         }
         h5 {
           color: $white;
+        }
+      }
+    }
+
+    @media ( max-width: 900px ) {
+      .card {
+        @include flexCenterAlignment();
+        flex-direction: column;
+        h2,
+        h5 {
+          text-align: center;
         }
       }
     }
@@ -795,6 +817,13 @@ nav {
       word-break: break-word;
     }
 
+    @media ( max-width: 450px ) {
+      .text_wraper {
+        text-align: justify;
+        padding-inline: 0;
+      }
+    }
+
     .btn_wraper {
       margin-top: 20px;
       @include flexEndAlignment();
@@ -844,6 +873,17 @@ nav {
         display: none;
       }
     }
+
+    @media ( max-width: 500px ) {
+      a {
+        img {
+          min-width: 150px;
+          max-width: 150px;
+          min-height: 150px;
+          max-height: 150px;
+        }
+      }
+    }
   }
 }
 // END:: PRODUCTS CATS SECTION STYLES
@@ -887,6 +927,13 @@ nav {
       color: $lightGrey;
       text-align: start;
       word-break: break-word;
+    }
+
+    @media ( max-width: 450px ) {
+      .text_wraper {
+        text-align: justify;
+        padding-inline: 0;
+      }
     }
   }
 
@@ -1440,7 +1487,7 @@ nav {
 // START:: FAQS SECTION STYLES
 .faqs {
   padding: $paddingAmount 0;
-  background: url('../media/shapes/striples-bg.svg');
+  background: url('../media/shapes/header-sape6.png'), url('../media/shapes/9.png');
   background-position: center;
   background-size: 100%;
 
@@ -1575,6 +1622,46 @@ nav {
   }
 }
 // END:: ABOUT SERVICE SECTION
+
+// START:: SERVICE HEIGHLIGHTS SECTION STYLES
+.service_heightlights {
+  padding: $paddingAmount 0;
+  position: relative;
+  width: 100%;
+
+  .header_wraper {
+    @include flexCenterAlignment();
+    h2 {
+      @include mainHeaderStyle();
+    }
+  }
+
+  .card {
+    border: none;
+    background-color: transparent;
+    @include flexCenterAlignment();
+    .icon_wraper {
+      min-width: 120px;
+      max-width: 120px;
+      min-height: 120px;
+      max-height: 120px;
+      img {
+        min-width: 120px;
+        max-width: 120px;
+        min-height: 120px;
+        max-height: 120px;
+      }
+    }
+
+    .info_wraper {
+      h5 {
+        text-align: center;
+        color: $deepBlue;
+      }
+    }
+  }
+}
+// END:: SERVICE HEIGHLIGHTS SECTION STYLES
 
 // START:: SERVICE PRODUCTS SECTION STYLES
 .related_products {
@@ -2118,7 +2205,7 @@ nav {
 
 // START:: EVENTS SLIDER STYLES
 .events_slider {
-  padding: $paddingAmount;
+  padding: $paddingAmount 0;
 
   .header_wraper {
     @include flexCenterAlignment();
@@ -2157,6 +2244,13 @@ nav {
             flex-direction: column;
           }
         }
+
+        @media ( max-width: 767px ) {
+          .event_date {
+            left: 0;
+            bottom: 0;
+          }
+        }
       }
 
       .event_text_wraper {
@@ -2175,6 +2269,13 @@ nav {
           text-align: start;
           word-break: break-word;
           padding-inline: 15px;
+        }
+
+        @media ( max-width: 450px ) {
+          .text_wraper {
+            text-align: justify;
+            padding-inline: 0;
+          }
         }
 
         .card_btn_wraper {
@@ -3234,7 +3335,7 @@ footer {
   .upper_svg_wraper {
     width: 100%;
     position: absolute;
-    top: 0;
+    top: -1px;
     z-index: 1;
     transform: rotate(180deg);
   }
