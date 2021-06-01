@@ -28,7 +28,7 @@ body::-webkit-scrollbar-thumb {
 .header_img_wraper .lower_svg_wraper {
   width: 100%;
   position: absolute;
-  bottom: -1px;
+  bottom: -3px;
 }
 
 .bg_wraper {
@@ -605,7 +605,7 @@ nav .menu_btn svg {
 .carousel .svg_wraper {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   z-index: 1;
 }
 
@@ -938,7 +938,7 @@ nav .menu_btn svg {
 .home_heightlights .row .upper_svg_wraper {
   width: 100%;
   position: absolute;
-  top: 0;
+  top: -3px;
   z-index: 1;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -957,7 +957,7 @@ nav .menu_btn svg {
 .home_heightlights .row .lower_svg_wraper {
   width: 100%;
   position: absolute;
-  bottom: 0;
+  bottom: -3px;
   z-index: 1;
 }
 

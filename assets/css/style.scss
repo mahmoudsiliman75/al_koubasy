@@ -34,7 +34,7 @@ body {
   .lower_svg_wraper {
     width: 100%;
     position: absolute;
-    bottom: -1px;
+    bottom: -3px;
   }
 }
 
@@ -411,7 +411,7 @@ nav {
   .svg_wraper {
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: -3px;
     z-index: 1;
   }
 
@@ -590,7 +590,7 @@ nav {
     .upper_svg_wraper {
       width: 100%;
       position: absolute;
-      top: 0;
+      top: -3px;
       z-index: 1;
       transform: rotate(180deg);
     }
@@ -608,7 +608,7 @@ nav {
     .lower_svg_wraper {
       width: 100%;
       position: absolute;
-      bottom: 0;
+      bottom: -3px;
       z-index: 1;
     }
 
