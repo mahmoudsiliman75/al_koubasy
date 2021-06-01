@@ -232,7 +232,7 @@
 <!-- END:: SMALL SCREENS MENU -->
 
 <!-- START:: PRE LOADER -->
-<!-- <div class="pre_loader">
+<div class="pre_loader">
   <img src="assets/media/logo.png">
   <div class="spinner">
     <div class="rect1"></div>
@@ -241,5 +241,5 @@
     <div class="rect4"></div>
     <div class="rect5"></div>
   </div>
-</div> -->
+</div>
 <!-- END:: PRE LOADER -->
