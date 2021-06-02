@@ -50,14 +50,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .flexslider .flex-viewport {
-  max-height: 400px !important;
+  max-height: 380px !important;
 }
 
 .flexslider .flex-viewport .slides img,
 .flexslider .flex-viewport .slides iframe {
   border-radius: 10px;
-  min-height: 400px;
-  max-height: 400px;
+  min-height: 380px;
+  max-height: 380px;
   width: 100%;
 }
 

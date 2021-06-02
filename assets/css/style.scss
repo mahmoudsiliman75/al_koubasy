@@ -55,13 +55,13 @@ body {
 .flexslider {
   margin-bottom: 15px !important;
   .flex-viewport {
-    max-height: 400px !important;
+    max-height: 380px !important;
     .slides {
       img,
       iframe {
         border-radius: $borderRadiusAmount;
-        min-height: 400px;
-        max-height: 400px;
+        min-height: 380px;
+        max-height: 380px;
         width: 100%
       }
       .min_img {

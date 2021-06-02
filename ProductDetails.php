@@ -151,22 +151,19 @@
           <div id="slider" class="flexslider">
             <ul class="slides">
               <li>
-                <img src="assets/media/folder/SQ6B4200.jpg" />
+                <img src="assets/media/slider/SQ6B4153_opt.jpg" />
               </li>
               <li>
-                <img src="assets/media/folder/SQ6B4201.jpg" />
+                <img src="assets/media/slider/SQ6B4210_opt.jpg" />
               </li>
               <li>
-                <img src="assets/media/folder/SQ6B4204.jpg" />
+                <img src="assets/media/slider/SQ6B4214_opt.jpg" />
               </li>
               <li>
-                <img src="assets/media/folder/SQ6B4135.jpg" />
+                <img src="assets/media/slider/SQ6B4216_opt.jpg" />
               </li>
               <li>
-                <img src="assets/media/folder/SQ6B4139.jpg" />
-              </li>
-              <li>
-                <img src="assets/media/folder/SQ6B4159.jpg" />
+                <img src="assets/media/slider/SQ6B4220_opt.jpg" />
               </li>
             </ul>
           </div>
@@ -174,22 +171,19 @@
           <div id="carousel" class="flexslider">
             <ul class="slides">
               <li>
-                <img class="min_img" src="assets/media/folder/SQ6B4200.jpg" />
+                <img class="min_img" src="assets/media/slider/SQ6B4153_opt.jpg" />
               </li>
               <li>
-                <img class="min_img" src="assets/media/folder/SQ6B4201.jpg" />
+                <img class="min_img" src="assets/media/slider/SQ6B4210_opt.jpg" />
               </li>
               <li>
-                <img class="min_img" src="assets/media/folder/SQ6B4204.jpg" />
+                <img class="min_img" src="assets/media/slider/SQ6B4214_opt.jpg" />
               </li>
               <li>
-                <img class="min_img" src="assets/media/folder/SQ6B4135.jpg" />
+                <img class="min_img" src="assets/media/slider/SQ6B4216_opt.jpg" />
               </li>
               <li>
-                <img class="min_img" src="assets/media/folder/SQ6B4139.jpg" />
-              </li>
-              <li>
-                <img class="min_img" src="assets/media/folder/SQ6B4159.jpg" />
+                <img class="min_img" src="assets/media/slider/SQ6B4220_opt.jpg" />
               </li>
             </ul>
           </div>
