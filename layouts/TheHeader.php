@@ -115,7 +115,7 @@
       </li>
 
       <li> 
-        <a href="Carrers.php"> Carrers </a>
+        <a href="Carrers.php"> Our Team </a>
       </li>
 
       <li> 
