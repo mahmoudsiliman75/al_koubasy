@@ -50,7 +50,7 @@
 <!-- START:: LARGE SCREENS NAVBAR -->
 <nav class="d-flex flex-wrap justify-content-center justify-content-md-between align-items-center">
   <!-- START:: SEARCH BOX -->
-  <div class="search_btn_wraper mx-2 mx-md-0 px-1 px-md-5">
+  <!-- <div class="search_btn_wraper mx-2 mx-md-0 px-1 px-md-5">
     <span id="search_trigger">
       <i class="fas fa-search fa-2x"></i>
     </span>
@@ -69,112 +69,129 @@
     <button id="close_form_btn" class="btn close_form_btn">
       <i class="fas fa-times fa-lg"></i>
     </button>
-  </div>
+  </div> -->
   <!-- END:: SEARCH BOX -->
 
-  <!-- START:: NAV LINKS -->
-  <div class="nav-links">
-    <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
-      <li class="active"> 
-        <a href="index.php"> Home </a>
-      </li>
-
-      <li> 
-        <a href="AboutUs.php"> About Us </a>
-      </li>
-
-      <li> 
-        <a href="Faq.php"> FAQs </a>
-      </li>
-
-      <li> 
-        <a href="AllProducts.php"> Products </a>
-      </li>
-
-    </ul>
-  </div>
-  <!-- START:: NAV LINKS -->
-
-  <!-- START:: THE LOGO -->
-  <div class="site-logo mx-2 mx-md-0">
-    <a href="index.php">
-      <img src="assets/media/logo.png" alt="The Logo">
-    </a>
-  </div>
-  <!-- END:: THE LOGO -->
-
-  <!-- START:: NAV LINKS -->
-  <div class="nav-links">
-    <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
-      <li> 
-        <a href="Quality.php"> Quality </a>
-      </li>
-
-      <li> 
-        <a href="Media.php"> Media </a>
-      </li>
-
-      <li> 
-        <a href="Carrers.php"> Our Team </a>
-      </li>
-
-      <li> 
-        <a href="ContactUs.php"> Contact Us </a>
-      </li>
-
-      <!-- <li> 
-        <a href="UserProfile.php"> Profile </a>
-      </li> -->
-
-    </ul>
-  </div>
-  <!-- START:: NAV LINKS -->
-
-  <div class="menu_btns my-2 my-md-0 d-flex align-items-center">
-    <!-- START:: LANG BUTTON -->  
-    <span class="lang_btn mx-2">     
-      <a href="#"> 
-        <i class="fas fa-globe-africa fa-lg"></i>
-        <span class="en">E</span> 
-        <span class="ar">ع</span> 
-      </a>
-    </span>
-    <!-- END:: LANG BUTTON -->
-
-    <!-- START:: ACCOUNT LINK -->
-    <span class="account_link mx-2">     
-      <a href="UserProfile.php"> 
-        <i class="fas fa-user fa-lg"></i>
-        Account 
-      </a>
-    </span>
-    <!-- END:: ACCOUNT LINK -->
-
-    <!-- START:: LOGIN BUTTON -->
-    <span class="login_btn mx-2"> 
-      <a href="auth.php"> 
-        <i class="fas fa-sign-in-alt fa-lg"></i> 
-        login
-      </a>
-    </span>
-    <!-- END:: LOGIN BUTTON -->
-
-    <!-- START:: CART BUTTON -->
-    <div class="cart_btn mx-2">
-      <a href="UserCart.php">
-        <span class="badge badge-pill badge-danger">2</span>
-        <i class="fas fa-shopping-cart fa-lg"></i>
-      </a>
-
-      <span> Cart </span>
+  <div class="col-12 row justify-content-center align-items-center">  
+    <!-- START:: THE LOGO -->
+    <div class="col-6 col-md-3 order-md-1 d-flex justify-content-start align-items-center">
+      <div class="site-logo mx-2 mx-md-0">
+        <a href="index.php">
+          <img src="assets/media/logo.png" alt="The Logo">
+        </a>
+      </div>
     </div>
-    <!-- END:: CART BUTTON -->
+    <!-- END:: THE LOGO -->
 
-    <!-- START:: MENU BUTTON -->
-    <button id="open_menu" class="menu_btn mx-2">
-      <i class="fas fa-bars"></i>
-    </button>
-    <!-- END:: MENU BUTTON -->
+    <!-- START:: SEARCH FORM -->
+    <div class="col-12 col-md-6 order-3 order-md-2 mb-4 mb-md-0">
+      <form class="search_form">
+        <div class="form-group p-1 mb-0">
+          <label for="search_input" class="m-0">
+            <i class="fas fa-search fa-lg"></i>
+          </label>
+          <input type="text" placeholder="Search...." class="form-control" id="search_input">
+          <button class="btn"> Search </button>
+        </div>
+      </form>
+    </div>
+    <!-- END:: SEARCH FORM -->
+
+    <div class="col-6 col-md-3 order-md-3 d-flex justify-content-end align-items-center">
+      <div class="menu_btns d-flex align-items-center">
+        <!-- START:: LANG BUTTON -->  
+        <span class="lang_btn mx-2">     
+          <a href="#"> 
+            <i class="fas fa-globe-africa fa-lg"></i>
+            <span class="en">E</span> 
+            <span class="ar">ع</span> 
+          </a>
+        </span>
+        <!-- END:: LANG BUTTON -->
+  
+        <!-- START:: ACCOUNT MENU -->
+        <div class="dropdown">
+          <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="account_link mx-2">     
+              <a href="UserProfile.php"> 
+                <i class="fas fa-user fa-lg"></i>
+                Account 
+              </a>
+            </span>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="UserProfile.php">
+              <i class="fas fa-bookmark mx-2"></i> 
+              Profile
+            </a>
+            <a class="dropdown-item" href="auth.php">
+              <i class="fas fa-sign-in-alt mx-2"></i> 
+              Login
+            </a>
+          </div>
+        </div>
+        <!-- END:: ACCOUNT MENU -->
+  
+        <!-- START:: CART BUTTON -->
+        <div class="cart_btn mx-2">
+          <a href="UserCart.php">
+            <span class="badge badge-pill badge-danger">2</span>
+            <i class="fas fa-shopping-cart fa-lg"></i>
+          </a>
+  
+          <span> Cart </span>
+        </div>
+        <!-- END:: CART BUTTON -->
+  
+        <!-- START:: MENU BUTTON -->
+        <button id="open_menu" class="menu_btn mx-2">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- END:: MENU BUTTON -->
+  
+      </div>
+    </div>
+
+    <div class="col-12 mb-3 order-md-4">
+      <!-- START:: NAV LINKS -->
+      <div class="nav-links">
+        <ul class="list-unstyled d-flex align-items-center justify-content-center mb-0">
+          <li class="active"> 
+            <a href="index.php"> Home </a>
+          </li>
+
+          <li> 
+            <a href="AboutUs.php"> About Us </a>
+          </li>
+
+          <li> 
+            <a href="Faq.php"> FAQs </a>
+          </li>
+
+          <li> 
+            <a href="AllProducts.php"> Products </a>
+          </li>
+
+          <li> 
+            <a href="Quality.php"> Quality </a>
+          </li>
+
+          <li> 
+            <a href="Media.php"> Media </a>
+          </li>
+
+          <li> 
+            <a href="Careers.php"> Our Team </a>
+          </li>
+
+          <li> 
+            <a href="ContactUs.php"> Contact Us </a>
+          </li>
+
+        </ul>
+      </div>
+      <!-- START:: NAV LINKS -->
+    </div>
   </div>
 </nav>
 <!-- END:: LARGE SCREENS NAVBAR -->
@@ -217,7 +234,7 @@
     </li>
 
     <li> 
-      <a href="Carrers.php"> Carrers </a>
+      <a href="Careers.php"> Our Team </a>
     </li>
 
     <li> 

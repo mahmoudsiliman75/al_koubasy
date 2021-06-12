@@ -250,9 +250,67 @@ nav .site-logo img {
   height: 100%;
 }
 
+nav .search_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav .search_form .form-group {
+  width: 100%;
+  border: 1px solid #00303f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 5px;
+}
+
+nav .search_form .form-group label svg {
+  color: #00303f;
+}
+
+nav .search_form .form-group input {
+  border: none;
+}
+
+nav .search_form .form-group input:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+nav .search_form .form-group button {
+  border-radius: 5px;
+  background-color: #00303f;
+  color: #fff;
+}
+
+nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 nav .nav-links ul li {
   overflow: hidden;
-  margin: 0 10px;
+  margin: 0 15px;
   padding-bottom: 5px;
   position: relative;
   font-size: 16px;
@@ -335,6 +393,27 @@ nav .cart_btn a span {
 
 nav .cart_btn a svg {
   color: #00303f;
+}
+
+nav .dropdown button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav .dropdown button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 nav .lang_btn a,
@@ -448,7 +527,7 @@ nav .menu_btn svg {
 
 .small_menu ul li {
   overflow: hidden;
-  margin: 0 10px;
+  margin: 0 15px;
   padding-bottom: 5px;
   position: relative;
   font-size: 16px;
@@ -6382,7 +6461,7 @@ nav .menu_btn svg {
 
 .user_profile_menu ul li {
   overflow: hidden;
-  margin: 0 10px;
+  margin: 0 15px;
   padding-bottom: 5px;
   position: relative;
   font-size: 16px;

@@ -206,8 +206,37 @@ nav {
   }
   // END:: NAV LOGO STYLE
 
+  // START:: SEARCH FORM STYLES
+  .search_form {
+    @include flexCenterAlignment();
+    .form-group {
+      width: 100%;
+      border: 1px solid $deepBlue;
+      @include flexCenterAlignment();
+      @include borderradius(5px);
+      label {
+        svg {
+          color: $deepBlue;
+        }
+      }
+      input {
+        border: none;
+        &:focus {
+          box-shadow: none;
+        }
+      }
+      button {
+        @include borderradius(5px);
+        background-color: $deepBlue;
+        color: $white;
+      }
+    }
+  }
+  // END:: SEARCH FORM STYLES
+
   // START:: NAV LINKS STYLE
   .nav-links {
+    @include flexCenterAlignment();
     ul {
       li {
         @include menuHoverEffect();
@@ -236,6 +265,16 @@ nav {
     }
   }
   // END:: CART BUTTON STYLES
+
+  .dropdown {
+    button {
+      @include flexCenterAlignment();
+      flex-direction: column;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
 
   .lang_btn,
   .account_link,
@@ -3269,7 +3308,7 @@ nav {
 }
 // END:: USER PROFILE MENU SECTION STYLES
 
-// START:: CHANGE PASSWORD FORM STYLS
+// START:: CHANGE PASSWORD FORM STYLES
 .reset_password {
   min-height: calc(100vh - (92px + 220px) );
   padding: $paddingAmount 0;
@@ -3324,7 +3363,7 @@ nav {
     }
   }
 }
-// END:: CHANGE PASSWORD FORM STYLS
+// END:: CHANGE PASSWORD FORM STYLES
 
 // START:: FOOTER STYLES
 footer {
