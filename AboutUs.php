@@ -2,7 +2,7 @@
 <?php include('layouts/TheHeader.php')?>
 <!-- END:: INCLUDING THE HEADER -->
 
-<!-- START:: HEDAER IMAGE SECTION -->
+<!-- START:: HEADER IMAGE SECTION -->
 <div class="header_img_wraper">
   <img src="assets/media/pic9.jpg" alt="Intro Img">
 
@@ -140,7 +140,7 @@
   </div>
   <!-- END:: SECTION SVG -->
 </div>
-<!-- END:: HEDAER IMAGE SECTION -->
+<!-- END:: HEADER IMAGE SECTION -->
 
 <div class="bg_wraper">
   <!-- START:: ABOUT INFO SECTION -->
@@ -200,26 +200,54 @@
   </div>
   <!-- END:: ABOUT INFO SECTION -->
 
-  <!-- START:: VISION SECTION --> 
-  <div class="vision overflow-hidden">
-    <div class="container">
-      <div class="header_wraper mb-3">
-        <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Vision </h2>
-      </div>
 
-      <div class="vision_text_wraper wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Quasi ex, necessitatibus accusamus laboriosam eius animi 
-        laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
-        asperiores ratione facilis sunt veritatis quod sequi.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Quasi ex, necessitatibus accusamus laboriosam eius animi 
-        laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
-        asperiores ratione facilis sunt veritatis quod sequi.
+  <div class="row">
+    <!-- START:: VISION SECTION --> 
+    <div class="col-12 col-md-6">
+      <div class="vision overflow-hidden">
+        <div class="container">
+          <div class="header_wraper mb-3">
+            <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Vision </h2>
+          </div>
+
+          <div class="vision_text_wraper wow slideInLeft" data-wow-duration="1.5s" data-wow-delay="1s">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quasi ex, necessitatibus accusamus laboriosam eius animi 
+            laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
+            asperiores ratione facilis sunt veritatis quod sequi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quasi ex, necessitatibus accusamus laboriosam eius animi 
+            laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
+            asperiores ratione facilis sunt veritatis quod sequi.
+          </div>
+        </div>
       </div>
     </div>
+    <!-- END:: VISION SECTION -->
+
+    <!-- START:: MISSION SECTION --> 
+    <div class="col-12 col-md-6">
+      <div class="vision overflow-hidden">
+        <div class="container">
+          <div class="header_wraper mb-3">
+            <h2 class="wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s"> Our Mission </h2>
+          </div>
+
+          <div class="vision_text_wraper wow slideInRight" data-wow-duration="1.5s" data-wow-delay="1s">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quasi ex, necessitatibus accusamus laboriosam eius animi 
+            laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
+            asperiores ratione facilis sunt veritatis quod sequi.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quasi ex, necessitatibus accusamus laboriosam eius animi 
+            laborum recusandae doloribus numquam enim dicta nesciunt eligendi 
+            asperiores ratione facilis sunt veritatis quod sequi.
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END:: MISSION SECTION -->
   </div>
-  <!-- END:: VISION SECTION -->
 
   <!-- START:: STORY SECTION -->
   <div class="story overflow-hidden">
