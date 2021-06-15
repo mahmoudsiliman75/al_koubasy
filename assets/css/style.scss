@@ -251,6 +251,10 @@ nav {
     @include flexCenterAlignment();
     flex-direction: column;
     font-weight: 700;
+    img {
+      width: 30px;
+      height: 30px;
+    }
     a {
       text-decoration: none;
       position: relative;
@@ -258,9 +262,14 @@ nav {
         position: absolute;
         top: -5px;
         right: -8px;
+        color: $white;
       }
-      svg {
-        color: $deepBlue;
+    }
+    span {
+      color: $deepBlue;
+      @include transitioning();
+      &:hover {
+        color: $deepRed;
       }
     }
   }
@@ -270,8 +279,24 @@ nav {
     button {
       @include flexCenterAlignment();
       flex-direction: column;
+      img {
+        width: 30px;
+        height: 30px;
+      }
       &:focus {
         box-shadow: none;
+      }
+    }
+
+    .dropdown-menu {
+      .dropdown-item {
+        &:first-child {
+          margin-bottom: 8px;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
       }
     }
   }
@@ -279,6 +304,10 @@ nav {
   .lang_btn,
   .account_link,
   .login_btn {
+    img {
+      width: 30px;
+      height: 30px;
+    }
     a {
       @include flexCenterAlignment();
       flex-direction: column;
@@ -292,10 +321,8 @@ nav {
   }
 
   .lang_btn {
-    span {
-      &.ar {
-        display: none;
-      }
+    .ar {
+      display: none;
     }
   }
 

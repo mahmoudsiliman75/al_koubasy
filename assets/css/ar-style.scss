@@ -6,7 +6,7 @@
 @import 'mixins.scss';
 // END:: MIXINS
 
-// START:: GLOBA AR STYLES
+// START:: GLOBAL AR STYLES
 .form-check {
   padding-right: 1.25rem;
   .form-check-input {
@@ -23,24 +23,17 @@ h3 {
     right: -55px;
   }
 }
-// END:: GLOBA AR STYLES
+// END:: GLOBAL AR STYLES
 
 // START:: LARGE SCREENS NAVBAR AR STYLES
 nav {
   // START:: LANGUAGE BTN STYLE
-  .lang-button {
-    a {
-      span {
-        font-size: 16px;
-        &.en {
-          display: none;
-        }
-        &.ar {
-          display: inline-block;
-          margin-bottom: 3px;
-          margin-inline-start: 3px;
-        }
-      }
+  .lang_btn {
+    .ar {
+      display: inline-block !important;
+    }
+    .en {
+      display: none !important;
     }
   }
   // END:: LANGUAGE BTN STYLE

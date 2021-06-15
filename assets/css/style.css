@@ -380,6 +380,11 @@ nav .cart_btn {
   font-weight: 700;
 }
 
+nav .cart_btn img {
+  width: 30px;
+  height: 30px;
+}
+
 nav .cart_btn a {
   text-decoration: none;
   position: relative;
@@ -389,10 +394,17 @@ nav .cart_btn a span {
   position: absolute;
   top: -5px;
   right: -8px;
+  color: #fff;
 }
 
-nav .cart_btn a svg {
+nav .cart_btn span {
   color: #00303f;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+nav .cart_btn span:hover {
+  color: #810000;
 }
 
 nav .dropdown button {
@@ -411,9 +423,30 @@ nav .dropdown button {
           flex-direction: column;
 }
 
+nav .dropdown button img {
+  width: 30px;
+  height: 30px;
+}
+
 nav .dropdown button:focus {
   -webkit-box-shadow: none;
           box-shadow: none;
+}
+
+nav .dropdown .dropdown-menu .dropdown-item:first-child {
+  margin-bottom: 8px;
+}
+
+nav .dropdown .dropdown-menu .dropdown-item img {
+  width: 20px;
+  height: 20px;
+}
+
+nav .lang_btn img,
+nav .account_link img,
+nav .login_btn img {
+  width: 30px;
+  height: 30px;
 }
 
 nav .lang_btn a,
@@ -443,7 +476,7 @@ nav .login_btn a:hover {
   color: #810000;
 }
 
-nav .lang_btn span.ar {
+nav .lang_btn .ar {
   display: none;
 }
 

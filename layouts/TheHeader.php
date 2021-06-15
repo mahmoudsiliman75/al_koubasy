@@ -36,7 +36,7 @@
 
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- <link rel="stylesheet" href="assets/css/ar-style.css"> -->
+  <link rel="stylesheet" href="assets/css/ar-style.css">
   <!-- END:: INCLUDING MAIN STYLE FILE -->
 
   <!-- START:: SET FAV ICON -->
@@ -102,8 +102,10 @@
         <!-- START:: LANG BUTTON -->  
         <span class="lang_btn mx-2">     
           <a href="#"> 
-            <i class="fas fa-globe-africa fa-lg"></i>
+            <img src="assets/media/icons/usa.svg" class="en">
             <span class="en">E</span> 
+
+            <img src="assets/media/icons/egypt.svg" class="ar">
             <span class="ar">ع</span> 
           </a>
         </span>
@@ -114,18 +116,18 @@
           <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <span class="account_link mx-2">     
               <a href="UserProfile.php"> 
-                <i class="fas fa-user fa-lg"></i>
+                <img src="assets/media/icons/user.svg">
                 Account 
               </a>
             </span>
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="UserProfile.php">
-              <i class="fas fa-bookmark mx-2"></i> 
+              <img src="assets/media/icons/bookmark.svg">
               Profile
             </a>
             <a class="dropdown-item" href="auth.php">
-              <i class="fas fa-sign-in-alt mx-2"></i> 
+              <img src="assets/media/icons/login.svg">
               Login
             </a>
           </div>
@@ -136,9 +138,9 @@
         <div class="cart_btn mx-2">
           <a href="UserCart.php">
             <span class="badge badge-pill badge-danger">2</span>
-            <i class="fas fa-shopping-cart fa-lg"></i>
+            <img src="assets/media/icons/shopping_bag.svg">
           </a>
-  
+
           <span> Cart </span>
         </div>
         <!-- END:: CART BUTTON -->

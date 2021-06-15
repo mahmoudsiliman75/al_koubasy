@@ -16,19 +16,12 @@ h3::before {
   right: -55px;
 }
 
-nav .lang-button a span {
-  font-size: 16px;
+nav .lang_btn .ar {
+  display: inline-block !important;
 }
 
-nav .lang-button a span.en {
-  display: none;
-}
-
-nav .lang-button a span.ar {
-  display: inline-block;
-  margin-bottom: 3px;
-  -webkit-margin-start: 3px;
-          margin-inline-start: 3px;
+nav .lang_btn .en {
+  display: none !important;
 }
 
 .services_sec .service_wraper a h5 {
