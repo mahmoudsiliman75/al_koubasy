@@ -36,7 +36,7 @@
 
   <!-- START:: INCLUDING MAIN STYLE FILE -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/ar-style.css">
+  <!-- <link rel="stylesheet" href="assets/css/ar-style.css"> -->
   <!-- END:: INCLUDING MAIN STYLE FILE -->
 
   <!-- START:: SET FAV ICON -->
